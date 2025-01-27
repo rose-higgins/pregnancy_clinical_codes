@@ -1,0 +1,250 @@
+---
+title: National OPCS-4 code frequency
+output:
+  html_document:
+  theme: journal
+github_document:
+  keep_html: TRUE
+# output:
+#   pdf_document
+---
+
+```{css, echo=FALSE}
+pre {
+  max-height: 300px;
+  overflow-y: auto;
+}
+pre[class] {
+  max-height: 200px;
+}
+```
+
+<style>
+  body {
+    text-align: justify;
+     font-size: 11pt}
+</style>
+
+<!-- # ###################################################################################################################
+# Script creating plots of key outputs for analysing OPCS codelist trends over time and codelist changes over time
+#
+# 1. Total OPCS code prevalence over time 
+# 2. Codelist specific total code prevalence over time 
+# 3. Latest year top 10 most frequently used codes in the codelist
+# 4. Coding trends of most prevalent codes over the whole period (top 10 codes every year)
+# ###################################################################################################################
+ -->
+
+```{r setup, include=FALSE}
+# Document settings 
+knitr::opts_chunk$set(echo = TRUE)
+
+# Import libraries
+if(!require(tidyverse)) install.packages("tidyverse", repos = "https://cran.ma.imperial.ac.uk/")
+if(!require(dplyr)) install.packages("dplyr", repos = "https://cran.ma.imperial.ac.uk/")
+if(!require(ggplot2)) install.packages("ggplot2", repos = "https://cran.ma.imperial.ac.uk/")
+if(!require(gridExtra)) install.packages("gridExtra", repos = "https://cran.ma.imperial.ac.uk/")
+if(!require(grid)) install.packages("grid", repos = "https://cran.ma.imperial.ac.uk/")
+
+#remotes::install_github("ebmdatalab/codeusage")
+
+# ("C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools")
+
+library(codeusage)
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+library(grid)
+library(here)
+library(knitr)
+library(kableExtra)
+library(webshot2)
+library(magick)
+library(ggtext)
+library(ggrepel)
+
+# Input directory ----
+input_dir_os <- here("opcs_outputs")
+
+# Output directory ----
+output_dir_rmd <- here("opcs_outputs")
+#fs::dir_create(output_dir_rmd)
+
+# Import OPCS-4 data
+opcs <- codeusage::opcs_usage
+
+# Add year column
+opcs$year <- format(as.Date(opcs$start_date), "%Y")
+# Remove special characters from OPCS-4 codes
+opcs$opcs_code <- gsub("[^[:alnum:]]", "", opcs$opcs_code)
+```
+
+# National OPCS-4 code frequency trends over time
+```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national OPCS-4 code frequency by financial year", fig.topcaption=TRUE}
+
+#############################
+# Whole codelist outputs
+
+# Summarise usage by year
+opcs_summary <- opcs %>%
+    group_by(year) %>%
+    summarise(total_usage = sum(usage, na.rm = TRUE))
+
+## 1. Total OPCS-4 code prevalence over time 
+opcs_summary_plot <- ggplot(data = opcs_summary, aes(x = year, y = total_usage)) +
+    geom_line(aes(group=1)) +
+    geom_point() +
+    labs(title = "Total OPCS-4 Code Usage by Year",
+                x = "Year",
+                y = "Total Usage") +
+    theme(text = element_text(size = 15)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1))
+
+ggsave(here::here(output_dir_rmd,"figures","opcs_summary_plot.png"), opcs_summary_plot)
+
+include_graphics(fs::path(output_dir_rmd,"figures","opcs_summary_plot.png"))
+```
+
+```{r, codelist summary trend, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 2 Total national OPCS-4 code frequency for the pregnancy OPCS-4 codelist by financial year", fig.topcaption=TRUE}
+########################################
+# Codelist specific outputs
+
+# Import the codelist
+pregnancy_codelist <- get_codelist("user/rose-higgins/pregnancy_opcs_aurum/5ca29ace/")
+# Filter to codes contained in the codelist
+codelist_data <- opcs |>
+  filter(opcs_code %in% pregnancy_codelist$code)
+
+# Summarise usage by year
+codelist_data_summary <- codelist_data %>%
+    group_by(year) %>%
+    summarise(total_usage = sum(usage, na.rm = TRUE))
+
+## 2. Codelist specific total code prevalence over time 
+codelist_data_summary_plot <- ggplot(data = codelist_data_summary, aes(x = year, y = total_usage)) +
+    geom_line(aes(group=1)) +
+    geom_point() +
+    labs(title = "Codelist specific OPCS-4 Code Usage by Year",
+                x = "Year",
+                y = "Total Usage") +
+    theme(text = element_text(size = 15)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1))
+
+ggsave(here::here(output_dir_rmd,"figures","opcs_codelist_summary_plot.png"), codelist_data_summary_plot)
+
+include_graphics(fs::path(output_dir_rmd,"figures","opcs_codelist_summary_plot.png"))
+```
+```{r, codelist top 10 table, echo=FALSE, message=FALSE, warning=FALSE, include = FALSE, out.width = '90%'}
+## 3. Latest year top 10 most frequently used codes in the codelist
+# Filter codelist to latest year only
+codelist_data_latest_year <- codelist_data |>
+  filter(year == "2023") #|>
+
+# Calculate proportional usage for each code for latest year
+codelist_data_latest_year <- codelist_data_latest_year |>
+  group_by(opcs_code, description, year) |>
+  summarise(usage = sum(usage), .groups = "drop") |>
+  mutate(prop_usage = usage/ sum(usage))
+
+# write.csv(codelist_data_latest_year, "codelist_data_latest_year.csv")    
+
+# Select top 10 most frequently used codes by proportional usage
+top_10_codes <- codelist_data_latest_year |>
+    slice_max(prop_usage, n = 10)
+
+# Create a table showing the OPCS-4 codes, description, usage, and prop_usage
+top_10_codes_table <- top_10_codes |>
+    select(opcs_code, description, usage, prop_usage)|>
+    mutate(
+      prop_usage = scales::percent(prop_usage, accuracy = 0.1),
+      usage = scales::comma(usage)
+    )
+
+colnames(top_10_codes_table) <-c("OPCS-4 code", "OPCS-4 code description", "Frequency", "Proportion")
+
+top_10_codes_table %>%
+  kable(row.names = FALSE,
+  align = c("l", "l", "c", "c"),
+        # align = c("2", rep("c",3)),
+        booktabs = TRUE) %>%
+  kable_styling(position = "center", full_width =T, bootstrap_options = "striped", font_size = 13) %>%
+  kableExtra::footnote("Values for financial year 2023-24", general_title = "") %>%
+  save_kable(file = "opcs_outputs/tables/top_10_opcs_codes_table.html"
+              , zoom = 1.5)
+webshot2::webshot("opcs_outputs/tables/top_10_opcs_codes_table.html", "opcs_outputs/tables/top_10_opcs_codes_table.png")
+
+# write_csv(top_10_codes_table, here::here(output_dir_rmd, "tables", "top_10_opcs_codes_table.csv"))
+
+# include_graphics(fs::path(output_dir_rmd,"tables","top_10_opcs_codes_table.png"))
+```
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Table 1 Top 10 most frequent OPCS-4 codes recorded for the pregnancy OPCS-4 codelist in financial year 2023-24", fig.topcaption=TRUE}
+include_graphics(fs::path(output_dir_rmd,"tables","top_10_opcs_codes_table.png"))
+```
+
+```{r, codelist top 10 trend over time, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 3 Top 10 most frequent OPCS-4 codes recorded for the pregnancy OPCS-4 codelist in financial year 2023-24", fig.topcaption=TRUE}
+## 4. Top 10 most frequently used codes in the codelist for each year, combined and plotted across all years
+
+# Calculate proportional usage for each code for latest year
+codelist_data_percent <- codelist_data |>
+  group_by(opcs_code, description, year) |>
+  summarise(usage = sum(usage), .groups = "drop") |>
+  group_by(year) %>%
+  mutate(prop_usage = usage/ sum(usage))
+
+# Select top 10 most frequently used codes by proportional usage
+top_10_codes_each_year <- codelist_data_percent %>% 
+  mutate(opcs_code_description = paste(opcs_code, description, sep = " - ")) %>%
+  group_by(year) %>%
+  slice_max(prop_usage, n = 10) %>%
+  ungroup() %>%
+  mutate(name_lab = if_else(year == "2023", opcs_code_description, NA_character_))
+
+write.csv(top_10_codes_each_year, "opcs_outputs/tables/top_10_codes_each_year.csv")    
+
+graph_label <- subset(top_10_codes_each_year, year == max(year))
+
+top_10_codes_each_year$opcs_code_description <- stringr::str_wrap(top_10_codes_each_year$opcs_code_description, 35)
+
+## Top 10 codes for each year plotted over whole tmie period 
+top_10_codes_all_years_plot <- ggplot(data = top_10_codes_each_year, aes(x = year, y = usage)) +
+    geom_line(aes(color = opcs_code_description, group = opcs_code_description)) +
+    geom_point(aes(color = opcs_code_description)) +
+    ggrepel::geom_text_repel(aes(x = year,
+                                 y = usage,
+                                 color = opcs_code_description,
+                                 label = stringr::str_wrap(opcs_code_description, 35),
+                                 fontface = 'bold'),
+                                 lineheight = 0.7,
+                                 hjust = 1,
+                                 data = top_10_codes_each_year %>%
+                                 filter(year == max(year)),
+                                #  segment.color = 'transparent',
+                                 min.segment.length = 0, 
+                                 seed = 42, 
+                                 max.overlaps = 15,
+                                 direction = "y",
+                                 nudge_x = 4,
+                                 size = 2.5,
+                                 box.padding = .2,
+                                 force = .8) + 
+    # geom_richtext(data = graph_label, aes(label = opcs_code_description), colour = "black",
+    #               label.margin = unit(8,"pt"),
+    #               label.padding = unit(7,"pt"),
+    #               hjust = 0, show.legend = FALSE
+    #               ) + 
+    # geom_label() +
+    # geom_text_repel() + 
+    labs(title = "Top 10 OPCS Codes Usage by Year",
+       x = "Year",
+       y = "Usage",
+       color = "OPCS Code") +
+    theme(text = element_text(size = 12)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1)) + 
+    coord_cartesian(clip = "off",
+                    ylim = c(0,450000)) +
+    theme(legend.position="none")    
+
+ggsave(here::here(output_dir_rmd,"figures","top_10_opcs_codes_all_years_plot.png"), top_10_codes_all_years_plot)
+
+include_graphics(fs::path(output_dir_rmd,"figures","top_10_opcs_codes_all_years_plot.png"))
+```
