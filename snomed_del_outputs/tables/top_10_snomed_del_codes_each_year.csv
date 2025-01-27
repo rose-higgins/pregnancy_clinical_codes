@@ -1,0 +1,131 @@
+"","snomed_concept_id","description","year","usage","prop_usage","snomed_code_description","name_lab"
+"1","177184002","Normal delivery procedure (procedure)","2011",231010,0.133147357773365,"177184002 - Normal delivery procedure (procedure)",NA
+"2","48782003","Delivery normal (finding)","2011",163280,0.0941097812961997,"48782003 - Delivery normal (finding)",NA
+"3","169826009","Single live birth (finding)","2011",117520,0.0677350655189208,"169826009 - Single live birth (finding)",NA
+"4","309469004","Spontaneous vertex delivery (finding)","2011",95890,0.055268170801645,"309469004 - Spontaneous vertex delivery (finding)",NA
+"5","169811007","Birth detail (observable entity)","2011",92480,0.053302747270165,"169811007 - Birth detail (observable entity)",NA
+"6","47340003","Birth weight finding (finding)","2011",79530,0.0458387488148381,"47340003 - Birth weight finding (finding)",NA
+"7","169838000","Baby male (finding)","2011",59810,0.0344727218234058,"169838000 - Baby male (finding)",NA
+"8","169839008","Baby female (finding)","2011",57660,0.0332335251686604,"169839008 - Baby female (finding)",NA
+"9","274130007","Emergency cesarean section (procedure)","2011",53030,0.0305649295819296,"274130007 - Emergency cesarean section (procedure)",NA
+"10","395683001","Born by normal vaginal delivery (situation)","2011",52850,0.0304611828852533,"395683001 - Born by normal vaginal delivery (situation)",NA
+"11","177184002","Normal delivery procedure (procedure)","2012",216690,0.12092649483932,"177184002 - Normal delivery procedure (procedure)",NA
+"12","48782003","Delivery normal (finding)","2012",169350,0.0945078310076092,"48782003 - Delivery normal (finding)",NA
+"13","169826009","Single live birth (finding)","2012",124810,0.0696517412935323,"169826009 - Single live birth (finding)",NA
+"14","309469004","Spontaneous vertex delivery (finding)","2012",104910,0.0585463038146341,"309469004 - Spontaneous vertex delivery (finding)",NA
+"15","47340003","Birth weight finding (finding)","2012",95700,0.0534065510919882,"47340003 - Birth weight finding (finding)",NA
+"16","169811007","Birth detail (observable entity)","2012",91500,0.0510626899155373,"169811007 - Birth detail (observable entity)",NA
+"17","169838000","Baby male (finding)","2012",58430,0.0326075734619109,"169838000 - Baby male (finding)",NA
+"18","395683001","Born by normal vaginal delivery (situation)","2012",58420,0.0326019928400622,"395683001 - Born by normal vaginal delivery (situation)",NA
+"19","169839008","Baby female (finding)","2012",56550,0.0315584165543566,"169839008 - Baby female (finding)",NA
+"20","274130007","Emergency cesarean section (procedure)","2012",53520,0.0298674881342028,"274130007 - Emergency cesarean section (procedure)",NA
+"21","177184002","Normal delivery procedure (procedure)","2013",215840,0.110210730023539,"177184002 - Normal delivery procedure (procedure)",NA
+"22","48782003","Delivery normal (finding)","2013",184510,0.0942132218154338,"48782003 - Delivery normal (finding)",NA
+"23","169826009","Single live birth (finding)","2013",136150,0.0695199726311382,"169826009 - Single live birth (finding)",NA
+"24","47340003","Birth weight finding (finding)","2013",125690,0.064178959676884,"47340003 - Birth weight finding (finding)",NA
+"25","309469004","Spontaneous vertex delivery (finding)","2013",115510,0.0589809183887093,"309469004 - Spontaneous vertex delivery (finding)",NA
+"26","169811007","Birth detail (observable entity)","2013",95150,0.0485848358123599,"169811007 - Birth detail (observable entity)",NA
+"27","395683001","Born by normal vaginal delivery (situation)","2013",67370,0.0344000040849047,"395683001 - Born by normal vaginal delivery (situation)",NA
+"28","169838000","Baby male (finding)","2013",60270,0.0307746511236041,"169838000 - Baby male (finding)",NA
+"29","274130007","Emergency cesarean section (procedure)","2013",58880,0.0300648989241382,"274130007 - Emergency cesarean section (procedure)",NA
+"30","169839008","Baby female (finding)","2013",57390,0.0293040854153582,"169839008 - Baby female (finding)",NA
+"31","177184002","Normal delivery procedure (procedure)","2014",225200,0.102478925154435,"177184002 - Normal delivery procedure (procedure)",NA
+"32","48782003","Delivery normal (finding)","2014",203770,0.0927270451985757,"48782003 - Delivery normal (finding)",NA
+"33","47340003","Birth weight finding (finding)","2014",163030,0.0741880069623781,"47340003 - Birth weight finding (finding)",NA
+"34","169826009","Single live birth (finding)","2014",147730,0.0672256288324365,"169826009 - Single live birth (finding)",NA
+"35","309469004","Spontaneous vertex delivery (finding)","2014",133730,0.0608548253148428,"309469004 - Spontaneous vertex delivery (finding)",NA
+"36","169811007","Birth detail (observable entity)","2014",90420,0.0411462895757727,"169811007 - Birth detail (observable entity)",NA
+"37","395683001","Born by normal vaginal delivery (situation)","2014",82050,0.03733745918704,"395683001 - Born by normal vaginal delivery (situation)",NA
+"38","274130007","Emergency cesarean section (procedure)","2014",66070,0.0300656420291009,"274130007 - Emergency cesarean section (procedure)",NA
+"39","169838000","Baby male (finding)","2014",63530,0.0289097962480518,"169838000 - Baby male (finding)",NA
+"40","169839008","Baby female (finding)","2014",60700,0.0276219838227096,"169839008 - Baby female (finding)",NA
+"41","177184002","Normal delivery procedure (procedure)","2015",229230,0.0986994645867286,"177184002 - Normal delivery procedure (procedure)",NA
+"42","47340003","Birth weight finding (finding)","2015",192220,0.08276408446914,"47340003 - Birth weight finding (finding)",NA
+"43","48782003","Delivery normal (finding)","2015",188030,0.080959997933266,"48782003 - Delivery normal (finding)",NA
+"44","169826009","Single live birth (finding)","2015",162530,0.0699804736695938,"169826009 - Single live birth (finding)",NA
+"45","309469004","Spontaneous vertex delivery (finding)","2015",144530,0.0622302212481782,"309469004 - Spontaneous vertex delivery (finding)",NA
+"46","395683001","Born by normal vaginal delivery (situation)","2015",87480,0.0376662267680802,"395683001 - Born by normal vaginal delivery (situation)",NA
+"47","169811007","Birth detail (observable entity)","2015",76780,0.0330591322731275,"169811007 - Birth detail (observable entity)",NA
+"48","169838000","Baby male (finding)","2015",71520,0.0307943362877583,"169838000 - Baby male (finding)",NA
+"49","274130007","Emergency cesarean section (procedure)","2015",69830,0.0300666736993031,"274130007 - Emergency cesarean section (procedure)",NA
+"50","169839008","Baby female (finding)","2015",68510,0.029498321855066,"169839008 - Baby female (finding)",NA
+"51","177184002","Normal delivery procedure (procedure)","2016",254340,0.0954269430848859,"177184002 - Normal delivery procedure (procedure)",NA
+"52","47340003","Birth weight finding (finding)","2016",247400,0.0928230939655609,"47340003 - Birth weight finding (finding)",NA
+"53","48782003","Delivery normal (finding)","2016",203230,0.0762507574236902,"48782003 - Delivery normal (finding)",NA
+"54","169826009","Single live birth (finding)","2016",188950,0.0708929814260014,"169826009 - Single live birth (finding)",NA
+"55","309469004","Spontaneous vertex delivery (finding)","2016",158450,0.0594495522992851,"309469004 - Spontaneous vertex delivery (finding)",NA
+"56","395683001","Born by normal vaginal delivery (situation)","2016",102550,0.0384761854735985,"395683001 - Born by normal vaginal delivery (situation)",NA
+"57","169811007","Birth detail (observable entity)","2016",77810,0.0291938760770424,"169811007 - Birth detail (observable entity)",NA
+"58","274130007","Emergency cesarean section (procedure)","2016",77580,0.029107581365595,"274130007 - Emergency cesarean section (procedure)",NA
+"59","169838000","Baby male (finding)","2016",76650,0.0287586505758296,"169838000 - Baby male (finding)",NA
+"60","169839008","Baby female (finding)","2016",73440,0.0275542765595424,"169839008 - Baby female (finding)",NA
+"61","47340003","Birth weight finding (finding)","2017",289410,0.100315598467242,"47340003 - Birth weight finding (finding)",NA
+"62","48782003","Delivery normal (finding)","2017",254640,0.0882635845122782,"48782003 - Delivery normal (finding)",NA
+"63","177184002","Normal delivery procedure (procedure)","2017",245980,0.0852618462077057,"177184002 - Normal delivery procedure (procedure)",NA
+"64","169826009","Single live birth (finding)","2017",211570,0.0733346158312233,"169826009 - Single live birth (finding)",NA
+"65","309469004","Spontaneous vertex delivery (finding)","2017",161830,0.0560936847377552,"309469004 - Spontaneous vertex delivery (finding)",NA
+"66","395683001","Born by normal vaginal delivery (situation)","2017",110170,0.0381872412257214,"395683001 - Born by normal vaginal delivery (situation)",NA
+"67","274130007","Emergency cesarean section (procedure)","2017",81170,0.0281352307369683,"274130007 - Emergency cesarean section (procedure)",NA
+"68","169838000","Baby male (finding)","2017",78340,0.0271542931616866,"169838000 - Baby male (finding)",NA
+"69","169811007","Birth detail (observable entity)","2017",76590,0.026547706321848,"169811007 - Birth detail (observable entity)",NA
+"70","169839008","Baby female (finding)","2017",74770,0.025916856008416,"169839008 - Baby female (finding)",NA
+"71","48782003","Delivery normal (finding)","2018",251090,0.0935893756359746,"48782003 - Delivery normal (finding)",NA
+"72","177184002","Normal delivery procedure (procedure)","2018",240180,0.0895228652684232,"177184002 - Normal delivery procedure (procedure)",NA
+"73","169826009","Single live birth (finding)","2018",219580,0.0818445780482987,"169826009 - Single live birth (finding)",NA
+"74","309469004","Spontaneous vertex delivery (finding)","2018",171020,0.063744693222607,"309469004 - Spontaneous vertex delivery (finding)",NA
+"75","395683001","Born by normal vaginal delivery (situation)","2018",116370,0.0433748681459173,"395683001 - Born by normal vaginal delivery (situation)",NA
+"76","274130007","Emergency cesarean section (procedure)","2018",86620,0.0322860795634558,"274130007 - Emergency cesarean section (procedure)",NA
+"77","169838000","Baby male (finding)","2018",77560,0.0289091241161583,"169838000 - Baby male (finding)",NA
+"78","169811007","Birth detail (observable entity)","2018",73670,0.0274591951216785,"169811007 - Birth detail (observable entity)",NA
+"79","169839008","Baby female (finding)","2018",73460,0.0273809213199199,"169839008 - Baby female (finding)",NA
+"80","57891003","Term infant (finding)","2018",71430,0.0266242745695873,"57891003 - Term infant (finding)",NA
+"81","169826009","Single live birth (finding)","2019",225320,0.0870354561713206,"169826009 - Single live birth (finding)",NA
+"82","48782003","Delivery normal (finding)","2019",224030,0.0865371615749199,"48782003 - Delivery normal (finding)",NA
+"83","177184002","Normal delivery procedure (procedure)","2019",216190,0.0835087665084227,"177184002 - Normal delivery procedure (procedure)",NA
+"84","309469004","Spontaneous vertex delivery (finding)","2019",165870,0.0640714144999865,"309469004 - Spontaneous vertex delivery (finding)",NA
+"85","395683001","Born by normal vaginal delivery (situation)","2019",110560,0.0427065508357057,"395683001 - Born by normal vaginal delivery (situation)",NA
+"86","274130007","Emergency cesarean section (procedure)","2019",85740,0.033119208291004,"274130007 - Emergency cesarean section (procedure)",NA
+"87","169838000","Baby male (finding)","2019",79320,0.0306393235554285,"169838000 - Baby male (finding)",NA
+"88","169811007","Birth detail (observable entity)","2019",78600,0.0303612056411584,"169811007 - Birth detail (observable entity)",NA
+"89","169839008","Baby female (finding)","2019",74690,0.0288508708567191,"169839008 - Baby female (finding)",NA
+"90","57891003","Term infant (finding)","2019",69120,0.0266993197699347,"57891003 - Term infant (finding)",NA
+"91","169826009","Single live birth (finding)","2020",234840,0.0854698677226051,"169826009 - Single live birth (finding)",NA
+"92","48782003","Delivery normal (finding)","2020",223050,0.0811789047671907,"48782003 - Delivery normal (finding)",NA
+"93","177184002","Normal delivery procedure (procedure)","2020",220590,0.080283589341379,"177184002 - Normal delivery procedure (procedure)",NA
+"94","309469004","Spontaneous vertex delivery (finding)","2020",162140,0.0590107492443501,"309469004 - Spontaneous vertex delivery (finding)",NA
+"95","395683001","Born by normal vaginal delivery (situation)","2020",119170,0.0433718452414531,"395683001 - Born by normal vaginal delivery (situation)",NA
+"96","274130007","Emergency cesarean section (procedure)","2020",92020,0.0334906201151172,"274130007 - Emergency cesarean section (procedure)",NA
+"97","169838000","Baby male (finding)","2020",81690,0.0297310232254284,"169838000 - Baby male (finding)",NA
+"98","169811007","Birth detail (observable entity)","2020",77800,0.0283152602146937,"169811007 - Birth detail (observable entity)",NA
+"99","169839008","Baby female (finding)","2020",77560,0.0282279123682731,"169839008 - Baby female (finding)",NA
+"100","177141003","Elective cesarean section (procedure)","2020",74760,0.0272088541600322,"177141003 - Elective cesarean section (procedure)",NA
+"101","169826009","Single live birth (finding)","2021",254020,0.0859148022254917,"169826009 - Single live birth (finding)",NA
+"102","177184002","Normal delivery procedure (procedure)","2021",229180,0.0775134019921195,"177184002 - Normal delivery procedure (procedure)",NA
+"103","48782003","Delivery normal (finding)","2021",226170,0.0764953579219725,"48782003 - Delivery normal (finding)",NA
+"104","309469004","Spontaneous vertex delivery (finding)","2021",161760,0.0547105677033129,"309469004 - Spontaneous vertex delivery (finding)",NA
+"105","395683001","Born by normal vaginal delivery (situation)","2021",140150,0.0474016200767761,"395683001 - Born by normal vaginal delivery (situation)",NA
+"106","274130007","Emergency cesarean section (procedure)","2021",101460,0.0343158642382426,"274130007 - Emergency cesarean section (procedure)",NA
+"107","412726003","Length of gestation at birth (observable entity)","2021",101320,0.034268513351259,"412726003 - Length of gestation at birth (observable entity)",NA
+"108","169838000","Baby male (finding)","2021",85630,0.028961831802885,"169838000 - Baby male (finding)",NA
+"109","177141003","Elective cesarean section (procedure)","2021",83420,0.0282143642297871,"177141003 - Elective cesarean section (procedure)",NA
+"110","57891003","Term infant (finding)","2021",82330,0.0278457037525578,"57891003 - Term infant (finding)",NA
+"111","169826009","Single live birth (finding)","2022",273370,0.0868347116494847,"169826009 - Single live birth (finding)",NA
+"112","177184002","Normal delivery procedure (procedure)","2022",225980,0.0717814981108042,"177184002 - Normal delivery procedure (procedure)",NA
+"113","48782003","Delivery normal (finding)","2022",224770,0.0713971472270354,"48782003 - Delivery normal (finding)",NA
+"114","309469004","Spontaneous vertex delivery (finding)","2022",158940,0.0504865532778619,"309469004 - Spontaneous vertex delivery (finding)",NA
+"115","395683001","Born by normal vaginal delivery (situation)","2022",157160,0.0499211445397557,"395683001 - Born by normal vaginal delivery (situation)",NA
+"116","412726003","Length of gestation at birth (observable entity)","2022",112260,0.0356588679437069,"412726003 - Length of gestation at birth (observable entity)",NA
+"117","274130007","Emergency cesarean section (procedure)","2022",107690,0.0342072286554231,"274130007 - Emergency cesarean section (procedure)",NA
+"118","57891003","Term infant (finding)","2022",104870,0.0333114687444908,"57891003 - Term infant (finding)",NA
+"119","169838000","Baby male (finding)","2022",88600,0.0281433787619137,"169838000 - Baby male (finding)",NA
+"120","177141003","Elective cesarean section (procedure)","2022",88590,0.0281402023083288,"177141003 - Elective cesarean section (procedure)",NA
+"121","169826009","Single live birth (finding)","2023",292350,0.0881685018140364,"169826009 - Single live birth (finding)","169826009 - Single live birth (finding)"
+"122","48782003","Delivery normal (finding)","2023",221640,0.0668433957313598,"48782003 - Delivery normal (finding)","48782003 - Delivery normal (finding)"
+"123","177184002","Normal delivery procedure (procedure)","2023",212130,0.0639753182480299,"177184002 - Normal delivery procedure (procedure)","177184002 - Normal delivery procedure (procedure)"
+"124","395683001","Born by normal vaginal delivery (situation)","2023",171080,0.0515952361564746,"395683001 - Born by normal vaginal delivery (situation)","395683001 - Born by normal vaginal delivery (situation)"
+"125","309469004","Spontaneous vertex delivery (finding)","2023",158300,0.0477409743019051,"309469004 - Spontaneous vertex delivery (finding)","309469004 - Spontaneous vertex delivery (finding)"
+"126","412726003","Length of gestation at birth (observable entity)","2023",125640,0.0378911940068942,"412726003 - Length of gestation at birth (observable entity)","412726003 - Length of gestation at birth (observable entity)"
+"127","57891003","Term infant (finding)","2023",123080,0.0371191352942418,"57891003 - Term infant (finding)","57891003 - Term infant (finding)"
+"128","274130007","Emergency cesarean section (procedure)","2023",113910,0.0343535968586861,"274130007 - Emergency cesarean section (procedure)","274130007 - Emergency cesarean section (procedure)"
+"129","169876006","Birth head circumference (observable entity)","2023",93200,0.0281077625075019,"169876006 - Birth head circumference (observable entity)","169876006 - Birth head circumference (observable entity)"
+"130","169838000","Baby male (finding)","2023",92250,0.0278212563446036,"169838000 - Baby male (finding)","169838000 - Baby male (finding)"
