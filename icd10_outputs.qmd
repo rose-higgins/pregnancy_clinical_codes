@@ -218,8 +218,9 @@ top_10_codes_all_years_plot <- ggplot(data = top_10_codes_each_year, aes(x = yea
                                  hjust = 1,
                                  data = top_10_codes_each_year %>%
                                  filter(year == max(year)),
-                                #  segment.color = 'transparent',
+                                 segment.color = 'dark grey',
                                  min.segment.length = 0, 
+                                 segment.linetype = 2, 
                                  seed = 42, 
                                  max.overlaps = 15,
                                  direction = "y",
