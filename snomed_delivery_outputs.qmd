@@ -1,5 +1,5 @@
 ---
-title: National SNOMED delivery code frequency
+title: SNOMED Delivery Codelist
 output:
   html_document:
   theme: journal
@@ -77,7 +77,6 @@ snomed <- codeusage::snomed_usage
 snomed$year <- format(as.Date(snomed$start_date), "%Y")
 ```
 
-# National SNOMED code frequency trends over time
 ```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national SNOMED delivery codes frequency by financial year", fig.topcaption=TRUE}
 
 #############################
@@ -92,8 +91,7 @@ snomed_summary <- snomed %>%
 snomed_summary_plot <- ggplot(data = snomed_summary, aes(x = year, y = total_usage)) +
     geom_line(aes(group=1)) +
     geom_point() +
-    labs(title = "Total SNOMED Code Usage by Year",
-                x = "Year",
+    labs(x = "Year",
                 y = "Total Usage") +
     theme(text = element_text(size = 15)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1))
@@ -119,11 +117,10 @@ del_codelist_data_summary <- del_codelist_data %>%
     summarise(total_usage = sum(usage, na.rm = TRUE))
 
 ## 2. Codelist specific total code prevalence over time 
-del_codelist_data_summary_plot <- ggplot(data = codelist_data_summary, aes(x = year, y = total_usage)) +
+del_codelist_data_summary_plot <- ggplot(data = del_codelist_data_summary, aes(x = year, y = total_usage)) +
     geom_line(aes(group=1)) +
     geom_point() +
-    labs(title = "Delivery codelist SNOMED Code Usage by Year",
-                x = "Year",
+    labs(x = "Year",
                 y = "Total Usage") +
     theme(text = element_text(size = 15)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1)) +
@@ -134,7 +131,7 @@ ggsave(here::here(output_dir_rmd,"figures","snomed_del_codelist_summary_plot.png
 
 include_graphics(fs::path(output_dir_rmd,"figures","snomed_del_codelist_summary_plot.png"))
 ```
-```{r, codelist top 10 table, echo=FALSE, message=FALSE, warning=FALSE, include = FALSE, out.width = '90%'}
+```{r, codelist top 10 table, echo=FALSE, message=FALSE, warning=FALSE, include = FALSE, out.width = '100%'}
 ## 3. Latest year top 10 most frequently used codes in the codelist
 # Filter codelist to latest year only
 del_codelist_data_latest_year <- del_codelist_data |>
@@ -165,7 +162,7 @@ del_top_10_codes_table %>%
   align = c("l", "l", "c", "c"),
         # align = c("2", rep("c",3)),
         booktabs = TRUE) %>%
-  kable_styling(position = "center", full_width =T, bootstrap_options = "striped", font_size = 13) %>%
+  kable_styling(position = "center", full_width =T, bootstrap_options = "striped", font_size = 20) %>%
   kableExtra::footnote("Values for financial year 2023-24", general_title = "") %>%
   save_kable(file = "snomed_del_outputs/tables/top_10_snomed_del_codes_table.html"
               , zoom = 1.5)
@@ -177,7 +174,7 @@ webshot2::webshot("snomed_del_outputs/tables/top_10_snomed_del_codes_table.html"
 include_graphics(fs::path(output_dir_rmd,"tables","top_10_snomed_del_codes_table.png"))
 ```
 
-```{r, codelist top 10 trend over time, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 3 Top 10 most frequent SNOMED codes recorded for the delivery SNOMED codelist in financial year 2023-24", fig.topcaption=TRUE}
+```{r, codelist top 10 trend over time, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.height=8, out.height='100%', fig.width=10, out.width = '100%', fig.cap = "Figure 3 Top 10 most frequent SNOMED codes recorded for the delivery SNOMED codelist in financial year 2023-24", fig.topcaption=TRUE}
 ## 4. Top 10 most frequently used codes in the codelist for each year, combined and plotted across all years
 
 # Calculate proportional usage for each code for latest year
@@ -187,16 +184,28 @@ del_codelist_data_percent <- del_codelist_data |>
   group_by(year) %>%
   mutate(prop_usage = usage/ sum(usage))
 
-# Select top 10 most frequently used codes by proportional usage
-del_top_10_codes_each_year <- del_codelist_data_percent %>% 
-  mutate(snomed_code_description = paste(snomed_concept_id, description, sep = " - ")) %>%
+# Create a data frame with the top 10 snomed codes by percent for each year 
+del_top_10_allyear_codes <- del_codelist_data_percent %>%
   group_by(year) %>%
   slice_max(prop_usage, n = 10) %>%
-  ungroup() %>%
-  mutate(name_lab = if_else((year == "2023")| (year == "2017" & snomed_code_description == "47340003 - Birth weight finding (finding)"), snomed_code_description, NA_character_))
+  pull(snomed_concept_id) %>%
+  unique()
 
+del_top_10_allyear_codes <- data.frame(snomed_concept_id = c(del_top_10_allyear_codes))
+
+# Filter data to only those snomed codes which were in the top 10 in any year 
+del_top_codes_data <- del_codelist_data_percent %>%
+  filter(snomed_concept_id %in% del_top_10_allyear_codes$snomed_concept_id)
+
+# Add a field to be used as a label, and complete for those label rows. 
+del_top_10_codes_each_year <- del_top_codes_data %>% 
+  mutate(snomed_code_description = paste(snomed_concept_id, description, sep = " - ")) %>%
+  mutate(name_lab = if_else((year == "2023"), snomed_code_description, NA_character_))
+
+# write results to a table
 write.csv(del_top_10_codes_each_year, file ="snomed_del_outputs/tables/top_10_snomed_del_codes_each_year.csv")    
 
+# add string wrapping for labelling to snomed_code_description field values
 del_top_10_codes_each_year$snomed_code_description <- stringr::str_wrap(del_top_10_codes_each_year$snomed_code_description, 35)
 
 ## Top 10 codes for each year plotted over whole tmie period 
@@ -205,33 +214,33 @@ del_top_10_codes_all_years_plot <- ggplot(data = del_top_10_codes_each_year, aes
     geom_point(aes(color = snomed_code_description)) +
     ggrepel::geom_text_repel(aes(x = year,
                                  y = usage,
-                                 color = snomed_code_description,
-                                 label = stringr::str_wrap(snomed_code_description, 25),
+                                 color = name_lab,
+                                 label = stringr::str_wrap(name_lab, 25),
                                  fontface = 'bold'),
                                  lineheight = 0.7,
                                  hjust = 1,
                                  data = del_top_10_codes_each_year %>%
-                                    filter(year == max(year)),
+                                  filter(year == max(year)),
                                  segment.color = 'dark grey',
                                  min.segment.length = 0, 
                                  segment.linetype = 2,
                                  seed = 42, 
                                  max.overlaps = 15,
                                  direction = "y",
-                                 nudge_x = 4,
-                                 size = 2.5,
+                                 nudge_x = 2,
+                                 size = 2.8,
                                  box.padding = .2,
                                  force = .8) + 
     labs(x = "Year",
        y = "Usage",
        color = "SNOMED Code") +
-    theme(text = element_text(size = 12)) +
+    theme(text = element_text(size = 15)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1)) + 
     coord_cartesian(clip = "off",
-                    ylim = c(0,350000)) +
+                    ylim = c(0,325000)) +
     theme(legend.position="none")    
 
-ggsave(here::here(output_dir_rmd,"figures","top_10_snomed_del_codes_all_years_plot.png"), del_top_10_codes_all_years_plot)
+ggsave(here::here(output_dir_rmd,"figures","top_10_snomed_del_codes_all_years_plot.png"), del_top_10_codes_all_years_plot, width = 30, units = "cm")
 
 include_graphics(fs::path(output_dir_rmd,"figures","top_10_snomed_del_codes_all_years_plot.png"))
 ```
