@@ -1,5 +1,5 @@
 ---
-title: National ICD-10 code frequency
+title: ICD-10 Codelist
 output:
   html_document:
   theme: journal
@@ -79,7 +79,6 @@ icd10$year <- format(as.Date(icd10$start_date), "%Y")
 icd10$icd10_code <- gsub("[^[:alnum:]]", "", icd10$icd10_code)
 ```
 
-# National ICD-10 code frequency trends over time
 ```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national ICD-10 code frequency by financial year", fig.topcaption=TRUE}
 
 #############################
@@ -94,8 +93,7 @@ icd10_summary <- icd10 %>%
 icd10_summary_plot <- ggplot(data = icd10_summary, aes(x = year, y = total_usage)) +
     geom_line(aes(group=1)) +
     geom_point() +
-    labs(title = "Total ICD-10 Code Usage by Year",
-                x = "Year",
+    labs(x = "Year",
                 y = "Total Usage") +
     theme(text = element_text(size = 15)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1))
@@ -124,8 +122,7 @@ codelist_data_summary <- codelist_data %>%
 codelist_data_summary_plot <- ggplot(data = codelist_data_summary, aes(x = year, y = total_usage)) +
     geom_line(aes(group=1)) +
     geom_point() +
-    labs(title = "Codelist specific ICD-10 Code Usage by Year",
-                x = "Year",
+    labs(x = "Year",
                 y = "Total Usage") +
     theme(text = element_text(size = 15)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1))
@@ -167,7 +164,7 @@ top_10_codes_table %>%
   align = c("l", "l", "c", "c"),
         # align = c("2", rep("c",3)),
         booktabs = TRUE) %>%
-  kable_styling(position = "center", full_width =T, bootstrap_options = "striped", font_size = 13) %>%
+  kable_styling(position = "center", full_width =T, bootstrap_options = "striped", font_size = 20) %>%
   kableExtra::footnote("Values for financial year 2023-24", general_title = "") %>%
   save_kable(file = "icd10_outputs/tables/top_10_icd10_codes_table.html"
               , zoom = 1.5)
@@ -181,7 +178,7 @@ webshot2::webshot("icd10_outputs/tables/top_10_icd10_codes_table.html", "icd10_o
 include_graphics(fs::path(output_dir_rmd,"tables","top_10_icd10_codes_table.png"))
 ```
 
-```{r, codelist top 10 trend over time, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 3 Top 10 most frequent ICD-10 codes recorded for the pregnancy ICD-10 codelist in financial year 2023-24", fig.topcaption=TRUE}
+```{r, codelist top 10 trend over time, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.height=8, out.height='100%', fig.width=10, out.width = '100%', fig.cap = "Figure 3 Top 10 most frequent ICD-10 codes recorded for the pregnancy ICD-10 codelist in financial year 2023-24", fig.topcaption=TRUE}
 ## 4. Top 10 most frequently used codes in the codelist for each year, combined and plotted across all years
 
 # Calculate proportional usage for each code for latest year
@@ -199,7 +196,7 @@ top_10_codes_each_year <- codelist_data_percent %>%
   ungroup() %>%
   mutate(name_lab = if_else(year == "2023", icd10_code_description, NA_character_))
 
-write.csv(top_10_codes_each_year, "top_10_codes_each_year.csv")    
+write.csv(top_10_codes_each_year, "icd10_outputs/tables/top_10_codes_each_year.csv")    
 
 graph_label <- subset(top_10_codes_each_year, year == max(year))
 
@@ -224,22 +221,14 @@ top_10_codes_all_years_plot <- ggplot(data = top_10_codes_each_year, aes(x = yea
                                  seed = 42, 
                                  max.overlaps = 15,
                                  direction = "y",
-                                 nudge_x = 4,
-                                 size = 2.5,
+                                 nudge_x = 3,
+                                 size = 2.8,
                                  box.padding = .2,
                                  force = .8) + 
-    # geom_richtext(data = graph_label, aes(label = icd10_code_description), colour = "black",
-    #               label.margin = unit(8,"pt"),
-    #               label.padding = unit(7,"pt"),
-    #               hjust = 0, show.legend = FALSE
-    #               ) + 
-    # geom_label() +
-    # geom_text_repel() + 
-    labs(title = "Top 10 ICD-10 Codes Usage by Year",
-       x = "Year",
+    labs(x = "Year",
        y = "Usage",
        color = "ICD-10 Code") +
-    theme(text = element_text(size = 12)) +
+    theme(text = element_text(size = 15)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1)) + 
     coord_cartesian(clip = "off",
                     ylim = c(0,700000)) +
