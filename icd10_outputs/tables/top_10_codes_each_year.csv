@@ -1,378 +1,121 @@
-"","snomed_concept_id","description","year","usage","prop_usage","snomed_code_description","name_lab"
-"1","11687002","Gestational diabetes mellitus (disorder)","2011",31030,0.00489731886391041,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"2","11687002","Gestational diabetes mellitus (disorder)","2012",36040,0.00557258547710624,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"3","11687002","Gestational diabetes mellitus (disorder)","2013",39510,0.00580862413820732,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"4","11687002","Gestational diabetes mellitus (disorder)","2014",44850,0.00617934569202472,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"5","11687002","Gestational diabetes mellitus (disorder)","2015",52360,0.0068508654516717,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"6","11687002","Gestational diabetes mellitus (disorder)","2016",65930,0.00753611459740711,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"7","11687002","Gestational diabetes mellitus (disorder)","2017",73470,0.00863786906697611,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"8","11687002","Gestational diabetes mellitus (disorder)","2018",81020,0.00997669600445762,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"9","11687002","Gestational diabetes mellitus (disorder)","2019",84830,0.0127333464924756,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"10","11687002","Gestational diabetes mellitus (disorder)","2020",101010,0.0161123991778705,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"11","11687002","Gestational diabetes mellitus (disorder)","2021",114000,0.0187109777634801,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"12","11687002","Gestational diabetes mellitus (disorder)","2022",127080,0.0203132018228813,"11687002 - Gestational diabetes
-mellitus (disorder)",NA
-"13","11687002","Gestational diabetes mellitus (disorder)","2023",145510,0.0238863645317609,"11687002 - Gestational diabetes
-mellitus (disorder)","11687002 - Gestational diabetes mellitus (disorder)"
-"14","163513009","On examination - vertex presentation (finding)","2011",243500,0.0384304590190842,"163513009 - On examination - vertex
-presentation (finding)",NA
-"15","163513009","On examination - vertex presentation (finding)","2012",238930,0.0369438914551885,"163513009 - On examination - vertex
-presentation (finding)",NA
-"16","163513009","On examination - vertex presentation (finding)","2013",254750,0.0374524677096511,"163513009 - On examination - vertex
-presentation (finding)",NA
-"17","163513009","On examination - vertex presentation (finding)","2014",268340,0.0369713628316145,"163513009 - On examination - vertex
-presentation (finding)",NA
-"18","163513009","On examination - vertex presentation (finding)","2015",283640,0.0371119075002322,"163513009 - On examination - vertex
-presentation (finding)",NA
-"19","163513009","On examination - vertex presentation (finding)","2016",316340,0.036159176273984,"163513009 - On examination - vertex
-presentation (finding)",NA
-"20","163513009","On examination - vertex presentation (finding)","2017",306780,0.0360681294728043,"163513009 - On examination - vertex
-presentation (finding)",NA
-"21","163513009","On examination - vertex presentation (finding)","2018",282390,0.0347731323710045,"163513009 - On examination - vertex
-presentation (finding)",NA
-"22","163513009","On examination - vertex presentation (finding)","2019",200160,0.0300448736759864,"163513009 - On examination - vertex
-presentation (finding)",NA
-"23","163513009","On examination - vertex presentation (finding)","2020",168580,0.0268906865994001,"163513009 - On examination - vertex
-presentation (finding)",NA
-"24","163513009","On examination - vertex presentation (finding)","2021",143610,0.0235709080404682,"163513009 - On examination - vertex
-presentation (finding)",NA
-"25","163513009","On examination - vertex presentation (finding)","2022",125430,0.0200494562845766,"163513009 - On examination - vertex
-presentation (finding)",NA
-"26","163513009","On examination - vertex presentation (finding)","2023",100530,0.016502619932499,"163513009 - On examination - vertex
-presentation (finding)","163513009 - On examination - vertex presentation (finding)"
-"27","163529001","On examination - presenting part free-5/5 (finding)","2011",155980,0.0246175893133337,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"28","163529001","On examination - presenting part free-5/5 (finding)","2012",176060,0.0272227913179613,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"29","163529001","On examination - presenting part free-5/5 (finding)","2013",214910,0.0315953281078749,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"30","163529001","On examination - presenting part free-5/5 (finding)","2014",242020,0.0333450444678667,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"31","163529001","On examination - presenting part free-5/5 (finding)","2015",257450,0.0336851663585347,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"32","163529001","On examination - presenting part free-5/5 (finding)","2016",272540,0.0311526266096972,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"33","163529001","On examination - presenting part free-5/5 (finding)","2017",254880,0.0299662456484398,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"34","163529001","On examination - presenting part free-5/5 (finding)","2018",236850,0.02916539679901,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"35","163529001","On examination - presenting part free-5/5 (finding)","2019",179040,0.0268746711778008,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"36","163529001","On examination - presenting part free-5/5 (finding)","2020",135960,0.0216873754303858,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"37","163529001","On examination - presenting part free-5/5 (finding)","2021",117140,0.0192263503088953,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"38","163529001","On examination - presenting part free-5/5 (finding)","2022",103580,0.0165568259743,"163529001 - On examination -
-presenting part free-5/5 (finding)",NA
-"39","163529001","On examination - presenting part free-5/5 (finding)","2023",83020,0.0136282453675128,"163529001 - On examination -
-presenting part free-5/5 (finding)","163529001 - On examination - presenting part free-5/5 (finding)"
-"40","163538004","On examination - fetal movements felt (finding)","2011",231790,0.0365823248297065,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"41","163538004","On examination - fetal movements felt (finding)","2012",249100,0.0385163996211755,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"42","163538004","On examination - fetal movements felt (finding)","2013",295980,0.043513960324642,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"43","163538004","On examination - fetal movements felt (finding)","2014",330560,0.0455439133100488,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"44","163538004","On examination - fetal movements felt (finding)","2015",357420,0.0467653997275878,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"45","163538004","On examination - fetal movements felt (finding)","2016",386010,0.044122790774232,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"46","163538004","On examination - fetal movements felt (finding)","2017",365620,0.0429859492074017,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"47","163538004","On examination - fetal movements felt (finding)","2018",336230,0.0414029190024535,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"48","163538004","On examination - fetal movements felt (finding)","2019",251290,0.0377197057655806,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"49","163538004","On examination - fetal movements felt (finding)","2020",217100,0.0346302530592583,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"50","163538004","On examination - fetal movements felt (finding)","2021",185440,0.0304365238285943,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"51","163538004","On examination - fetal movements felt (finding)","2022",157560,0.0251853012213816,"163538004 - On examination - fetal
-movements felt (finding)",NA
-"52","163538004","On examination - fetal movements felt (finding)","2023",125530,0.0206065242228847,"163538004 - On examination - fetal
-movements felt (finding)","163538004 - On examination - fetal movements felt (finding)"
-"53","163542001","On examination - fetal heart heard (finding)","2011",418640,0.0660719809599566,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"54","163542001","On examination - fetal heart heard (finding)","2012",414710,0.0641233885463577,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"55","163542001","On examination - fetal heart heard (finding)","2013",441140,0.0648548836327203,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"56","163542001","On examination - fetal heart heard (finding)","2014",461400,0.0635707938082543,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"57","163542001","On examination - fetal heart heard (finding)","2015",461480,0.0603807751840614,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"58","163542001","On examination - fetal heart heard (finding)","2016",460280,0.0526122072940171,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"59","163542001","On examination - fetal heart heard (finding)","2017",415240,0.0488197733955514,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"60","163542001","On examination - fetal heart heard (finding)","2018",393690,0.0484784676622429,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"61","163542001","On examination - fetal heart heard (finding)","2019",260940,0.0391682121153672,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"62","163542001","On examination - fetal heart heard (finding)","2020",173020,0.0275989239258999,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"63","163542001","On examination - fetal heart heard (finding)","2021",140750,0.0231014922825423,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"64","163542001","On examination - fetal heart heard (finding)","2022",122260,0.0195427451594701,"163542001 - On examination - fetal
-heart heard (finding)",NA
-"65","163542001","On examination - fetal heart heard (finding)","2023",99740,0.0163729365569228,"163542001 - On examination - fetal
-heart heard (finding)","163542001 - On examination - fetal heart heard (finding)"
-"66","163548002","On examination - fetal heart 120-160 (finding)","2011",251700,0.0397246264275298,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"67","163548002","On examination - fetal heart 120-160 (finding)","2012",270100,0.0417634666305881,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"68","163548002","On examination - fetal heart 120-160 (finding)","2013",324120,0.0476510062180652,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"69","163548002","On examination - fetal heart 120-160 (finding)","2014",357260,0.0492225873340636,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"70","163548002","On examination - fetal heart 120-160 (finding)","2015",383680,0.050201299780317,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"71","163548002","On examination - fetal heart 120-160 (finding)","2016",408850,0.04673351210602,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"72","163548002","On examination - fetal heart 120-160 (finding)","2017",389370,0.0457782370846398,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"73","163548002","On examination - fetal heart 120-160 (finding)","2018",359250,0.0442375714589163,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"74","163548002","On examination - fetal heart 120-160 (finding)","2019",261810,0.0392988028432754,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"75","163548002","On examination - fetal heart 120-160 (finding)","2020",224030,0.0357356775350789,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"76","163548002","On examination - fetal heart 120-160 (finding)","2021",192730,0.0316330416171537,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"77","163548002","On examination - fetal heart 120-160 (finding)","2022",165860,0.0265120212019444,"163548002 - On examination - fetal
-heart 120-160 (finding)",NA
-"78","163548002","On examination - fetal heart 120-160 (finding)","2023",130110,0.0213583594888833,"163548002 - On examination - fetal
-heart 120-160 (finding)","163548002 - On examination - fetal heart 120-160 (finding)"
-"79","18114009","Prenatal examination and care of mother (procedure)","2011",225770,0.035632216561555,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"80","18114009","Prenatal examination and care of mother (procedure)","2012",183320,0.0283453487697868,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"81","18114009","Prenatal examination and care of mother (procedure)","2013",152200,0.0223759198642155,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"82","18114009","Prenatal examination and care of mother (procedure)","2014",137840,0.0189913268715426,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"83","18114009","Prenatal examination and care of mother (procedure)","2015",130480,0.0170722101629894,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"84","18114009","Prenatal examination and care of mother (procedure)","2016",141140,0.0161329776168366,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"85","18114009","Prenatal examination and care of mother (procedure)","2017",136130,0.0160048062622493,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"86","18114009","Prenatal examination and care of mother (procedure)","2018",122370,0.0150684804994505,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"87","18114009","Prenatal examination and care of mother (procedure)","2019",96320,0.0144580447265738,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"88","18114009","Prenatal examination and care of mother (procedure)","2020",91100,0.0145316262261558,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"89","18114009","Prenatal examination and care of mother (procedure)","2021",88250,0.0144845946283081,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"90","18114009","Prenatal examination and care of mother (procedure)","2022",86070,0.013757926352655,"18114009 - Prenatal examination and
-care of mother (procedure)",NA
-"91","18114009","Prenatal examination and care of mother (procedure)","2023",78290,0.0128517866757719,"18114009 - Prenatal examination and
-care of mother (procedure)","18114009 - Prenatal examination and care of mother (procedure)"
-"92","183860003","Referral to antenatal clinic (procedure)","2011",103360,0.0163128223581624,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"93","183860003","Referral to antenatal clinic (procedure)","2012",121900,0.0188484508784476,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"94","183860003","Referral to antenatal clinic (procedure)","2013",139190,0.0204632344671495,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"95","183860003","Referral to antenatal clinic (procedure)","2014",156750,0.0215967098600864,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"96","183860003","Referral to antenatal clinic (procedure)","2015",169750,0.0222103592517431,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"97","183860003","Referral to antenatal clinic (procedure)","2016",181340,0.0207280300484424,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"98","183860003","Referral to antenatal clinic (procedure)","2017",168690,0.0198328859794229,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"99","183860003","Referral to antenatal clinic (procedure)","2018",154560,0.0190323146685876,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"100","183860003","Referral to antenatal clinic (procedure)","2019",113460,0.0170308321706506,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"101","183860003","Referral to antenatal clinic (procedure)","2020",86940,0.0138680525148407,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"102","183860003","Referral to antenatal clinic (procedure)","2021",73540,0.0120702219712836,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"103","183860003","Referral to antenatal clinic (procedure)","2022",66360,0.0106073660132704,"183860003 - Referral to antenatal
-clinic (procedure)",NA
-"104","183860003","Referral to antenatal clinic (procedure)","2023",60790,0.00997905367250187,"183860003 - Referral to antenatal
-clinic (procedure)","183860003 - Referral to antenatal clinic (procedure)"
-"105","185226003","Seen in antenatal clinic (finding)","2011",191350,0.030199869951958,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"106","185226003","Seen in antenatal clinic (finding)","2012",202460,0.0313048184155086,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"107","185226003","Seen in antenatal clinic (finding)","2013",217430,0.031965809829674,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"108","185226003","Seen in antenatal clinic (finding)","2014",227410,0.0313321071086587,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"109","185226003","Seen in antenatal clinic (finding)","2015",239540,0.0313417935502949,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"110","185226003","Seen in antenatal clinic (finding)","2016",273970,0.031316082454901,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"111","185226003","Seen in antenatal clinic (finding)","2017",295280,0.0347160742901416,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"112","185226003","Seen in antenatal clinic (finding)","2018",311920,0.0384094176463888,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"113","185226003","Seen in antenatal clinic (finding)","2019",297610,0.0446725362445559,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"114","185226003","Seen in antenatal clinic (finding)","2020",322500,0.0514429139180598,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"115","185226003","Seen in antenatal clinic (finding)","2021",314870,0.0516800488454998,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"116","185226003","Seen in antenatal clinic (finding)","2022",335000,0.0535483365648822,"185226003 - Seen in antenatal
-clinic (finding)",NA
-"117","185226003","Seen in antenatal clinic (finding)","2023",351280,0.0576647799650676,"185226003 - Seen in antenatal
-clinic (finding)","185226003 - Seen in antenatal clinic (finding)"
-"118","249016007","Height of uterine fundus (observable entity)","2011",194610,0.0307143804094619,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"119","249016007","Height of uterine fundus (observable entity)","2012",237540,0.0367289665436131,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"120","249016007","Height of uterine fundus (observable entity)","2013",294540,0.0433022564836139,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"121","249016007","Height of uterine fundus (observable entity)","2014",319700,0.0440476436508429,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"122","249016007","Height of uterine fundus (observable entity)","2015",331810,0.0434145467058668,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"123","249016007","Height of uterine fundus (observable entity)","2016",309450,0.0353716162925471,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"124","249016007","Height of uterine fundus (observable entity)","2017",269270,0.0316580781770064,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"125","249016007","Height of uterine fundus (observable entity)","2018",232860,0.0286740734583807,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"126","249016007","Height of uterine fundus (observable entity)","2019",162710,0.0244234682045351,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"127","249016007","Height of uterine fundus (observable entity)","2020",121760,0.0194222920888774,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"128","249016007","Height of uterine fundus (observable entity)","2021",107610,0.0176621782204219,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"129","249016007","Height of uterine fundus (observable entity)","2022",90850,0.0145219891848345,"249016007 - Height of uterine
-fundus (observable entity)",NA
-"130","249016007","Height of uterine fundus (observable entity)","2023",66300,0.0108835541781029,"249016007 - Height of uterine
-fundus (observable entity)","249016007 - Height of uterine fundus (observable entity)"
-"131","268470003","Fetal movements felt (finding)","2011",287420,0.0453621459189536,"268470003 - Fetal movements felt
-(finding)",NA
-"132","268470003","Fetal movements felt (finding)","2012",315950,0.0488528962678057,"268470003 - Fetal movements felt
-(finding)",NA
-"133","268470003","Fetal movements felt (finding)","2013",372910,0.0548239439984534,"268470003 - Fetal movements felt
-(finding)",NA
-"134","268470003","Fetal movements felt (finding)","2014",403200,0.0555521111042222,"268470003 - Fetal movements felt
-(finding)",NA
-"135","268470003","Fetal movements felt (finding)","2015",410180,0.0536686018137261,"268470003 - Fetal movements felt
-(finding)",NA
-"136","268470003","Fetal movements felt (finding)","2016",416780,0.047639949065787,"268470003 - Fetal movements felt
-(finding)",NA
-"137","268470003","Fetal movements felt (finding)","2017",402900,0.0473689593995464,"268470003 - Fetal movements felt
-(finding)",NA
-"138","268470003","Fetal movements felt (finding)","2018",395070,0.0486483990432124,"268470003 - Fetal movements felt
-(finding)",NA
-"139","268470003","Fetal movements felt (finding)","2019",272090,0.0408418748925816,"268470003 - Fetal movements felt
-(finding)",NA
-"140","268470003","Fetal movements felt (finding)","2020",177740,0.0283518248675843,"268470003 - Fetal movements felt
-(finding)",NA
-"141","268470003","Fetal movements felt (finding)","2021",155880,0.0255848001208007,"268470003 - Fetal movements felt
-(finding)",NA
-"142","268470003","Fetal movements felt (finding)","2022",139490,0.0222968879624938,"268470003 - Fetal movements felt
-(finding)",NA
-"143","268470003","Fetal movements felt (finding)","2023",112320,0.0184380211958449,"268470003 - Fetal movements felt
-(finding)","268470003 - Fetal movements felt (finding)"
-"144","308335008","Patient encounter procedure (procedure)","2011",102380,0.0161581535703238,"308335008 - Patient encounter
-procedure (procedure)",NA
-"145","308335008","Patient encounter procedure (procedure)","2012",80240,0.0124068884207271,"308335008 - Patient encounter
-procedure (procedure)",NA
-"146","308335008","Patient encounter procedure (procedure)","2013",39890,0.00586449042958973,"308335008 - Patient encounter
-procedure (procedure)",NA
-"147","308335008","Patient encounter procedure (procedure)","2014",50840,0.00700463623149469,"308335008 - Patient encounter
-procedure (procedure)",NA
-"148","308335008","Patient encounter procedure (procedure)","2015",55820,0.00730357733980738,"308335008 - Patient encounter
-procedure (procedure)",NA
-"149","308335008","Patient encounter procedure (procedure)","2016",506800,0.0579296659785518,"308335008 - Patient encounter
-procedure (procedure)",NA
-"150","308335008","Patient encounter procedure (procedure)","2017",440740,0.051817808800586,"308335008 - Patient encounter
-procedure (procedure)",NA
-"151","308335008","Patient encounter procedure (procedure)","2018",542320,0.066780569947389,"308335008 - Patient encounter
-procedure (procedure)",NA
-"152","308335008","Patient encounter procedure (procedure)","2019",547750,0.0822196220824418,"308335008 - Patient encounter
-procedure (procedure)",NA
-"153","308335008","Patient encounter procedure (procedure)","2020",668780,0.106679044868589,"308335008 - Patient encounter
-procedure (procedure)",NA
-"154","308335008","Patient encounter procedure (procedure)","2021",727740,0.119444973312237,"308335008 - Patient encounter
-procedure (procedure)",NA
-"155","308335008","Patient encounter procedure (procedure)","2022",868670,0.138853234399451,"308335008 - Patient encounter
-procedure (procedure)",NA
-"156","308335008","Patient encounter procedure (procedure)","2023",828420,0.135990255689653,"308335008 - Patient encounter
-procedure (procedure)","308335008 - Patient encounter procedure (procedure)"
-"157","424525001","Antenatal care (regime/therapy)","2011",381490,0.0602087712985234,"424525001 - Antenatal care
-(regime/therapy)",NA
-"158","424525001","Antenatal care (regime/therapy)","2012",337590,0.0521989215098862,"424525001 - Antenatal care
-(regime/therapy)",NA
-"159","424525001","Antenatal care (regime/therapy)","2013",188750,0.0277493749958652,"424525001 - Antenatal care
-(regime/therapy)",NA
-"160","424525001","Antenatal care (regime/therapy)","2014",168680,0.0232404020363596,"424525001 - Antenatal care
-(regime/therapy)",NA
-"161","424525001","Antenatal care (regime/therapy)","2015",158110,0.0206873631887665,"424525001 - Antenatal care
-(regime/therapy)",NA
-"162","424525001","Antenatal care (regime/therapy)","2016",175750,0.0200890662899181,"424525001 - Antenatal care
-(regime/therapy)",NA
-"163","424525001","Antenatal care (regime/therapy)","2017",164740,0.0193684844166822,"424525001 - Antenatal care
-(regime/therapy)",NA
-"164","424525001","Antenatal care (regime/therapy)","2018",131310,0.0161693403152966,"424525001 - Antenatal care
-(regime/therapy)",NA
-"165","424525001","Antenatal care (regime/therapy)","2019",108540,0.0162923190886869,"424525001 - Antenatal care
-(regime/therapy)",NA
-"166","424525001","Antenatal care (regime/therapy)","2020",106870,0.0170471448385211,"424525001 - Antenatal care
-(regime/therapy)",NA
-"167","424525001","Antenatal care (regime/therapy)","2021",101790,0.0167069335661811,"424525001 - Antenatal care
-(regime/therapy)",NA
-"168","424525001","Antenatal care (regime/therapy)","2022",108970,0.0174183947327618,"424525001 - Antenatal care
-(regime/therapy)",NA
-"169","424525001","Antenatal care (regime/therapy)","2023",106460,0.0174760660301785,"424525001 - Antenatal care
-(regime/therapy)","424525001 - Antenatal care (regime/therapy)"
-"170","735260000","Seen in early pregnancy assessment unit (finding)","2011",10940,0.00172660871321882,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"171","735260000","Seen in early pregnancy assessment unit (finding)","2012",27320,0.00422427955700729,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"172","735260000","Seen in early pregnancy assessment unit (finding)","2013",36520,0.00536904463496157,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"173","735260000","Seen in early pregnancy assessment unit (finding)","2014",54320,0.0074841038570966,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"174","735260000","Seen in early pregnancy assessment unit (finding)","2015",64090,0.00838563725740334,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"175","735260000","Seen in early pregnancy assessment unit (finding)","2016",75350,0.00861286568958935,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"176","735260000","Seen in early pregnancy assessment unit (finding)","2017",82600,0.00971128331199438,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"177","735260000","Seen in early pregnancy assessment unit (finding)","2018",94130,0.0115910441236682,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"178","735260000","Seen in early pregnancy assessment unit (finding)","2019",89540,0.0134403376745994,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"179","735260000","Seen in early pregnancy assessment unit (finding)","2020",95630,0.0152542197146793,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"180","735260000","Seen in early pregnancy assessment unit (finding)","2021",103940,0.0170598160415449,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"181","735260000","Seen in early pregnancy assessment unit (finding)","2022",108410,0.017328881095519,"735260000 - Seen in early pregnancy
-assessment unit (finding)",NA
-"182","735260000","Seen in early pregnancy assessment unit (finding)","2023",111060,0.0182311844196094,"735260000 - Seen in early pregnancy
-assessment unit (finding)","735260000 - Seen in early pregnancy assessment unit (finding)"
-"183","77386006","Pregnancy (finding)","2011",1182670,0.186655240115402,"77386006 - Pregnancy (finding)",NA
-"184","77386006","Pregnancy (finding)","2012",1262850,0.195264693944607,"77386006 - Pregnancy (finding)",NA
-"185","77386006","Pregnancy (finding)","2013",1384850,0.203595877949795,"77386006 - Pregnancy (finding)",NA
-"186","77386006","Pregnancy (finding)","2014",1528520,0.210596510081909,"77386006 - Pregnancy (finding)",NA
-"187","77386006","Pregnancy (finding)","2015",1658110,0.216949742438338,"77386006 - Pregnancy (finding)",NA
-"188","77386006","Pregnancy (finding)","2016",1838750,0.21017792683122,"77386006 - Pregnancy (finding)",NA
-"189","77386006","Pregnancy (finding)","2017",1826810,0.214778080716519,"77386006 - Pregnancy (finding)",NA
-"190","77386006","Pregnancy (finding)","2021",1575040,0.258513494882383,"77386006 - Pregnancy (finding)",NA
-"191","77386006","Pregnancy (finding)","2022",1640400,0.262211018809053,"77386006 - Pregnancy (finding)",NA
-"192","77386006","Pregnancy (finding)","2023",1685660,0.276711492245262,"77386006 - Pregnancy (finding)","77386006 - Pregnancy (finding)"
-"193","77386006","Pregnant (finding)","2018",1837770,0.226300575365491,"77386006 - Pregnant (finding)",NA
-"194","77386006","Pregnant (finding)","2019",1605260,0.240956404462,"77386006 - Pregnant (finding)",NA
-"195","77386006","Pregnant (finding)","2020",1583160,0.252534460770591,"77386006 - Pregnant (finding)","77386006 - Pregnant (finding)"
+"","icd10_code","description","year","usage","prop_usage","icd10_code_description","name_lab"
+"1","Z370","Single live birth","2012",649605,0.176195842775714,"Z370 - Single live birth",NA
+"2","Z380","Singleton, born in hospital","2012",642154,0.174174868145713,"Z380 - Singleton, born in hospital",NA
+"3","O701","Second degree perineal laceration during delivery","2012",161643,0.0438432964860104,"O701 - Second degree perineal laceration during delivery",NA
+"4","O268","Other specified pregnancy-related conditions","2012",134863,0.0365796136794839,"O268 - Other specified pregnancy-related conditions",NA
+"5","O368","Maternal care for other specified fetal problems","2012",108051,0.0293072513415979,"O368 - Maternal care for other specified fetal problems",NA
+"6","O700","First degree perineal laceration during delivery","2012",96686,0.0262246615321814,"O700 - First degree perineal laceration during delivery",NA
+"7","O721","Other immediate postpartum haemorrhage","2012",83814,0.0227333200428009,"O721 - Other immediate postpartum haemorrhage",NA
+"8","O342","Maternal care due to uterine scar from previous surgery","2012",63651,0.0172644015802172,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"9","O800","Spontaneous vertex delivery","2012",63632,0.0172592481084724,"O800 - Spontaneous vertex delivery",NA
+"10","O680","Labour and delivery complicated by fetal heart rate anomaly","2012",59653,0.0161800026309829,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"11","Z370","Single live birth","2013",627707,0.172158659563544,"Z370 - Single live birth",NA
+"12","Z380","Singleton, born in hospital","2013",620064,0.170062444872543,"Z380 - Singleton, born in hospital",NA
+"13","O701","Second degree perineal laceration during delivery","2013",159178,0.0436571061211773,"O701 - Second degree perineal laceration during delivery",NA
+"14","O268","Other specified pregnancy-related conditions","2013",132119,0.0362357436556799,"O268 - Other specified pregnancy-related conditions",NA
+"15","O368","Maternal care for other specified fetal problems","2013",116439,0.0319352534875659,"O368 - Maternal care for other specified fetal problems",NA
+"16","O700","First degree perineal laceration during delivery","2013",92157,0.0252755275779903,"O700 - First degree perineal laceration during delivery",NA
+"17","O721","Other immediate postpartum haemorrhage","2013",79124,0.0217010193917001,"O721 - Other immediate postpartum haemorrhage",NA
+"18","O342","Maternal care due to uterine scar from previous surgery","2013",64760,0.0177614632198384,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"19","O680","Labour and delivery complicated by fetal heart rate anomaly","2013",59512,0.0163221154901023,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"20","O049","Medical abortion - Complete or unspecified, without complication","2013",55589,0.01524617015021,"O049 - Medical abortion - Complete or unspecified, without complication",NA
+"21","Z370","Single live birth","2014",618747,0.167955074955151,"Z370 - Single live birth",NA
+"22","Z380","Singleton, born in hospital","2014",613133,0.166431189116838,"Z380 - Singleton, born in hospital",NA
+"23","O701","Second degree perineal laceration during delivery","2014",161059,0.0437184768850623,"O701 - Second degree perineal laceration during delivery",NA
+"24","O368","Maternal care for other specified fetal problems","2014",140190,0.0380537149399715,"O368 - Maternal care for other specified fetal problems",NA
+"25","O268","Other specified pregnancy-related conditions","2014",126042,0.0342133271878443,"O268 - Other specified pregnancy-related conditions",NA
+"26","O700","First degree perineal laceration during delivery","2014",90267,0.0245024230436294,"O700 - First degree perineal laceration during delivery",NA
+"27","O721","Other immediate postpartum haemorrhage","2014",82712,0.0224516646701971,"O721 - Other immediate postpartum haemorrhage",NA
+"28","O342","Maternal care due to uterine scar from previous surgery","2014",67414,0.0182991164773753,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"29","O680","Labour and delivery complicated by fetal heart rate anomaly","2014",61852,0.0167893457198596,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"30","O688","Labour and delivery complicated by other evidence of fetal stress","2014",51823,0.0140670352331418,"O688 - Labour and delivery complicated by other evidence of fetal stress",NA
+"31","Z370","Single live birth","2015",626531,0.163358974078182,"Z370 - Single live birth",NA
+"32","Z380","Singleton, born in hospital","2015",623748,0.162633346735146,"Z380 - Singleton, born in hospital",NA
+"33","O368","Maternal care for other specified fetal problems","2015",167339,0.0436312446842517,"O368 - Maternal care for other specified fetal problems",NA
+"34","O701","Second degree perineal laceration during delivery","2015",164741,0.0429538534383994,"O701 - Second degree perineal laceration during delivery",NA
+"35","O268","Other specified pregnancy-related conditions","2015",127293,0.033189824425821,"O268 - Other specified pregnancy-related conditions",NA
+"36","O721","Other immediate postpartum haemorrhage","2015",93481,0.0243738302746433,"O721 - Other immediate postpartum haemorrhage",NA
+"37","O700","First degree perineal laceration during delivery","2015",92992,0.0242463305366826,"O700 - First degree perineal laceration during delivery",NA
+"38","O342","Maternal care due to uterine scar from previous surgery","2015",74876,0.0195228433119478,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"39","O680","Labour and delivery complicated by fetal heart rate anomaly","2015",61243,0.0159682340530159,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"40","O688","Labour and delivery complicated by other evidence of fetal stress","2015",52360,0.0136521191812275,"O688 - Labour and delivery complicated by other evidence of fetal stress",NA
+"41","Z370","Single live birth","2016",620141,0.159545029578583,"Z370 - Single live birth",NA
+"42","Z380","Singleton, born in hospital","2016",618020,0.158999355275906,"Z380 - Singleton, born in hospital",NA
+"43","O368","Maternal care for other specified fetal problems","2016",175111,0.0450511894464892,"O368 - Maternal care for other specified fetal problems",NA
+"44","O701","Second degree perineal laceration during delivery","2016",161224,0.0414784506245797,"O701 - Second degree perineal laceration during delivery",NA
+"45","O268","Other specified pregnancy-related conditions","2016",123662,0.0318147928418646,"O268 - Other specified pregnancy-related conditions",NA
+"46","O721","Other immediate postpartum haemorrhage","2016",101828,0.0261975119721611,"O721 - Other immediate postpartum haemorrhage",NA
+"47","O700","First degree perineal laceration during delivery","2016",95906,0.0246739460973611,"O700 - First degree perineal laceration during delivery",NA
+"48","O342","Maternal care due to uterine scar from previous surgery","2016",78285,0.0201405529396692,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"49","O680","Labour and delivery complicated by fetal heart rate anomaly","2016",59990,0.0154337583298301,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"50","O244","Diabetes mellitus arising in pregnancy","2016",55161,0.0141913909523547,"O244 - Diabetes mellitus arising in pregnancy",NA
+"51","Z370","Single live birth","2017",604746,0.153449846879004,"Z370 - Single live birth",NA
+"52","Z380","Singleton, born in hospital","2017",604573,0.153405949402195,"Z380 - Singleton, born in hospital",NA
+"53","O368","Maternal care for other specified fetal problems","2017",193293,0.0490466762124648,"O368 - Maternal care for other specified fetal problems",NA
+"54","O701","Second degree perineal laceration during delivery","2017",158027,0.0400981882521725,"O701 - Second degree perineal laceration during delivery",NA
+"55","O268","Other specified pregnancy-related conditions","2017",121522,0.0308353131602859,"O268 - Other specified pregnancy-related conditions",NA
+"56","O721","Other immediate postpartum haemorrhage","2017",109560,0.0278000436944827,"O721 - Other immediate postpartum haemorrhage",NA
+"57","O700","First degree perineal laceration during delivery","2017",95341,0.0241920770890441,"O700 - First degree perineal laceration during delivery",NA
+"58","O342","Maternal care due to uterine scar from previous surgery","2017",81794,0.0207546255380296,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"59","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2017",66626,0.0169058571667452,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"60","O244","Diabetes mellitus arising in pregnancy","2017",62024,0.0157381335351095,"O244 - Diabetes mellitus arising in pregnancy",NA
+"61","Z370","Single live birth","2018",584232,0.1474126485337,"Z370 - Single live birth",NA
+"62","Z380","Singleton, born in hospital","2018",577573,0.145732458426712,"Z380 - Singleton, born in hospital",NA
+"63","O368","Maternal care for other specified fetal problems","2018",200999,0.0507158028704783,"O368 - Maternal care for other specified fetal problems",NA
+"64","O701","Second degree perineal laceration during delivery","2018",153689,0.0387786059998355,"O701 - Second degree perineal laceration during delivery",NA
+"65","O268","Other specified pregnancy-related conditions","2018",120776,0.0304740412016223,"O268 - Other specified pregnancy-related conditions",NA
+"66","O721","Other immediate postpartum haemorrhage","2018",116952,0.0295091745596156,"O721 - Other immediate postpartum haemorrhage",NA
+"67","O700","First degree perineal laceration during delivery","2018",92768,0.0234070995412342,"O700 - First degree perineal laceration during delivery",NA
+"68","O342","Maternal care due to uterine scar from previous surgery","2018",83012,0.0209454784744409,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"69","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2018",79640,0.0200946598769391,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"70","O244","Diabetes mellitus arising in pregnancy","2018",67102,0.0169310882353386,"O244 - Diabetes mellitus arising in pregnancy",NA
+"71","Z370","Single live birth","2019",572559,0.144073562797271,"Z370 - Single live birth",NA
+"72","Z380","Singleton, born in hospital","2019",570735,0.14361458795181,"Z380 - Singleton, born in hospital",NA
+"73","O368","Maternal care for other specified fetal problems","2019",207568,0.0522305321944181,"O368 - Maternal care for other specified fetal problems",NA
+"74","O701","Second degree perineal laceration during delivery","2019",149461,0.0376090128165706,"O701 - Second degree perineal laceration during delivery",NA
+"75","O721","Other immediate postpartum haemorrhage","2019",123259,0.0310157787700984,"O721 - Other immediate postpartum haemorrhage",NA
+"76","O268","Other specified pregnancy-related conditions","2019",117607,0.0295935606634401,"O268 - Other specified pregnancy-related conditions",NA
+"77","O700","First degree perineal laceration during delivery","2019",88066,0.0221601308883529,"O700 - First degree perineal laceration during delivery",NA
+"78","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2019",86340,0.0217258158755977,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"79","O342","Maternal care due to uterine scar from previous surgery","2019",85783,0.0215856574386889,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"80","O244","Diabetes mellitus arising in pregnancy","2019",74311,0.0186989472264482,"O244 - Diabetes mellitus arising in pregnancy",NA
+"81","Z380","Singleton, born in hospital","2020",543789,0.142596264258932,"Z380 - Singleton, born in hospital",NA
+"82","Z370","Single live birth","2020",540839,0.141822694033046,"Z370 - Single live birth",NA
+"83","O368","Maternal care for other specified fetal problems","2020",207430,0.0543937871035092,"O368 - Maternal care for other specified fetal problems",NA
+"84","O701","Second degree perineal laceration during delivery","2020",138397,0.0362914571362116,"O701 - Second degree perineal laceration during delivery",NA
+"85","O721","Other immediate postpartum haemorrhage","2020",126659,0.0332134343187744,"O721 - Other immediate postpartum haemorrhage",NA
+"86","O268","Other specified pregnancy-related conditions","2020",108088,0.0283436130764311,"O268 - Other specified pregnancy-related conditions",NA
+"87","O342","Maternal care due to uterine scar from previous surgery","2020",89521,0.0234748407428687,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"88","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2020",86541,0.0226934037011271,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"89","O700","First degree perineal laceration during delivery","2020",81122,0.0212723945302554,"O700 - First degree perineal laceration during delivery",NA
+"90","O244","Diabetes mellitus arising in pregnancy","2020",76370,0.0200262908985923,"O244 - Diabetes mellitus arising in pregnancy",NA
+"91","Z380","Singleton, born in hospital","2021",563009,0.136666966859883,"Z380 - Singleton, born in hospital",NA
+"92","Z370","Single live birth","2021",558431,0.135555685558368,"Z370 - Single live birth",NA
+"93","O368","Maternal care for other specified fetal problems","2021",234467,0.0569154200354455,"O368 - Maternal care for other specified fetal problems",NA
+"94","O701","Second degree perineal laceration during delivery","2021",138929,0.0337241590078962,"O701 - Second degree perineal laceration during delivery",NA
+"95","O721","Other immediate postpartum haemorrhage","2021",134963,0.0327614369367281,"O721 - Other immediate postpartum haemorrhage",NA
+"96","O268","Other specified pregnancy-related conditions","2021",124985,0.0303393388968603,"O268 - Other specified pregnancy-related conditions",NA
+"97","O342","Maternal care due to uterine scar from previous surgery","2021",99926,0.0242564209993812,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"98","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2021",97462,0.0236583001765476,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"99","O244","Diabetes mellitus arising in pregnancy","2021",93888,0.0227907336908303,"O244 - Diabetes mellitus arising in pregnancy",NA
+"100","Z352","Supervision of pregnancy with other poor reproductive or obstetric history","2021",83013,0.0201508944260917,"Z352 - Supervision of pregnancy with other poor reproductive or obstetric history",NA
+"101","Z380","Singleton, born in hospital","2022",533116,0.129130927224759,"Z380 - Singleton, born in hospital",NA
+"102","Z370","Single live birth","2022",529460,0.128245373855635,"Z370 - Single live birth",NA
+"103","O368","Maternal care for other specified fetal problems","2022",246569,0.0597237441661507,"O368 - Maternal care for other specified fetal problems",NA
+"104","O268","Other specified pregnancy-related conditions","2022",148636,0.0360024919510562,"O268 - Other specified pregnancy-related conditions",NA
+"105","O721","Other immediate postpartum haemorrhage","2022",132600,0.0321182649742327,"O721 - Other immediate postpartum haemorrhage",NA
+"106","O701","Second degree perineal laceration during delivery","2022",125340,0.0303597536340145,"O701 - Second degree perineal laceration during delivery",NA
+"107","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2022",108362,0.0262473561775099,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"108","O342","Maternal care due to uterine scar from previous surgery","2022",104322,0.0252687906383251,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"109","O244","Diabetes mellitus arising in pregnancy","2022",98462,0.0238493861681214,"O244 - Diabetes mellitus arising in pregnancy",NA
+"110","Z352","Supervision of pregnancy with other poor reproductive or obstetric history","2022",89744,0.0217377192447024,"Z352 - Supervision of pregnancy with other poor reproductive or obstetric history",NA
+"111","Z380","Singleton, born in hospital","2023",534202,0.121008484833109,"Z380 - Singleton, born in hospital","Z380 - Singleton, born in hospital"
+"112","Z370","Single live birth","2023",528959,0.119820830189397,"Z370 - Single live birth","Z370 - Single live birth"
+"113","O368","Maternal care for other specified fetal problems","2023",273193,0.0618842142055093,"O368 - Maternal care for other specified fetal problems","O368 - Maternal care for other specified fetal problems"
+"114","O268","Other specified pregnancy-related conditions","2023",168770,0.038230111428418,"O268 - Other specified pregnancy-related conditions","O268 - Other specified pregnancy-related conditions"
+"115","O721","Other immediate postpartum haemorrhage","2023",138061,0.0312738485152505,"O721 - Other immediate postpartum haemorrhage","O721 - Other immediate postpartum haemorrhage"
+"116","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2023",127944,0.0289821258315904,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium"
+"117","O701","Second degree perineal laceration during delivery","2023",124246,0.0281444476182688,"O701 - Second degree perineal laceration during delivery","O701 - Second degree perineal laceration during delivery"
+"118","O342","Maternal care due to uterine scar from previous surgery","2023",118125,0.0267579066924328,"O342 - Maternal care due to uterine scar from previous surgery","O342 - Maternal care due to uterine scar from previous surgery"
+"119","O244","Diabetes mellitus arising in pregnancy","2023",112499,0.0254834941374984,"O244 - Diabetes mellitus arising in pregnancy","O244 - Diabetes mellitus arising in pregnancy"
+"120","Z352","Supervision of pregnancy with other poor reproductive or obstetric history","2023",102040,0.0231143009430336,"Z352 - Supervision of pregnancy with other poor reproductive or obstetric history","Z352 - Supervision of pregnancy with other poor reproductive or obstetric history"
