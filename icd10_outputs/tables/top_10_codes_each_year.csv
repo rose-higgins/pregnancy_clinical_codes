@@ -1,0 +1,121 @@
+"","icd10_code","description","year","usage","prop_usage","icd10_code_description","name_lab"
+"1","Z370","Single live birth","2012",649605,0.176195842775714,"Z370 - Single live birth",NA
+"2","Z380","Singleton, born in hospital","2012",642154,0.174174868145713,"Z380 - Singleton, born in hospital",NA
+"3","O701","Second degree perineal laceration during delivery","2012",161643,0.0438432964860104,"O701 - Second degree perineal laceration during delivery",NA
+"4","O268","Other specified pregnancy-related conditions","2012",134863,0.0365796136794839,"O268 - Other specified pregnancy-related conditions",NA
+"5","O368","Maternal care for other specified fetal problems","2012",108051,0.0293072513415979,"O368 - Maternal care for other specified fetal problems",NA
+"6","O700","First degree perineal laceration during delivery","2012",96686,0.0262246615321814,"O700 - First degree perineal laceration during delivery",NA
+"7","O721","Other immediate postpartum haemorrhage","2012",83814,0.0227333200428009,"O721 - Other immediate postpartum haemorrhage",NA
+"8","O342","Maternal care due to uterine scar from previous surgery","2012",63651,0.0172644015802172,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"9","O800","Spontaneous vertex delivery","2012",63632,0.0172592481084724,"O800 - Spontaneous vertex delivery",NA
+"10","O680","Labour and delivery complicated by fetal heart rate anomaly","2012",59653,0.0161800026309829,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"11","Z370","Single live birth","2013",627707,0.172158659563544,"Z370 - Single live birth",NA
+"12","Z380","Singleton, born in hospital","2013",620064,0.170062444872543,"Z380 - Singleton, born in hospital",NA
+"13","O701","Second degree perineal laceration during delivery","2013",159178,0.0436571061211773,"O701 - Second degree perineal laceration during delivery",NA
+"14","O268","Other specified pregnancy-related conditions","2013",132119,0.0362357436556799,"O268 - Other specified pregnancy-related conditions",NA
+"15","O368","Maternal care for other specified fetal problems","2013",116439,0.0319352534875659,"O368 - Maternal care for other specified fetal problems",NA
+"16","O700","First degree perineal laceration during delivery","2013",92157,0.0252755275779903,"O700 - First degree perineal laceration during delivery",NA
+"17","O721","Other immediate postpartum haemorrhage","2013",79124,0.0217010193917001,"O721 - Other immediate postpartum haemorrhage",NA
+"18","O342","Maternal care due to uterine scar from previous surgery","2013",64760,0.0177614632198384,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"19","O680","Labour and delivery complicated by fetal heart rate anomaly","2013",59512,0.0163221154901023,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"20","O049","Medical abortion - Complete or unspecified, without complication","2013",55589,0.01524617015021,"O049 - Medical abortion - Complete or unspecified, without complication",NA
+"21","Z370","Single live birth","2014",618747,0.167955074955151,"Z370 - Single live birth",NA
+"22","Z380","Singleton, born in hospital","2014",613133,0.166431189116838,"Z380 - Singleton, born in hospital",NA
+"23","O701","Second degree perineal laceration during delivery","2014",161059,0.0437184768850623,"O701 - Second degree perineal laceration during delivery",NA
+"24","O368","Maternal care for other specified fetal problems","2014",140190,0.0380537149399715,"O368 - Maternal care for other specified fetal problems",NA
+"25","O268","Other specified pregnancy-related conditions","2014",126042,0.0342133271878443,"O268 - Other specified pregnancy-related conditions",NA
+"26","O700","First degree perineal laceration during delivery","2014",90267,0.0245024230436294,"O700 - First degree perineal laceration during delivery",NA
+"27","O721","Other immediate postpartum haemorrhage","2014",82712,0.0224516646701971,"O721 - Other immediate postpartum haemorrhage",NA
+"28","O342","Maternal care due to uterine scar from previous surgery","2014",67414,0.0182991164773753,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"29","O680","Labour and delivery complicated by fetal heart rate anomaly","2014",61852,0.0167893457198596,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"30","O688","Labour and delivery complicated by other evidence of fetal stress","2014",51823,0.0140670352331418,"O688 - Labour and delivery complicated by other evidence of fetal stress",NA
+"31","Z370","Single live birth","2015",626531,0.163358974078182,"Z370 - Single live birth",NA
+"32","Z380","Singleton, born in hospital","2015",623748,0.162633346735146,"Z380 - Singleton, born in hospital",NA
+"33","O368","Maternal care for other specified fetal problems","2015",167339,0.0436312446842517,"O368 - Maternal care for other specified fetal problems",NA
+"34","O701","Second degree perineal laceration during delivery","2015",164741,0.0429538534383994,"O701 - Second degree perineal laceration during delivery",NA
+"35","O268","Other specified pregnancy-related conditions","2015",127293,0.033189824425821,"O268 - Other specified pregnancy-related conditions",NA
+"36","O721","Other immediate postpartum haemorrhage","2015",93481,0.0243738302746433,"O721 - Other immediate postpartum haemorrhage",NA
+"37","O700","First degree perineal laceration during delivery","2015",92992,0.0242463305366826,"O700 - First degree perineal laceration during delivery",NA
+"38","O342","Maternal care due to uterine scar from previous surgery","2015",74876,0.0195228433119478,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"39","O680","Labour and delivery complicated by fetal heart rate anomaly","2015",61243,0.0159682340530159,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"40","O688","Labour and delivery complicated by other evidence of fetal stress","2015",52360,0.0136521191812275,"O688 - Labour and delivery complicated by other evidence of fetal stress",NA
+"41","Z370","Single live birth","2016",620141,0.159545029578583,"Z370 - Single live birth",NA
+"42","Z380","Singleton, born in hospital","2016",618020,0.158999355275906,"Z380 - Singleton, born in hospital",NA
+"43","O368","Maternal care for other specified fetal problems","2016",175111,0.0450511894464892,"O368 - Maternal care for other specified fetal problems",NA
+"44","O701","Second degree perineal laceration during delivery","2016",161224,0.0414784506245797,"O701 - Second degree perineal laceration during delivery",NA
+"45","O268","Other specified pregnancy-related conditions","2016",123662,0.0318147928418646,"O268 - Other specified pregnancy-related conditions",NA
+"46","O721","Other immediate postpartum haemorrhage","2016",101828,0.0261975119721611,"O721 - Other immediate postpartum haemorrhage",NA
+"47","O700","First degree perineal laceration during delivery","2016",95906,0.0246739460973611,"O700 - First degree perineal laceration during delivery",NA
+"48","O342","Maternal care due to uterine scar from previous surgery","2016",78285,0.0201405529396692,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"49","O680","Labour and delivery complicated by fetal heart rate anomaly","2016",59990,0.0154337583298301,"O680 - Labour and delivery complicated by fetal heart rate anomaly",NA
+"50","O244","Diabetes mellitus arising in pregnancy","2016",55161,0.0141913909523547,"O244 - Diabetes mellitus arising in pregnancy",NA
+"51","Z370","Single live birth","2017",604746,0.153449846879004,"Z370 - Single live birth",NA
+"52","Z380","Singleton, born in hospital","2017",604573,0.153405949402195,"Z380 - Singleton, born in hospital",NA
+"53","O368","Maternal care for other specified fetal problems","2017",193293,0.0490466762124648,"O368 - Maternal care for other specified fetal problems",NA
+"54","O701","Second degree perineal laceration during delivery","2017",158027,0.0400981882521725,"O701 - Second degree perineal laceration during delivery",NA
+"55","O268","Other specified pregnancy-related conditions","2017",121522,0.0308353131602859,"O268 - Other specified pregnancy-related conditions",NA
+"56","O721","Other immediate postpartum haemorrhage","2017",109560,0.0278000436944827,"O721 - Other immediate postpartum haemorrhage",NA
+"57","O700","First degree perineal laceration during delivery","2017",95341,0.0241920770890441,"O700 - First degree perineal laceration during delivery",NA
+"58","O342","Maternal care due to uterine scar from previous surgery","2017",81794,0.0207546255380296,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"59","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2017",66626,0.0169058571667452,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"60","O244","Diabetes mellitus arising in pregnancy","2017",62024,0.0157381335351095,"O244 - Diabetes mellitus arising in pregnancy",NA
+"61","Z370","Single live birth","2018",584232,0.1474126485337,"Z370 - Single live birth",NA
+"62","Z380","Singleton, born in hospital","2018",577573,0.145732458426712,"Z380 - Singleton, born in hospital",NA
+"63","O368","Maternal care for other specified fetal problems","2018",200999,0.0507158028704783,"O368 - Maternal care for other specified fetal problems",NA
+"64","O701","Second degree perineal laceration during delivery","2018",153689,0.0387786059998355,"O701 - Second degree perineal laceration during delivery",NA
+"65","O268","Other specified pregnancy-related conditions","2018",120776,0.0304740412016223,"O268 - Other specified pregnancy-related conditions",NA
+"66","O721","Other immediate postpartum haemorrhage","2018",116952,0.0295091745596156,"O721 - Other immediate postpartum haemorrhage",NA
+"67","O700","First degree perineal laceration during delivery","2018",92768,0.0234070995412342,"O700 - First degree perineal laceration during delivery",NA
+"68","O342","Maternal care due to uterine scar from previous surgery","2018",83012,0.0209454784744409,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"69","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2018",79640,0.0200946598769391,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"70","O244","Diabetes mellitus arising in pregnancy","2018",67102,0.0169310882353386,"O244 - Diabetes mellitus arising in pregnancy",NA
+"71","Z370","Single live birth","2019",572559,0.144073562797271,"Z370 - Single live birth",NA
+"72","Z380","Singleton, born in hospital","2019",570735,0.14361458795181,"Z380 - Singleton, born in hospital",NA
+"73","O368","Maternal care for other specified fetal problems","2019",207568,0.0522305321944181,"O368 - Maternal care for other specified fetal problems",NA
+"74","O701","Second degree perineal laceration during delivery","2019",149461,0.0376090128165706,"O701 - Second degree perineal laceration during delivery",NA
+"75","O721","Other immediate postpartum haemorrhage","2019",123259,0.0310157787700984,"O721 - Other immediate postpartum haemorrhage",NA
+"76","O268","Other specified pregnancy-related conditions","2019",117607,0.0295935606634401,"O268 - Other specified pregnancy-related conditions",NA
+"77","O700","First degree perineal laceration during delivery","2019",88066,0.0221601308883529,"O700 - First degree perineal laceration during delivery",NA
+"78","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2019",86340,0.0217258158755977,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"79","O342","Maternal care due to uterine scar from previous surgery","2019",85783,0.0215856574386889,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"80","O244","Diabetes mellitus arising in pregnancy","2019",74311,0.0186989472264482,"O244 - Diabetes mellitus arising in pregnancy",NA
+"81","Z380","Singleton, born in hospital","2020",543789,0.142596264258932,"Z380 - Singleton, born in hospital",NA
+"82","Z370","Single live birth","2020",540839,0.141822694033046,"Z370 - Single live birth",NA
+"83","O368","Maternal care for other specified fetal problems","2020",207430,0.0543937871035092,"O368 - Maternal care for other specified fetal problems",NA
+"84","O701","Second degree perineal laceration during delivery","2020",138397,0.0362914571362116,"O701 - Second degree perineal laceration during delivery",NA
+"85","O721","Other immediate postpartum haemorrhage","2020",126659,0.0332134343187744,"O721 - Other immediate postpartum haemorrhage",NA
+"86","O268","Other specified pregnancy-related conditions","2020",108088,0.0283436130764311,"O268 - Other specified pregnancy-related conditions",NA
+"87","O342","Maternal care due to uterine scar from previous surgery","2020",89521,0.0234748407428687,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"88","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2020",86541,0.0226934037011271,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"89","O700","First degree perineal laceration during delivery","2020",81122,0.0212723945302554,"O700 - First degree perineal laceration during delivery",NA
+"90","O244","Diabetes mellitus arising in pregnancy","2020",76370,0.0200262908985923,"O244 - Diabetes mellitus arising in pregnancy",NA
+"91","Z380","Singleton, born in hospital","2021",563009,0.136666966859883,"Z380 - Singleton, born in hospital",NA
+"92","Z370","Single live birth","2021",558431,0.135555685558368,"Z370 - Single live birth",NA
+"93","O368","Maternal care for other specified fetal problems","2021",234467,0.0569154200354455,"O368 - Maternal care for other specified fetal problems",NA
+"94","O701","Second degree perineal laceration during delivery","2021",138929,0.0337241590078962,"O701 - Second degree perineal laceration during delivery",NA
+"95","O721","Other immediate postpartum haemorrhage","2021",134963,0.0327614369367281,"O721 - Other immediate postpartum haemorrhage",NA
+"96","O268","Other specified pregnancy-related conditions","2021",124985,0.0303393388968603,"O268 - Other specified pregnancy-related conditions",NA
+"97","O342","Maternal care due to uterine scar from previous surgery","2021",99926,0.0242564209993812,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"98","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2021",97462,0.0236583001765476,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"99","O244","Diabetes mellitus arising in pregnancy","2021",93888,0.0227907336908303,"O244 - Diabetes mellitus arising in pregnancy",NA
+"100","Z352","Supervision of pregnancy with other poor reproductive or obstetric history","2021",83013,0.0201508944260917,"Z352 - Supervision of pregnancy with other poor reproductive or obstetric history",NA
+"101","Z380","Singleton, born in hospital","2022",533116,0.129130927224759,"Z380 - Singleton, born in hospital",NA
+"102","Z370","Single live birth","2022",529460,0.128245373855635,"Z370 - Single live birth",NA
+"103","O368","Maternal care for other specified fetal problems","2022",246569,0.0597237441661507,"O368 - Maternal care for other specified fetal problems",NA
+"104","O268","Other specified pregnancy-related conditions","2022",148636,0.0360024919510562,"O268 - Other specified pregnancy-related conditions",NA
+"105","O721","Other immediate postpartum haemorrhage","2022",132600,0.0321182649742327,"O721 - Other immediate postpartum haemorrhage",NA
+"106","O701","Second degree perineal laceration during delivery","2022",125340,0.0303597536340145,"O701 - Second degree perineal laceration during delivery",NA
+"107","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2022",108362,0.0262473561775099,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium",NA
+"108","O342","Maternal care due to uterine scar from previous surgery","2022",104322,0.0252687906383251,"O342 - Maternal care due to uterine scar from previous surgery",NA
+"109","O244","Diabetes mellitus arising in pregnancy","2022",98462,0.0238493861681214,"O244 - Diabetes mellitus arising in pregnancy",NA
+"110","Z352","Supervision of pregnancy with other poor reproductive or obstetric history","2022",89744,0.0217377192447024,"Z352 - Supervision of pregnancy with other poor reproductive or obstetric history",NA
+"111","Z380","Singleton, born in hospital","2023",534202,0.121008484833109,"Z380 - Singleton, born in hospital","Z380 - Singleton, born in hospital"
+"112","Z370","Single live birth","2023",528959,0.119820830189397,"Z370 - Single live birth","Z370 - Single live birth"
+"113","O368","Maternal care for other specified fetal problems","2023",273193,0.0618842142055093,"O368 - Maternal care for other specified fetal problems","O368 - Maternal care for other specified fetal problems"
+"114","O268","Other specified pregnancy-related conditions","2023",168770,0.038230111428418,"O268 - Other specified pregnancy-related conditions","O268 - Other specified pregnancy-related conditions"
+"115","O721","Other immediate postpartum haemorrhage","2023",138061,0.0312738485152505,"O721 - Other immediate postpartum haemorrhage","O721 - Other immediate postpartum haemorrhage"
+"116","O992","Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","2023",127944,0.0289821258315904,"O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium","O992 - Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium"
+"117","O701","Second degree perineal laceration during delivery","2023",124246,0.0281444476182688,"O701 - Second degree perineal laceration during delivery","O701 - Second degree perineal laceration during delivery"
+"118","O342","Maternal care due to uterine scar from previous surgery","2023",118125,0.0267579066924328,"O342 - Maternal care due to uterine scar from previous surgery","O342 - Maternal care due to uterine scar from previous surgery"
+"119","O244","Diabetes mellitus arising in pregnancy","2023",112499,0.0254834941374984,"O244 - Diabetes mellitus arising in pregnancy","O244 - Diabetes mellitus arising in pregnancy"
+"120","Z352","Supervision of pregnancy with other poor reproductive or obstetric history","2023",102040,0.0231143009430336,"Z352 - Supervision of pregnancy with other poor reproductive or obstetric history","Z352 - Supervision of pregnancy with other poor reproductive or obstetric history"
