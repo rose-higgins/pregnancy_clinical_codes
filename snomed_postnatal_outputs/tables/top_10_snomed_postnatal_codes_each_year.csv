@@ -1,0 +1,183 @@
+"","snomed_concept_id","description","year","usage","prop_usage","snomed_code_description","name_lab"
+"1","133906008","Postpartum care (regime/therapy)","2011",44870,0.0417044255766076,"133906008 - Postpartum care (regime/therapy)",NA
+"2","133906008","Postpartum care (regime/therapy)","2012",50750,0.0461527268758924,"133906008 - Postpartum care (regime/therapy)",NA
+"3","133906008","Postpartum care (regime/therapy)","2013",72710,0.0631371459335545,"133906008 - Postpartum care (regime/therapy)",NA
+"4","133906008","Postpartum care (regime/therapy)","2014",93150,0.0735674486745618,"133906008 - Postpartum care (regime/therapy)",NA
+"5","133906008","Postpartum care (regime/therapy)","2015",104420,0.0760953925194483,"133906008 - Postpartum care (regime/therapy)",NA
+"6","133906008","Postpartum care (regime/therapy)","2016",124080,0.0791435050086587,"133906008 - Postpartum care (regime/therapy)",NA
+"7","133906008","Postpartum care (regime/therapy)","2017",134140,0.0812324760341789,"133906008 - Postpartum care (regime/therapy)",NA
+"8","133906008","Postpartum care (regime/therapy)","2018",147390,0.0855342189104964,"133906008 - Postpartum care (regime/therapy)",NA
+"9","133906008","Postpartum care (regime/therapy)","2019",123420,0.0735187683729907,"133906008 - Postpartum care (regime/therapy)",NA
+"10","133906008","Postpartum care (regime/therapy)","2020",125480,0.0665143571992727,"133906008 - Postpartum care (regime/therapy)",NA
+"11","133906008","Postpartum care (regime/therapy)","2021",139240,0.0633316428521072,"133906008 - Postpartum care (regime/therapy)",NA
+"12","133906008","Postpartum care (regime/therapy)","2022",154900,0.0617477113683157,"133906008 - Postpartum care (regime/therapy)",NA
+"13","133906008","Postpartum care (regime/therapy)","2023",127390,0.0478499631894466,"133906008 - Postpartum care (regime/therapy)","133906008 - Postpartum care (regime/therapy)"
+"14","169762003","Postnatal visit (regime/therapy)","2011",29030,0.0269819361374843,"169762003 - Postnatal visit (regime/therapy)",NA
+"15","169762003","Postnatal visit (regime/therapy)","2012",25950,0.0235992761069834,"169762003 - Postnatal visit (regime/therapy)",NA
+"16","169762003","Postnatal visit (regime/therapy)","2013",24960,0.0216738160156996,"169762003 - Postnatal visit (regime/therapy)",NA
+"17","169762003","Postnatal visit (regime/therapy)","2014",25160,0.0198707139951903,"169762003 - Postnatal visit (regime/therapy)",NA
+"18","169762003","Postnatal visit (regime/therapy)","2015",25230,0.0183861975987903,"169762003 - Postnatal visit (regime/therapy)",NA
+"19","169762003","Postnatal visit (regime/therapy)","2016",31240,0.0199262016156552,"169762003 - Postnatal visit (regime/therapy)",NA
+"20","169762003","Postnatal visit (regime/therapy)","2017",32160,0.0194754467665066,"169762003 - Postnatal visit (regime/therapy)",NA
+"21","169762003","Postnatal visit (regime/therapy)","2018",33630,0.0195163564825293,"169762003 - Postnatal visit (regime/therapy)",NA
+"22","169762003","Postnatal visit (regime/therapy)","2019",31710,0.0188889980968039,"169762003 - Postnatal visit (regime/therapy)",NA
+"23","169762003","Postnatal visit (regime/therapy)","2020",28110,0.0149005306094322,"169762003 - Postnatal visit (regime/therapy)",NA
+"24","169762003","Postnatal visit (regime/therapy)","2021",29930,0.0136133012824157,"169762003 - Postnatal visit (regime/therapy)",NA
+"25","169762003","Postnatal visit (regime/therapy)","2022",32770,0.0130630890996753,"169762003 - Postnatal visit (regime/therapy)",NA
+"26","169762003","Postnatal visit (regime/therapy)","2023",31670,0.0118958186216326,"169762003 - Postnatal visit (regime/therapy)","169762003 - Postnatal visit (regime/therapy)"
+"27","169784003","Postnatal examination normal (finding)","2011",13110,0.0121850906910926,"169784003 - Postnatal examination normal (finding)",NA
+"28","169784003","Postnatal examination normal (finding)","2012",13250,0.0120497267212921,"169784003 - Postnatal examination normal (finding)",NA
+"29","169784003","Postnatal examination normal (finding)","2013",13630,0.0118355012938296,"169784003 - Postnatal examination normal (finding)",NA
+"30","169784003","Postnatal examination normal (finding)","2014",14330,0.0113174615083894,"169784003 - Postnatal examination normal (finding)",NA
+"31","169784003","Postnatal examination normal (finding)","2015",15770,0.011492284428574,"169784003 - Postnatal examination normal (finding)",NA
+"32","169784003","Postnatal examination normal (finding)","2016",20870,0.0133117742547607,"169784003 - Postnatal examination normal (finding)",NA
+"33","169784003","Postnatal examination normal (finding)","2017",27580,0.0167018912257541,"169784003 - Postnatal examination normal (finding)",NA
+"34","169784003","Postnatal examination normal (finding)","2018",34450,0.0199922236343483,"169784003 - Postnatal examination normal (finding)",NA
+"35","169784003","Postnatal examination normal (finding)","2019",43250,0.0257631399459719,"169784003 - Postnatal examination normal (finding)",NA
+"36","169784003","Postnatal examination normal (finding)","2020",64450,0.0341636142930597,"169784003 - Postnatal examination normal (finding)",NA
+"37","169784003","Postnatal examination normal (finding)","2021",90250,0.0410491293263622,"169784003 - Postnatal examination normal (finding)",NA
+"38","169784003","Postnatal examination normal (finding)","2022",89380,0.0356295057591999,"169784003 - Postnatal examination normal (finding)",NA
+"39","169784003","Postnatal examination normal (finding)","2023",87290,0.0327876857430473,"169784003 - Postnatal examination normal (finding)","169784003 - Postnatal examination normal (finding)"
+"40","170114005","Child examination - 6 weeks (procedure)","2011",222760,0.207044302238581,"170114005 - Child examination - 6 weeks (procedure)",NA
+"41","170114005","Child examination - 6 weeks (procedure)","2012",201900,0.183610552832368,"170114005 - Child examination - 6 weeks (procedure)",NA
+"42","170114005","Child examination - 6 weeks (procedure)","2013",191380,0.166183289626787,"170114005 - Child examination - 6 weeks (procedure)",NA
+"43","170114005","Child examination - 6 weeks (procedure)","2014",208370,0.164565209665254,"170114005 - Child examination - 6 weeks (procedure)",NA
+"44","170114005","Child examination - 6 weeks (procedure)","2015",227470,0.165767275774745,"170114005 - Child examination - 6 weeks (procedure)",NA
+"45","170114005","Child examination - 6 weeks (procedure)","2016",235400,0.150148138934867,"170114005 - Child examination - 6 weeks (procedure)",NA
+"46","170114005","Child examination - 6 weeks (procedure)","2017",222270,0.134602224900231,"170114005 - Child examination - 6 weeks (procedure)",NA
+"47","170114005","Child examination - 6 weeks (procedure)","2018",221460,0.128518950538832,"170114005 - Child examination - 6 weeks (procedure)",NA
+"48","170114005","Child examination - 6 weeks (procedure)","2019",204470,0.121798594791974,"170114005 - Child examination - 6 weeks (procedure)",NA
+"49","170114005","Child examination - 6 weeks (procedure)","2020",209780,0.111200046646983,"170114005 - Child examination - 6 weeks (procedure)",NA
+"50","170114005","Child examination - 6 weeks (procedure)","2021",221890,0.100924003393091,"170114005 - Child examination - 6 weeks (procedure)",NA
+"51","170114005","Child examination - 6 weeks (procedure)","2022",226110,0.0901341188992245,"170114005 - Child examination - 6 weeks (procedure)",NA
+"52","170114005","Child examination - 6 weeks (procedure)","2023",233240,0.0876091169974608,"170114005 - Child examination - 6 weeks (procedure)","170114005 - Child examination - 6 weeks (procedure)"
+"53","170118008","Child 6 week examination normal (finding)","2011",87260,0.0811038149278979,"170118008 - Child 6 week examination normal (finding)",NA
+"54","170118008","Child 6 week examination normal (finding)","2012",112010,0.101863387928447,"170118008 - Child 6 week examination normal (finding)",NA
+"55","170118008","Child 6 week examination normal (finding)","2013",149630,0.129930011635783,"170118008 - Child 6 week examination normal (finding)",NA
+"56","170118008","Child 6 week examination normal (finding)","2014",175200,0.138368405880657,"170118008 - Child 6 week examination normal (finding)",NA
+"57","170118008","Child 6 week examination normal (finding)","2015",201850,0.147096868224963,"170118008 - Child 6 week examination normal (finding)",NA
+"58","170118008","Child 6 week examination normal (finding)","2016",226340,0.144369285329302,"170118008 - Child 6 week examination normal (finding)",NA
+"59","170118008","Child 6 week examination normal (finding)","2017",241260,0.146102185537543,"170118008 - Child 6 week examination normal (finding)",NA
+"60","170118008","Child 6 week examination normal (finding)","2018",250610,0.145435447460204,"170118008 - Child 6 week examination normal (finding)",NA
+"61","170118008","Child 6 week examination normal (finding)","2019",238280,0.141938519915056,"170118008 - Child 6 week examination normal (finding)",NA
+"62","170118008","Child 6 week examination normal (finding)","2020",260240,0.137947850793264,"170118008 - Child 6 week examination normal (finding)",NA
+"63","170118008","Child 6 week examination normal (finding)","2021",297370,0.135255175487871,"170118008 - Child 6 week examination normal (finding)",NA
+"64","170118008","Child 6 week examination normal (finding)","2022",312940,0.124747119403491,"170118008 - Child 6 week examination normal (finding)",NA
+"65","170118008","Child 6 week examination normal (finding)","2023",321260,0.120671003801253,"170118008 - Child 6 week examination normal (finding)","170118008 - Child 6 week examination normal (finding)"
+"66","170300004","Child 8 week examination (procedure)","2011",57970,0.0538802217667917,"170300004 - Child 8 week examination (procedure)",NA
+"67","170300004","Child 8 week examination (procedure)","2012",59780,0.0543647293131201,"170300004 - Child 8 week examination (procedure)",NA
+"68","170300004","Child 8 week examination (procedure)","2013",56070,0.0486879352564214,"170300004 - Child 8 week examination (procedure)",NA
+"69","170300004","Child 8 week examination (procedure)","2014",62480,0.0493450799053851,"170300004 - Child 8 week examination (procedure)",NA
+"70","170300004","Child 8 week examination (procedure)","2015",70130,0.0511067791360746,"170300004 - Child 8 week examination (procedure)",NA
+"71","170300004","Child 8 week examination (procedure)","2016",77790,0.0496177728451286,"170300004 - Child 8 week examination (procedure)",NA
+"72","170300004","Child 8 week examination (procedure)","2017",79090,0.0478953073620338,"170300004 - Child 8 week examination (procedure)",NA
+"73","170300004","Child 8 week examination (procedure)","2018",81770,0.0474532402490758,"170300004 - Child 8 week examination (procedure)",NA
+"74","170300004","Child 8 week examination (procedure)","2019",87410,0.0520683482699977,"170300004 - Child 8 week examination (procedure)",NA
+"75","170300004","Child 8 week examination (procedure)","2020",96950,0.0513911932616313,"170300004 - Child 8 week examination (procedure)",NA
+"76","170300004","Child 8 week examination (procedure)","2021",100460,0.0456930252867185,"170300004 - Child 8 week examination (procedure)",NA
+"77","170300004","Child 8 week examination (procedure)","2022",100190,0.0399386907810946,"170300004 - Child 8 week examination (procedure)",NA
+"78","170300004","Child 8 week examination (procedure)","2023",102690,0.0385722012710909,"170300004 - Child 8 week examination (procedure)","170300004 - Child 8 week examination (procedure)"
+"79","302241000000109","Newborn blood spot screening status (finding)","2011",90,8.36505081768372e-05,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"80","302241000000109","Newborn blood spot screening status (finding)","2012",400,0.000363765334982403,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"81","302241000000109","Newborn blood spot screening status (finding)","2013",1290,0.00112016116427294,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"82","302241000000109","Newborn blood spot screening status (finding)","2014",1050,0.000829262706476542,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"83","302241000000109","Newborn blood spot screening status (finding)","2015",1680,0.00122428901965785,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"84","302241000000109","Newborn blood spot screening status (finding)","2016",3260,0.00207936674990512,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"85","302241000000109","Newborn blood spot screening status (finding)","2017",5180,0.00313690342818732,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"86","302241000000109","Newborn blood spot screening status (finding)","2018",6670,0.00387077305199139,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"87","302241000000109","Newborn blood spot screening status (finding)","2019",6630,0.00394935532582181,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"88","302241000000109","Newborn blood spot screening status (finding)","2020",7860,0.00416642371362993,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"89","302241000000109","Newborn blood spot screening status (finding)","2021",83510,0.0379835212193297,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"90","302241000000109","Newborn blood spot screening status (finding)","2022",189410,0.0755044158184163,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"91","302241000000109","Newborn blood spot screening status (finding)","2023",212990,0.0800028546959749,"302241000000109 - Newborn blood spot screening status (finding)","302241000000109 - Newborn blood spot screening status (finding)"
+"92","384634009","Postnatal maternal examination (procedure)","2011",81760,0.0759918394282023,"384634009 - Postnatal maternal examination (procedure)",NA
+"93","384634009","Postnatal maternal examination (procedure)","2012",77400,0.070388592319095,"384634009 - Postnatal maternal examination (procedure)",NA
+"94","384634009","Postnatal maternal examination (procedure)","2013",67650,0.0587433354752436,"384634009 - Postnatal maternal examination (procedure)",NA
+"95","384634009","Postnatal maternal examination (procedure)","2014",67780,0.0535308821380762,"384634009 - Postnatal maternal examination (procedure)",NA
+"96","384634009","Postnatal maternal examination (procedure)","2015",66490,0.0484541529268159,"384634009 - Postnatal maternal examination (procedure)",NA
+"97","384634009","Postnatal maternal examination (procedure)","2016",74540,0.0475447845208367,"384634009 - Postnatal maternal examination (procedure)",NA
+"98","384634009","Postnatal maternal examination (procedure)","2017",82760,0.0501177852735101,"384634009 - Postnatal maternal examination (procedure)",NA
+"99","384634009","Postnatal maternal examination (procedure)","2018",89650,0.0520262075128977,"384634009 - Postnatal maternal examination (procedure)",NA
+"100","384634009","Postnatal maternal examination (procedure)","2019",105020,0.0625582649046466,"384634009 - Postnatal maternal examination (procedure)",NA
+"101","384634009","Postnatal maternal examination (procedure)","2020",119440,0.0633126779078828,"384634009 - Postnatal maternal examination (procedure)",NA
+"102","384634009","Postnatal maternal examination (procedure)","2021",55840,0.0253981538125658,"384634009 - Postnatal maternal examination (procedure)",NA
+"103","384634009","Postnatal maternal examination (procedure)","2022",56650,0.0225823618399941,"384634009 - Postnatal maternal examination (procedure)",NA
+"104","384634009","Postnatal maternal examination (procedure)","2023",55890,0.0209932839521012,"384634009 - Postnatal maternal examination (procedure)","384634009 - Postnatal maternal examination (procedure)"
+"105","384635005","Full postnatal examination (procedure)","2011",29710,0.0276139621992648,"384635005 - Full postnatal examination (procedure)",NA
+"106","384635005","Full postnatal examination (procedure)","2012",46960,0.0427060503269341,"384635005 - Full postnatal examination (procedure)",NA
+"107","384635005","Full postnatal examination (procedure)","2013",54830,0.0476111911915389,"384635005 - Full postnatal examination (procedure)",NA
+"108","384635005","Full postnatal examination (procedure)","2014",52300,0.0413051805225935,"384635005 - Full postnatal examination (procedure)",NA
+"109","384635005","Full postnatal examination (procedure)","2015",54410,0.0396509318807047,"384635005 - Full postnatal examination (procedure)",NA
+"110","384635005","Full postnatal examination (procedure)","2016",56850,0.0362613496110755,"384635005 - Full postnatal examination (procedure)",NA
+"111","384635005","Full postnatal examination (procedure)","2017",56790,0.0343908775457061,"384635005 - Full postnatal examination (procedure)",NA
+"112","384635005","Full postnatal examination (procedure)","2018",53850,0.0312505440554327,"384635005 - Full postnatal examination (procedure)",NA
+"113","384635005","Full postnatal examination (procedure)","2019",42690,0.025429559405631,"384635005 - Full postnatal examination (procedure)",NA
+"114","384635005","Full postnatal examination (procedure)","2020",41610,0.0220566018733004,"384635005 - Full postnatal examination (procedure)",NA
+"115","384635005","Full postnatal examination (procedure)","2021",44260,0.0201311297948453,"384635005 - Full postnatal examination (procedure)",NA
+"116","384635005","Full postnatal examination (procedure)","2022",43480,0.0173324111703962,"384635005 - Full postnatal examination (procedure)",NA
+"117","384635005","Full postnatal examination (procedure)","2023",40960,0.0153853088330303,"384635005 - Full postnatal examination (procedure)","384635005 - Full postnatal examination (procedure)"
+"118","384636006","Maternal postnatal 6 week examination (procedure)","2011",160040,0.148749192540234,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"119","384636006","Maternal postnatal 6 week examination (procedure)","2012",136470,0.124107638162621,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"120","384636006","Maternal postnatal 6 week examination (procedure)","2013",121670,0.105651169656658,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"121","384636006","Maternal postnatal 6 week examination (procedure)","2014",121710,0.0961233942907237,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"122","384636006","Maternal postnatal 6 week examination (procedure)","2015",126090,0.0918872633861065,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"123","384636006","Maternal postnatal 6 week examination (procedure)","2016",139290,0.0888450903663449,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"124","384636006","Maternal postnatal 6 week examination (procedure)","2017",134610,0.0815170985460029,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"125","384636006","Maternal postnatal 6 week examination (procedure)","2018",128880,0.0747923884468741,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"126","384636006","Maternal postnatal 6 week examination (procedure)","2019",142560,0.0849200746982139,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"127","384636006","Maternal postnatal 6 week examination (procedure)","2020",201330,0.106720876115154,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"128","384636006","Maternal postnatal 6 week examination (procedure)","2021",300990,0.136901689040906,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"129","384636006","Maternal postnatal 6 week examination (procedure)","2022",395720,0.157745670385216,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"130","384636006","Maternal postnatal 6 week examination (procedure)","2023",490540,0.184255600462761,"384636006 - Maternal postnatal 6 week examination (procedure)","384636006 - Maternal postnatal 6 week examination (procedure)"
+"131","428447008","Newborn blood spot screening (procedure)","2011",3800,0.00353191034524424,"428447008 - Newborn blood spot screening (procedure)",NA
+"132","428447008","Newborn blood spot screening (procedure)","2012",7000,0.00636589336219205,"428447008 - Newborn blood spot screening (procedure)",NA
+"133","428447008","Newborn blood spot screening (procedure)","2013",9100,0.00790191208905715,"428447008 - Newborn blood spot screening (procedure)",NA
+"134","428447008","Newborn blood spot screening (procedure)","2014",12750,0.0100696185786437,"428447008 - Newborn blood spot screening (procedure)",NA
+"135","428447008","Newborn blood spot screening (procedure)","2015",15660,0.011412122647525,"428447008 - Newborn blood spot screening (procedure)",NA
+"136","428447008","Newborn blood spot screening (procedure)","2016",17270,0.0110155410340066,"428447008 - Newborn blood spot screening (procedure)",NA
+"137","428447008","Newborn blood spot screening (procedure)","2017",18850,0.0114151794635774,"428447008 - Newborn blood spot screening (procedure)",NA
+"138","428447008","Newborn blood spot screening (procedure)","2018",21140,0.0122680873042126,"428447008 - Newborn blood spot screening (procedure)",NA
+"139","428447008","Newborn blood spot screening (procedure)","2019",22290,0.0132776968646408,"428447008 - Newborn blood spot screening (procedure)",NA
+"140","428447008","Newborn blood spot screening (procedure)","2020",24230,0.0128438227202612,"428447008 - Newborn blood spot screening (procedure)",NA
+"141","428447008","Newborn blood spot screening (procedure)","2021",53830,0.024483929436433,"428447008 - Newborn blood spot screening (procedure)",NA
+"142","428447008","Newborn blood spot screening (procedure)","2022",65960,0.0262936025942809,"428447008 - Newborn blood spot screening (procedure)",NA
+"143","428447008","Newborn blood spot screening (procedure)","2023",77600,0.029147948375077,"428447008 - Newborn blood spot screening (procedure)","428447008 - Newborn blood spot screening (procedure)"
+"144","442162000","Child 6 to 8 week examination (procedure)","2011",23110,0.0214795915996301,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"145","442162000","Child 6 to 8 week examination (procedure)","2012",38360,0.0348850956248124,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"146","442162000","Child 6 to 8 week examination (procedure)","2013",54250,0.04710755283861,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"147","442162000","Child 6 to 8 week examination (procedure)","2014",73750,0.0582458329549,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"148","442162000","Child 6 to 8 week examination (procedure)","2015",92280,0.0672484468654922,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"149","442162000","Child 6 to 8 week examination (procedure)","2016",127540,0.081350440270828,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"150","442162000","Child 6 to 8 week examination (procedure)","2017",160190,0.0970078301469742,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"151","442162000","Child 6 to 8 week examination (procedure)","2018",176870,0.102642223344185,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"152","442162000","Child 6 to 8 week examination (procedure)","2019",184220,0.109736084181432,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"153","442162000","Child 6 to 8 week examination (procedure)","2020",219170,0.116177491770518,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"154","442162000","Child 6 to 8 week examination (procedure)","2021",252760,0.114964852393699,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"155","442162000","Child 6 to 8 week examination (procedure)","2022",268980,0.10722336606746,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"156","442162000","Child 6 to 8 week examination (procedure)","2023",278290,0.104530703006446,"442162000 - Child 6 to 8 week examination (procedure)","442162000 - Child 6 to 8 week examination (procedure)"
+"157","444136005","Maternal postnatal examination done (situation)","2011",29550,0.0274652501847282,"444136005 - Maternal postnatal examination done (situation)",NA
+"158","444136005","Maternal postnatal examination done (situation)","2012",28500,0.0259182801174962,"444136005 - Maternal postnatal examination done (situation)",NA
+"159","444136005","Maternal postnatal examination done (situation)","2013",26110,0.0226724093016794,"444136005 - Maternal postnatal examination done (situation)",NA
+"160","444136005","Maternal postnatal examination done (situation)","2014",26410,0.0208579315029004,"444136005 - Maternal postnatal examination done (situation)",NA
+"161","444136005","Maternal postnatal examination done (situation)","2015",27510,0.0200477326968974,"444136005 - Maternal postnatal examination done (situation)",NA
+"162","444136005","Maternal postnatal examination done (situation)","2016",33550,0.0213996179323058,"444136005 - Maternal postnatal examination done (situation)",NA
+"163","444136005","Maternal postnatal examination done (situation)","2017",31660,0.0191726568603109,"444136005 - Maternal postnatal examination done (situation)",NA
+"164","444136005","Maternal postnatal examination done (situation)","2018",34750,0.0201663213728187,"444136005 - Maternal postnatal examination done (situation)",NA
+"165","444136005","Maternal postnatal examination done (situation)","2019",37890,0.0225702976312803,"444136005 - Maternal postnatal examination done (situation)",NA
+"166","444136005","Maternal postnatal examination done (situation)","2020",43910,0.0232757843849224,"444136005 - Maternal postnatal examination done (situation)",NA
+"167","444136005","Maternal postnatal examination done (situation)","2021",45540,0.0207133224323826,"444136005 - Maternal postnatal examination done (situation)",NA
+"168","444136005","Maternal postnatal examination done (situation)","2022",46110,0.0183808067862688,"444136005 - Maternal postnatal examination done (situation)",NA
+"169","444136005","Maternal postnatal examination done (situation)","2023",46950,0.0176352600027044,"444136005 - Maternal postnatal examination done (situation)","444136005 - Maternal postnatal examination done (situation)"
+"170","58703003","Postpartum depression (disorder)","2011",68600,0.063760276232567,"58703003 - Postpartum depression (disorder)",NA
+"171","58703003","Postpartum depression (disorder)","2012",63410,0.0576658997280854,"58703003 - Postpartum depression (disorder)",NA
+"172","58703003","Postpartum depression (disorder)","2013",56810,0.0493305083273997,"58703003 - Postpartum depression (disorder)",NA
+"173","58703003","Postpartum depression (disorder)","2014",59210,0.0467625189052153,"58703003 - Postpartum depression (disorder)",NA
+"174","58703003","Postpartum depression (disorder)","2015",61220,0.0446136748711035,"58703003 - Postpartum depression (disorder)",NA
+"175","58703003","Postpartum depression (disorder)","2016",65870,0.0420146895141872,"58703003 - Postpartum depression (disorder)",NA
+"176","58703003","Postpartum depression (disorder)","2017",64270,0.0389206145423936,"58703003 - Postpartum depression (disorder)",NA
+"177","58703003","Postpartum depression (disorder)","2018",62370,0.0361949198279914,"58703003 - Postpartum depression (disorder)",NA
+"178","58703003","Postpartum depression (disorder)","2019",55410,0.0330066031076601,"58703003 - Postpartum depression (disorder)",NA
+"179","58703003","Postpartum depression (disorder)","2020",51730,0.0274210049244372,"58703003 - Postpartum depression (disorder)",NA
+"180","58703003","Postpartum depression (disorder)","2021",53130,0.0241655428377798,"58703003 - Postpartum depression (disorder)",NA
+"181","58703003","Postpartum depression (disorder)","2022",51920,0.0206968442494703,"58703003 - Postpartum depression (disorder)",NA
+"182","58703003","Postpartum depression (disorder)","2023",50130,0.0188297248974563,"58703003 - Postpartum depression (disorder)","58703003 - Postpartum depression (disorder)"
