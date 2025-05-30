@@ -64,10 +64,10 @@ library(ggtext)
 library(ggrepel)
 
 # Input directory ----
-input_dir_os <- here("snomed_sb_outputs")
+input_dir_os <- here("snomed_outputs")
 
 # Output directory ----
-output_dir_rmd <- here("snomed_sb_outputs")
+output_dir_rmd <- here("snomed_outputs")
 #fs::dir_create(output_dir_rmd)
 
 # Import SNOMED data
@@ -112,16 +112,13 @@ codelists <- list()
 # Define a vector of names and corresponding inputs for the codelists
 codelist_inputs <- list(
   Delivery = "user/VickiPalin/deliver_codes_20_12_2024/19a8bc08/",
-  PostNatal  = "user/VickiPalin/pregnancy_postnatal_8wk_snomed_reviewed/021cbb8d/",
+  Postnatal  = "user/VickiPalin/pregnancy_postnatal_8wk_snomed_reviewed/021cbb8d/",
   # Outcomes
   Stillbirth = "user/VickiPalin/pregnancy_stillbrith_snomed_reviewed/15ecde31/",
   Multiples = "user/VickiPalin/pregnancy_multiple_snomed/3b37f1fe/",
   Preeclampsia = "user/VickiPalin/preeclampsia/63cdf7c6/",
   Hypertension = "user/djlhayes/high-risk-pregnancy/70b410f6",
-  Hypertension = "opensafely/hypertension-snomed/024ab1b0",
-
-  # ectopic_codelist = "user/VickiPalin/ectopic_codes_20_12_2024/ijkl9012/",
-  # abortion_codelist = "user/VickiPalin/abortion_codes_20_12_2024/mnop3456/"
+  Hypertension = "opensafely/hypertension-snomed/024ab1b0"
 )
 
 # Loop through the inputs and populate the codelists
@@ -131,7 +128,7 @@ for (name in names(codelist_inputs)) {
 
 # Create objects for each codelist
 Delivery <- codelists[["Delivery"]]
-PostNatal <- codelists[["PostNatal"]]
+Postnatal <- codelists[["Postnatal"]]
 Stillbirth <- codelists[["Stillbirth"]]
 Multiples <- codelists[["Multiples"]]
 Preeclampsia <- codelists[["Preeclampsia"]]
@@ -166,17 +163,19 @@ for (codelist in unique(sb_codelist_data_summary$codelist_name)) {
   data_subset <- sb_codelist_data_summary %>% filter(codelist_name == codelist)
   # Increase y-axis scaling by adding a small margin above the max value
   y_max <- max(data_subset$total_usage, na.rm = TRUE)
-  y_lim <- c(0, y_max * 1.15) # 15% higher than max
+  y_min <- min(data_subset$total_usage, na.rm = TRUE)
+  y_lim <- c(y_min * 0.75, y_max * 1.10) # max is 15% higher than max value
 
   p <- ggplot(data = data_subset, aes(x = year, y = total_usage)) +
     geom_line(aes(group=1)) +
     geom_point() +
     labs(
-      title = paste("Total Usage for", codelist, "Codelist"),
+      title = paste(codelist),
       x = "Year",
       y = "Total Usage"
     ) +
-    theme(text = element_text(size = 15)) +
+    theme(plot.title = element_text(hjust = 0.5)) +
+    theme(text = element_text(size = 13)) +
     scale_y_continuous(
       breaks = scales::pretty_breaks(n = 10),
       labels = scales::label_number(accuracy = 1),
@@ -186,7 +185,8 @@ for (codelist in unique(sb_codelist_data_summary$codelist_name)) {
   # Save each plot
   ggsave(
     here::here(output_dir_rmd, "figures", paste0("snomed_", codelist, "_codelist_summary_plot.png")),
-    p
+    p,
+    width = 10, height = 6, dpi = 120
   )
   # Include each plot in the document
   include_graphics(fs::path(output_dir_rmd, "figures", paste0("snomed_", codelist, "_codelist_summary_plot.png")))
@@ -236,20 +236,36 @@ for (codelist in names(sb_top_10_codes_tables)) {
 
 # Loop through each codelist table and export as HTML and PNG
 for (codelist in names(sb_top_10_codes_tables)) {
-  table_html_path <- file.path("snomed_sb_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.html"))
-  table_png_path <- file.path("snomed_sb_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.png"))
-  
+  table_html_path <- file.path("snomed_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.html"))
+  table_png_path <- file.path("snomed_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.png"))
+
+  # Render HTML table
   sb_top_10_codes_tables[[codelist]] %>%
     kable(row.names = FALSE,
           align = c("l", "l", "c", "c"),
           booktabs = TRUE,
-          caption = paste("Top 10 SNOMED codes for", codelist, "codelist (2023-24)")
+          caption = paste(codelist),
+          table.attr = "style='width:40%;'",
+          title = codelist
     ) %>%
+    column_spec(1, width = "10em") %>%
+    column_spec(2, width = "30em") %>%
     kable_styling(position = "center", full_width = TRUE, bootstrap_options = "striped", font_size = 20) %>%
-    kableExtra::footnote("Values for financial year 2023-24", general_title = "") %>%
+    kableExtra::footnote(" Values for financial year 2023-24", general_title = "") %>%
     save_kable(file = table_html_path, zoom = 1.5)
-  
-  webshot2::webshot(table_html_path, table_png_path)
+
+  # Dynamically set height based on number of rows
+  n_rows <- nrow(sb_top_10_codes_tables[[codelist]]) + 3.25 # add for header/caption/footnote
+  height_px <- max(300, n_rows * 60) # 60px per row, min 300px
+
+  # Use webshot2 to capture the table with adjusted height
+  webshot2::webshot(
+    url = table_html_path,
+    file = table_png_path,
+    vwidth = 1200,
+    vheight = height_px,
+    zoom = 2.5
+  )
 }
 
 ```
@@ -294,7 +310,7 @@ sb_top_10_codes_each_year <- sb_top_codes_data %>%
   mutate(name_lab = if_else((year == "2023"), snomed_code_description, NA_character_))
 
 # write results to a table
-write.csv(sb_top_10_codes_each_year, file ="snomed_sb_outputs/tables/top_10_snomed_sb_codes_each_year.csv")    
+write.csv(sb_top_10_codes_each_year, file ="snomed_outputs/tables/top_10_snomed_sb_codes_each_year.csv")    
 
 # add string wrapping for labelling to snomed_code_description field values
 sb_top_10_codes_each_year$snomed_code_description <- stringr::str_wrap(sb_top_10_codes_each_year$snomed_code_description, 35)
@@ -335,11 +351,12 @@ for (codelist in unique(sb_top_10_codes_each_year$codelist_name)) {
       force = .8
     ) +
     labs(
-      title = paste("Top 10 SNOMED Codes Over Time -", codelist, "Codelist"),
+      title = paste(codelist),
       x = "Year",
       y = "Usage",
       color = "SNOMED Code"
     ) +
+    theme(plot.title = element_text(hjust = 0.5)) +
     theme(text = element_text(size = 15)) +
     scale_y_continuous(
       breaks = scales::pretty_breaks(n = 10),
