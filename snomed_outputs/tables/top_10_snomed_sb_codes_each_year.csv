@@ -1,0 +1,990 @@
+"","codelist_name","snomed_concept_id","description","year","usage","prop_usage","snomed_code_description","name_lab"
+"1","Delivery","169811007","Birth detail (observable entity)","2011",92480,0.053302747270165,"169811007 - Birth detail (observable entity)",NA
+"2","Delivery","169811007","Birth detail (observable entity)","2012",91500,0.0510626899155373,"169811007 - Birth detail (observable entity)",NA
+"3","Delivery","169811007","Birth detail (observable entity)","2013",95150,0.0485848358123599,"169811007 - Birth detail (observable entity)",NA
+"4","Delivery","169811007","Birth detail (observable entity)","2014",90420,0.0411462895757727,"169811007 - Birth detail (observable entity)",NA
+"5","Delivery","169811007","Birth detail (observable entity)","2015",76780,0.0330591322731275,"169811007 - Birth detail (observable entity)",NA
+"6","Delivery","169811007","Birth detail (observable entity)","2016",77810,0.0291938760770424,"169811007 - Birth detail (observable entity)",NA
+"7","Delivery","169811007","Birth detail (observable entity)","2017",76590,0.026547706321848,"169811007 - Birth detail (observable entity)",NA
+"8","Delivery","169811007","Birth detail (observable entity)","2018",73670,0.0274591951216785,"169811007 - Birth detail (observable entity)",NA
+"9","Delivery","169811007","Birth detail (observable entity)","2019",78600,0.0303612056411584,"169811007 - Birth detail (observable entity)",NA
+"10","Delivery","169811007","Birth detail (observable entity)","2020",77800,0.0283152602146937,"169811007 - Birth detail (observable entity)",NA
+"11","Delivery","169811007","Birth detail (observable entity)","2021",77720,0.0262865066883128,"169811007 - Birth detail (observable entity)",NA
+"12","Delivery","169811007","Birth detail (observable entity)","2022",81090,0.0257578621196792,"169811007 - Birth detail (observable entity)",NA
+"13","Delivery","169811007","Birth detail (observable entity)","2023",78190,0.0235809651337079,"169811007 - Birth detail (observable entity)","169811007 - Birth detail (observable entity)"
+"14","Delivery","169826009","Single live birth (finding)","2011",117520,0.0677350655189208,"169826009 - Single live birth (finding)",NA
+"15","Delivery","169826009","Single live birth (finding)","2012",124810,0.0696517412935323,"169826009 - Single live birth (finding)",NA
+"16","Delivery","169826009","Single live birth (finding)","2013",136150,0.0695199726311382,"169826009 - Single live birth (finding)",NA
+"17","Delivery","169826009","Single live birth (finding)","2014",147730,0.0672256288324365,"169826009 - Single live birth (finding)",NA
+"18","Delivery","169826009","Single live birth (finding)","2015",162530,0.0699804736695938,"169826009 - Single live birth (finding)",NA
+"19","Delivery","169826009","Single live birth (finding)","2016",188950,0.0708929814260014,"169826009 - Single live birth (finding)",NA
+"20","Delivery","169826009","Single live birth (finding)","2017",211570,0.0733346158312233,"169826009 - Single live birth (finding)",NA
+"21","Delivery","169826009","Single live birth (finding)","2018",219580,0.0818445780482987,"169826009 - Single live birth (finding)",NA
+"22","Delivery","169826009","Single live birth (finding)","2019",225320,0.0870354561713206,"169826009 - Single live birth (finding)",NA
+"23","Delivery","169826009","Single live birth (finding)","2020",234840,0.0854698677226051,"169826009 - Single live birth (finding)",NA
+"24","Delivery","169826009","Single live birth (finding)","2021",254020,0.0859148022254917,"169826009 - Single live birth (finding)",NA
+"25","Delivery","169826009","Single live birth (finding)","2022",273370,0.0868347116494847,"169826009 - Single live birth (finding)",NA
+"26","Delivery","169826009","Single live birth (finding)","2023",292350,0.0881685018140364,"169826009 - Single live birth (finding)","169826009 - Single live birth (finding)"
+"27","Delivery","169838000","Baby male (finding)","2011",59810,0.0344727218234058,"169838000 - Baby male (finding)",NA
+"28","Delivery","169838000","Baby male (finding)","2012",58430,0.0326075734619109,"169838000 - Baby male (finding)",NA
+"29","Delivery","169838000","Baby male (finding)","2013",60270,0.0307746511236041,"169838000 - Baby male (finding)",NA
+"30","Delivery","169838000","Baby male (finding)","2014",63530,0.0289097962480518,"169838000 - Baby male (finding)",NA
+"31","Delivery","169838000","Baby male (finding)","2015",71520,0.0307943362877583,"169838000 - Baby male (finding)",NA
+"32","Delivery","169838000","Baby male (finding)","2016",76650,0.0287586505758296,"169838000 - Baby male (finding)",NA
+"33","Delivery","169838000","Baby male (finding)","2017",78340,0.0271542931616866,"169838000 - Baby male (finding)",NA
+"34","Delivery","169838000","Baby male (finding)","2018",77560,0.0289091241161583,"169838000 - Baby male (finding)",NA
+"35","Delivery","169838000","Baby male (finding)","2019",79320,0.0306393235554285,"169838000 - Baby male (finding)",NA
+"36","Delivery","169838000","Baby male (finding)","2020",81690,0.0297310232254284,"169838000 - Baby male (finding)",NA
+"37","Delivery","169838000","Baby male (finding)","2021",85630,0.028961831802885,"169838000 - Baby male (finding)",NA
+"38","Delivery","169838000","Baby male (finding)","2022",88600,0.0281433787619137,"169838000 - Baby male (finding)",NA
+"39","Delivery","169838000","Baby male (finding)","2023",92250,0.0278212563446036,"169838000 - Baby male (finding)","169838000 - Baby male (finding)"
+"40","Delivery","169839008","Baby female (finding)","2011",57660,0.0332335251686604,"169839008 - Baby female (finding)",NA
+"41","Delivery","169839008","Baby female (finding)","2012",56550,0.0315584165543566,"169839008 - Baby female (finding)",NA
+"42","Delivery","169839008","Baby female (finding)","2013",57390,0.0293040854153582,"169839008 - Baby female (finding)",NA
+"43","Delivery","169839008","Baby female (finding)","2014",60700,0.0276219838227096,"169839008 - Baby female (finding)",NA
+"44","Delivery","169839008","Baby female (finding)","2015",68510,0.029498321855066,"169839008 - Baby female (finding)",NA
+"45","Delivery","169839008","Baby female (finding)","2016",73440,0.0275542765595424,"169839008 - Baby female (finding)",NA
+"46","Delivery","169839008","Baby female (finding)","2017",74770,0.025916856008416,"169839008 - Baby female (finding)",NA
+"47","Delivery","169839008","Baby female (finding)","2018",73460,0.0273809213199199,"169839008 - Baby female (finding)",NA
+"48","Delivery","169839008","Baby female (finding)","2019",74690,0.0288508708567191,"169839008 - Baby female (finding)",NA
+"49","Delivery","169839008","Baby female (finding)","2020",77560,0.0282279123682731,"169839008 - Baby female (finding)",NA
+"50","Delivery","169839008","Baby female (finding)","2021",81520,0.0275717450492957,"169839008 - Baby female (finding)",NA
+"51","Delivery","169839008","Baby female (finding)","2022",84110,0.0267171511023088,"169839008 - Baby female (finding)",NA
+"52","Delivery","169839008","Baby female (finding)","2023",87610,0.0264218999279211,"169839008 - Baby female (finding)","169839008 - Baby female (finding)"
+"53","Delivery","169876006","Birth head circumference (observable entity)","2011",17140,0.00987899100573777,"169876006 - Birth head circumference (observable entity)",NA
+"54","Delivery","169876006","Birth head circumference (observable entity)","2012",22730,0.0126847534620783,"169876006 - Birth head circumference (observable entity)",NA
+"55","Delivery","169876006","Birth head circumference (observable entity)","2013",30030,0.0153337111870223,"169876006 - Birth head circumference (observable entity)",NA
+"56","Delivery","169876006","Birth head circumference (observable entity)","2014",34850,0.0158587501848671,"169876006 - Birth head circumference (observable entity)",NA
+"57","Delivery","169876006","Birth head circumference (observable entity)","2015",38790,0.0167017939681508,"169876006 - Birth head circumference (observable entity)",NA
+"58","Delivery","169876006","Birth head circumference (observable entity)","2016",45900,0.017221422849714,"169876006 - Birth head circumference (observable entity)",NA
+"59","Delivery","169876006","Birth head circumference (observable entity)","2017",49010,0.0169878977259926,"169876006 - Birth head circumference (observable entity)",NA
+"60","Delivery","169876006","Birth head circumference (observable entity)","2018",53630,0.0199896380395767,"169876006 - Birth head circumference (observable entity)",NA
+"61","Delivery","169876006","Birth head circumference (observable entity)","2019",57360,0.0221567271701889,"169876006 - Birth head circumference (observable entity)",NA
+"62","Delivery","169876006","Birth head circumference (observable entity)","2020",66600,0.0242390273817301,"169876006 - Birth head circumference (observable entity)",NA
+"63","Delivery","169876006","Birth head circumference (observable entity)","2021",74910,0.0253361067424281,"169876006 - Birth head circumference (observable entity)",NA
+"64","Delivery","169876006","Birth head circumference (observable entity)","2022",81720,0.0259579786955258,"169876006 - Birth head circumference (observable entity)",NA
+"65","Delivery","169876006","Birth head circumference (observable entity)","2023",93200,0.0281077625075019,"169876006 - Birth head circumference (observable entity)","169876006 - Birth head circumference (observable entity)"
+"66","Delivery","177141003","Elective cesarean section (procedure)","2011",40060,0.0230894037158609,"177141003 - Elective cesarean section (procedure)",NA
+"67","Delivery","177141003","Elective cesarean section (procedure)","2012",40930,0.0228414852266988,"177141003 - Elective cesarean section (procedure)",NA
+"68","Delivery","177141003","Elective cesarean section (procedure)","2013",42650,0.0217776484224608,"177141003 - Elective cesarean section (procedure)",NA
+"69","Delivery","177141003","Elective cesarean section (procedure)","2014",47800,0.0217517434386412,"177141003 - Elective cesarean section (procedure)",NA
+"70","Delivery","177141003","Elective cesarean section (procedure)","2015",52700,0.0226910168115892,"177141003 - Elective cesarean section (procedure)",NA
+"71","Delivery","177141003","Elective cesarean section (procedure)","2016",59300,0.0222490277775172,"177141003 - Elective cesarean section (procedure)",NA
+"72","Delivery","177141003","Elective cesarean section (procedure)","2017",61960,0.0214766403407978,"177141003 - Elective cesarean section (procedure)",NA
+"73","Delivery","177141003","Elective cesarean section (procedure)","2018",68250,0.0254389855715292,"177141003 - Elective cesarean section (procedure)",NA
+"74","Delivery","177141003","Elective cesarean section (procedure)","2019",68550,0.0264791430878041,"177141003 - Elective cesarean section (procedure)",NA
+"75","Delivery","177141003","Elective cesarean section (procedure)","2020",74760,0.0272088541600322,"177141003 - Elective cesarean section (procedure)",NA
+"76","Delivery","177141003","Elective cesarean section (procedure)","2021",83420,0.0282143642297871,"177141003 - Elective cesarean section (procedure)",NA
+"77","Delivery","177141003","Elective cesarean section (procedure)","2022",88590,0.0281402023083288,"177141003 - Elective cesarean section (procedure)",NA
+"78","Delivery","177141003","Elective cesarean section (procedure)","2023",92230,0.027815224635911,"177141003 - Elective cesarean section (procedure)","177141003 - Elective cesarean section (procedure)"
+"79","Delivery","177184002","Normal delivery procedure (procedure)","2011",231010,0.133147357773365,"177184002 - Normal delivery procedure (procedure)",NA
+"80","Delivery","177184002","Normal delivery procedure (procedure)","2012",216690,0.12092649483932,"177184002 - Normal delivery procedure (procedure)",NA
+"81","Delivery","177184002","Normal delivery procedure (procedure)","2013",215840,0.110210730023539,"177184002 - Normal delivery procedure (procedure)",NA
+"82","Delivery","177184002","Normal delivery procedure (procedure)","2014",225200,0.102478925154435,"177184002 - Normal delivery procedure (procedure)",NA
+"83","Delivery","177184002","Normal delivery procedure (procedure)","2015",229230,0.0986994645867286,"177184002 - Normal delivery procedure (procedure)",NA
+"84","Delivery","177184002","Normal delivery procedure (procedure)","2016",254340,0.0954269430848859,"177184002 - Normal delivery procedure (procedure)",NA
+"85","Delivery","177184002","Normal delivery procedure (procedure)","2017",245980,0.0852618462077057,"177184002 - Normal delivery procedure (procedure)",NA
+"86","Delivery","177184002","Normal delivery procedure (procedure)","2018",240180,0.0895228652684232,"177184002 - Normal delivery procedure (procedure)",NA
+"87","Delivery","177184002","Normal delivery procedure (procedure)","2019",216190,0.0835087665084227,"177184002 - Normal delivery procedure (procedure)",NA
+"88","Delivery","177184002","Normal delivery procedure (procedure)","2020",220590,0.080283589341379,"177184002 - Normal delivery procedure (procedure)",NA
+"89","Delivery","177184002","Normal delivery procedure (procedure)","2021",229180,0.0775134019921195,"177184002 - Normal delivery procedure (procedure)",NA
+"90","Delivery","177184002","Normal delivery procedure (procedure)","2022",225980,0.0717814981108042,"177184002 - Normal delivery procedure (procedure)",NA
+"91","Delivery","177184002","Normal delivery procedure (procedure)","2023",212130,0.0639753182480299,"177184002 - Normal delivery procedure (procedure)","177184002 - Normal delivery procedure (procedure)"
+"92","Delivery","274130007","Emergency cesarean section (procedure)","2011",53030,0.0305649295819296,"274130007 - Emergency cesarean section (procedure)",NA
+"93","Delivery","274130007","Emergency cesarean section (procedure)","2012",53520,0.0298674881342028,"274130007 - Emergency cesarean section (procedure)",NA
+"94","Delivery","274130007","Emergency cesarean section (procedure)","2013",58880,0.0300648989241382,"274130007 - Emergency cesarean section (procedure)",NA
+"95","Delivery","274130007","Emergency cesarean section (procedure)","2014",66070,0.0300656420291009,"274130007 - Emergency cesarean section (procedure)",NA
+"96","Delivery","274130007","Emergency cesarean section (procedure)","2015",69830,0.0300666736993031,"274130007 - Emergency cesarean section (procedure)",NA
+"97","Delivery","274130007","Emergency cesarean section (procedure)","2016",77580,0.029107581365595,"274130007 - Emergency cesarean section (procedure)",NA
+"98","Delivery","274130007","Emergency cesarean section (procedure)","2017",81170,0.0281352307369683,"274130007 - Emergency cesarean section (procedure)",NA
+"99","Delivery","274130007","Emergency cesarean section (procedure)","2018",86620,0.0322860795634558,"274130007 - Emergency cesarean section (procedure)",NA
+"100","Delivery","274130007","Emergency cesarean section (procedure)","2019",85740,0.033119208291004,"274130007 - Emergency cesarean section (procedure)",NA
+"101","Delivery","274130007","Emergency cesarean section (procedure)","2020",92020,0.0334906201151172,"274130007 - Emergency cesarean section (procedure)",NA
+"102","Delivery","274130007","Emergency cesarean section (procedure)","2021",101460,0.0343158642382426,"274130007 - Emergency cesarean section (procedure)",NA
+"103","Delivery","274130007","Emergency cesarean section (procedure)","2022",107690,0.0342072286554231,"274130007 - Emergency cesarean section (procedure)",NA
+"104","Delivery","274130007","Emergency cesarean section (procedure)","2023",113910,0.0343535968586861,"274130007 - Emergency cesarean section (procedure)","274130007 - Emergency cesarean section (procedure)"
+"105","Delivery","309469004","Spontaneous vertex delivery (finding)","2011",95890,0.055268170801645,"309469004 - Spontaneous vertex delivery (finding)",NA
+"106","Delivery","309469004","Spontaneous vertex delivery (finding)","2012",104910,0.0585463038146341,"309469004 - Spontaneous vertex delivery (finding)",NA
+"107","Delivery","309469004","Spontaneous vertex delivery (finding)","2013",115510,0.0589809183887093,"309469004 - Spontaneous vertex delivery (finding)",NA
+"108","Delivery","309469004","Spontaneous vertex delivery (finding)","2014",133730,0.0608548253148428,"309469004 - Spontaneous vertex delivery (finding)",NA
+"109","Delivery","309469004","Spontaneous vertex delivery (finding)","2015",144530,0.0622302212481782,"309469004 - Spontaneous vertex delivery (finding)",NA
+"110","Delivery","309469004","Spontaneous vertex delivery (finding)","2016",158450,0.0594495522992851,"309469004 - Spontaneous vertex delivery (finding)",NA
+"111","Delivery","309469004","Spontaneous vertex delivery (finding)","2017",161830,0.0560936847377552,"309469004 - Spontaneous vertex delivery (finding)",NA
+"112","Delivery","309469004","Spontaneous vertex delivery (finding)","2018",171020,0.063744693222607,"309469004 - Spontaneous vertex delivery (finding)",NA
+"113","Delivery","309469004","Spontaneous vertex delivery (finding)","2019",165870,0.0640714144999865,"309469004 - Spontaneous vertex delivery (finding)",NA
+"114","Delivery","309469004","Spontaneous vertex delivery (finding)","2020",162140,0.0590107492443501,"309469004 - Spontaneous vertex delivery (finding)",NA
+"115","Delivery","309469004","Spontaneous vertex delivery (finding)","2021",161760,0.0547105677033129,"309469004 - Spontaneous vertex delivery (finding)",NA
+"116","Delivery","309469004","Spontaneous vertex delivery (finding)","2022",158940,0.0504865532778619,"309469004 - Spontaneous vertex delivery (finding)",NA
+"117","Delivery","309469004","Spontaneous vertex delivery (finding)","2023",158300,0.0477409743019051,"309469004 - Spontaneous vertex delivery (finding)","309469004 - Spontaneous vertex delivery (finding)"
+"118","Delivery","395683001","Born by normal vaginal delivery (situation)","2011",52850,0.0304611828852533,"395683001 - Born by normal vaginal delivery (situation)",NA
+"119","Delivery","395683001","Born by normal vaginal delivery (situation)","2012",58420,0.0326019928400622,"395683001 - Born by normal vaginal delivery (situation)",NA
+"120","Delivery","395683001","Born by normal vaginal delivery (situation)","2013",67370,0.0344000040849047,"395683001 - Born by normal vaginal delivery (situation)",NA
+"121","Delivery","395683001","Born by normal vaginal delivery (situation)","2014",82050,0.03733745918704,"395683001 - Born by normal vaginal delivery (situation)",NA
+"122","Delivery","395683001","Born by normal vaginal delivery (situation)","2015",87480,0.0376662267680802,"395683001 - Born by normal vaginal delivery (situation)",NA
+"123","Delivery","395683001","Born by normal vaginal delivery (situation)","2016",102550,0.0384761854735985,"395683001 - Born by normal vaginal delivery (situation)",NA
+"124","Delivery","395683001","Born by normal vaginal delivery (situation)","2017",110170,0.0381872412257214,"395683001 - Born by normal vaginal delivery (situation)",NA
+"125","Delivery","395683001","Born by normal vaginal delivery (situation)","2018",116370,0.0433748681459173,"395683001 - Born by normal vaginal delivery (situation)",NA
+"126","Delivery","395683001","Born by normal vaginal delivery (situation)","2019",110560,0.0427065508357057,"395683001 - Born by normal vaginal delivery (situation)",NA
+"127","Delivery","395683001","Born by normal vaginal delivery (situation)","2020",119170,0.0433718452414531,"395683001 - Born by normal vaginal delivery (situation)",NA
+"128","Delivery","395683001","Born by normal vaginal delivery (situation)","2021",140150,0.0474016200767761,"395683001 - Born by normal vaginal delivery (situation)",NA
+"129","Delivery","395683001","Born by normal vaginal delivery (situation)","2022",157160,0.0499211445397557,"395683001 - Born by normal vaginal delivery (situation)",NA
+"130","Delivery","395683001","Born by normal vaginal delivery (situation)","2023",171080,0.0515952361564746,"395683001 - Born by normal vaginal delivery (situation)","395683001 - Born by normal vaginal delivery (situation)"
+"131","Delivery","412726003","Length of gestation at birth (observable entity)","2011",30160,0.0173833353986611,"412726003 - Length of gestation at birth (observable entity)",NA
+"132","Delivery","412726003","Length of gestation at birth (observable entity)","2012",32890,0.01835466526035,"412726003 - Length of gestation at birth (observable entity)",NA
+"133","Delivery","412726003","Length of gestation at birth (observable entity)","2013",36260,0.0185148307572903,"412726003 - Length of gestation at birth (observable entity)",NA
+"134","Delivery","412726003","Length of gestation at birth (observable entity)","2014",43010,0.0195720185208359,"412726003 - Length of gestation at birth (observable entity)",NA
+"135","Delivery","412726003","Length of gestation at birth (observable entity)","2015",44850,0.019311045616694,"412726003 - Length of gestation at birth (observable entity)",NA
+"136","Delivery","412726003","Length of gestation at birth (observable entity)","2016",48540,0.0182119360593708,"412726003 - Length of gestation at birth (observable entity)",NA
+"137","Delivery","412726003","Length of gestation at birth (observable entity)","2017",50730,0.017584085934291,"412726003 - Length of gestation at birth (observable entity)",NA
+"138","Delivery","412726003","Length of gestation at birth (observable entity)","2018",53630,0.0199896380395767,"412726003 - Length of gestation at birth (observable entity)",NA
+"139","Delivery","412726003","Length of gestation at birth (observable entity)","2019",56480,0.0218168052749698,"412726003 - Length of gestation at birth (observable entity)",NA
+"140","Delivery","412726003","Length of gestation at birth (observable entity)","2020",66210,0.0240970871312965,"412726003 - Length of gestation at birth (observable entity)",NA
+"141","Delivery","412726003","Length of gestation at birth (observable entity)","2021",101320,0.034268513351259,"412726003 - Length of gestation at birth (observable entity)",NA
+"142","Delivery","412726003","Length of gestation at birth (observable entity)","2022",112260,0.0356588679437069,"412726003 - Length of gestation at birth (observable entity)",NA
+"143","Delivery","412726003","Length of gestation at birth (observable entity)","2023",125640,0.0378911940068942,"412726003 - Length of gestation at birth (observable entity)","412726003 - Length of gestation at birth (observable entity)"
+"144","Delivery","47340003","Birth weight finding (finding)","2011",79530,0.0458387488148381,"47340003 - Birth weight finding (finding)",NA
+"145","Delivery","47340003","Birth weight finding (finding)","2012",95700,0.0534065510919882,"47340003 - Birth weight finding (finding)",NA
+"146","Delivery","47340003","Birth weight finding (finding)","2013",125690,0.064178959676884,"47340003 - Birth weight finding (finding)",NA
+"147","Delivery","47340003","Birth weight finding (finding)","2014",163030,0.0741880069623781,"47340003 - Birth weight finding (finding)",NA
+"148","Delivery","47340003","Birth weight finding (finding)","2015",192220,0.08276408446914,"47340003 - Birth weight finding (finding)",NA
+"149","Delivery","47340003","Birth weight finding (finding)","2016",247400,0.0928230939655609,"47340003 - Birth weight finding (finding)",NA
+"150","Delivery","47340003","Birth weight finding (finding)","2017",289410,0.100315598467242,"47340003 - Birth weight finding (finding)",NA
+"151","Delivery","47340003","Birth weight finding (finding)","2018",10450,0.00389505346846125,"47340003 - Birth weight finding (finding)",NA
+"152","Delivery","47340003","Birth weight finding (finding)","2019",11190,0.00432241591761529,"47340003 - Birth weight finding (finding)",NA
+"153","Delivery","47340003","Birth weight finding (finding)","2020",13740,0.00500066420758216,"47340003 - Birth weight finding (finding)",NA
+"154","Delivery","47340003","Birth weight finding (finding)","2021",13890,0.0046978844300137,"47340003 - Birth weight finding (finding)",NA
+"155","Delivery","47340003","Birth weight finding (finding)","2022",13950,0.00443115275088822,"47340003 - Birth weight finding (finding)",NA
+"156","Delivery","47340003","Birth weight finding (finding)","2023",15880,0.004789176701922,"47340003 - Birth weight finding (finding)","47340003 - Birth weight finding (finding)"
+"157","Delivery","48782003","Delivery normal (finding)","2011",163280,0.0941097812961997,"48782003 - Delivery normal (finding)",NA
+"158","Delivery","48782003","Delivery normal (finding)","2012",169350,0.0945078310076092,"48782003 - Delivery normal (finding)",NA
+"159","Delivery","48782003","Delivery normal (finding)","2013",184510,0.0942132218154338,"48782003 - Delivery normal (finding)",NA
+"160","Delivery","48782003","Delivery normal (finding)","2014",203770,0.0927270451985757,"48782003 - Delivery normal (finding)",NA
+"161","Delivery","48782003","Delivery normal (finding)","2015",188030,0.080959997933266,"48782003 - Delivery normal (finding)",NA
+"162","Delivery","48782003","Delivery normal (finding)","2016",203230,0.0762507574236902,"48782003 - Delivery normal (finding)",NA
+"163","Delivery","48782003","Delivery normal (finding)","2017",254640,0.0882635845122782,"48782003 - Delivery normal (finding)",NA
+"164","Delivery","48782003","Delivery normal (finding)","2018",251090,0.0935893756359746,"48782003 - Delivery normal (finding)",NA
+"165","Delivery","48782003","Delivery normal (finding)","2019",224030,0.0865371615749199,"48782003 - Delivery normal (finding)",NA
+"166","Delivery","48782003","Delivery normal (finding)","2020",223050,0.0811789047671907,"48782003 - Delivery normal (finding)",NA
+"167","Delivery","48782003","Delivery normal (finding)","2021",226170,0.0764953579219725,"48782003 - Delivery normal (finding)",NA
+"168","Delivery","48782003","Delivery normal (finding)","2022",224770,0.0713971472270354,"48782003 - Delivery normal (finding)",NA
+"169","Delivery","48782003","Delivery normal (finding)","2023",221640,0.0668433957313598,"48782003 - Delivery normal (finding)","48782003 - Delivery normal (finding)"
+"170","Delivery","57891003","Term infant (finding)","2011",30040,0.0173141709342102,"57891003 - Term infant (finding)",NA
+"171","Delivery","57891003","Term infant (finding)","2012",34910,0.0194819508737859,"57891003 - Term infant (finding)",NA
+"172","Delivery","57891003","Term infant (finding)","2013",43650,0.0222882615156018,"57891003 - Term infant (finding)",NA
+"173","Delivery","57891003","Term infant (finding)","2014",53960,0.0245548969863824,"57891003 - Term infant (finding)",NA
+"174","Delivery","57891003","Term infant (finding)","2015",60100,0.025877231695949,"57891003 - Term infant (finding)",NA
+"175","Delivery","57891003","Term infant (finding)","2016",66080,0.0247928457932266,"57891003 - Term infant (finding)",NA
+"176","Delivery","57891003","Term infant (finding)","2017",68370,0.0236984812798636,"57891003 - Term infant (finding)",NA
+"177","Delivery","57891003","Term infant (finding)","2018",71430,0.0266242745695873,"57891003 - Term infant (finding)",NA
+"178","Delivery","57891003","Term infant (finding)","2019",69120,0.0266993197699347,"57891003 - Term infant (finding)",NA
+"179","Delivery","57891003","Term infant (finding)","2020",72180,0.0262698648110102,"57891003 - Term infant (finding)",NA
+"180","Delivery","57891003","Term infant (finding)","2021",82330,0.0278457037525578,"57891003 - Term infant (finding)",NA
+"181","Delivery","57891003","Term infant (finding)","2022",104870,0.0333114687444908,"57891003 - Term infant (finding)",NA
+"182","Delivery","57891003","Term infant (finding)","2023",123080,0.0371191352942418,"57891003 - Term infant (finding)","57891003 - Term infant (finding)"
+"183","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2011",2670,0.157661647475642,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"184","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2012",3110,0.170879120879121,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"185","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2013",3040,0.170978627671541,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"186","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2014",3430,0.181146025878004,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"187","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2015",3540,0.168051269878946,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"188","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2016",3680,0.156429330499469,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"189","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2017",3620,0.149648615130219,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"190","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2018",3390,0.143857415658816,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"191","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2019",2720,0.112466404796361,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"192","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2020",1940,0.0678558936691151,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"193","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2021",1920,0.0636499254102437,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"194","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2022",1930,0.0614551822958128,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"195","Hypertension","198941007","Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2023",1740,0.0502092050209205,"198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)","198941007 - Hypertension complicating pregnancy, childbirth and the puerperium (disorder)"
+"196","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2011",250,0.0147623265426631,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"197","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2012",270,0.0148351648351648,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"198","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2013",210,0.0118110236220472,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"199","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2014",310,0.0163717982571957,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"200","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2015",280,0.0132921908378827,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"201","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2016",350,0.0148777895855473,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"202","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2017",310,0.0128152128978917,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"203","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2018",320,0.013579461065139,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"204","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2019",220,0.00909654744676452,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"205","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2020",170,0.00594613501224204,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"206","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2021",180,0.00596718050721034,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"207","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2022",170,0.00541315077217004,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)",NA
+"208","Hypertension","198942000","Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","2023",140,0.00403982109363728,"198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)","198942000 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium (disorder)"
+"209","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2011",10,0.000590493061706525,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"210","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2012",10,0.000549450549450549,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"211","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2013",70,0.00393700787401575,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"212","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2014",210,0.011090573012939,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"213","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2015",190,0.00901970092570615,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"214","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2016",180,0.00765143464399575,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"215","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2017",160,0.0066143034311699,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"216","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2018",180,0.00763844684914067,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"217","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2019",120,0.00496175315278065,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"218","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2020",40,0.00139909059111577,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"219","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2021",50,0.00165755014089176,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"220","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2022",60,0.00191052380194237,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)",NA
+"221","Hypertension","198944004","Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","2023",40,0.00115423459818208,"198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)","198944004 - Benign essential hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)"
+"222","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2011",240,0.0141718334809566,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"223","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2012",230,0.0126373626373626,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"224","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2013",180,0.0101237345331834,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"225","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2014",150,0.007921837866385,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"226","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2015",180,0.00854497982435319,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"227","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2016",240,0.010201912858661,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"228","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2017",200,0.00826787928896238,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"229","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2018",190,0.00806280500742627,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"230","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2019",160,0.0066156708703742,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"231","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2020",180,0.00629590766002099,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"232","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2021",160,0.00530416045085364,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"233","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2022",170,0.00541315077217004,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"234","Hypertension","198983002","Severe pre-eclampsia - delivered (disorder)","2023",120,0.00346270379454624,"198983002 - Severe pre-eclampsia - delivered (disorder)","198983002 - Severe pre-eclampsia - delivered (disorder)"
+"235","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2011",260,0.0153528196043696,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"236","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2012",260,0.0142857142857143,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"237","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2013",290,0.016310461192351,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"238","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2014",300,0.01584367573277,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"239","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2015",340,0.0161405174460005,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"240","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2016",420,0.0178533475026567,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"241","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2017",370,0.0152955766845804,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"242","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2018",360,0.0152768936982813,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"243","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2019",270,0.0111639445937565,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"244","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2020",260,0.00909408884225254,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"245","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2021",270,0.00895077076081552,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"246","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2022",280,0.00891577774239771,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"247","Hypertension","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2023",190,0.00548261434136488,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)"
+"248","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2011",250,0.0147623265426631,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"249","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2012",320,0.0175824175824176,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"250","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2013",380,0.0213723284589426,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"251","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2014",560,0.0295748613678373,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"252","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2015",550,0.0261096605744125,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"253","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2016",580,0.0246546227417641,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"254","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2017",630,0.0260438197602315,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"255","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2018",670,0.0284319966051347,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"256","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2019",440,0.018193094893529,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"257","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2020",380,0.0132913606155999,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"258","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2021",360,0.0119343610144207,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"259","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2022",410,0.0130552459799395,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"260","Hypertension","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2023",370,0.0106766700331842,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)"
+"261","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2011",2340,0.138175376439327,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"262","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2012",2020,0.110989010989011,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"263","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2013",1750,0.0984251968503937,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"264","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2014",1830,0.096646421969897,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"265","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2015",2360,0.112034179919297,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"266","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2016",2390,0.101594048884166,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"267","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2017",2470,0.102108309218685,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"268","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2018",2320,0.0984510927222576,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"269","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2019",1450,0.0599545172627662,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"270","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2020",1370,0.0479188527457153,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"271","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2021",1470,0.0487319741422178,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"272","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2022",1630,0.0519025632861009,"237279007 - Transient hypertension of pregnancy (disorder)",NA
+"273","Hypertension","237279007","Transient hypertension of pregnancy (disorder)","2023",1930,0.0556918193622854,"237279007 - Transient hypertension of pregnancy (disorder)","237279007 - Transient hypertension of pregnancy (disorder)"
+"274","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2011",240,0.0141718334809566,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"275","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2012",220,0.0120879120879121,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"276","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2013",130,0.00731158605174353,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"277","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2014",120,0.006337470293108,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"278","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2015",130,0.00617137431758842,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"279","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2016",150,0.00637619553666312,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"280","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2017",120,0.00496072757337743,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"281","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2018",110,0.00466793974114152,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"282","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2019",110,0.00454827372338226,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"283","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2020",100,0.00349772647778944,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"284","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2021",110,0.00364661030996188,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"285","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2022",120,0.00382104760388473,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"286","Hypertension","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2023",90,0.00259702784590968,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)","237281009 - Moderate proteinuric hypertension of pregnancy (disorder)"
+"287","Hypertension","398254007","Pre-eclampsia (disorder)","2011",4150,0.245054620608208,"398254007 - Pre-eclampsia (disorder)",NA
+"288","Hypertension","398254007","Pre-eclampsia (disorder)","2012",5070,0.278571428571429,"398254007 - Pre-eclampsia (disorder)",NA
+"289","Hypertension","398254007","Pre-eclampsia (disorder)","2013",5420,0.304836895388077,"398254007 - Pre-eclampsia (disorder)",NA
+"290","Hypertension","398254007","Pre-eclampsia (disorder)","2014",5510,0.290995510958542,"398254007 - Pre-eclampsia (disorder)",NA
+"291","Hypertension","398254007","Pre-eclampsia (disorder)","2015",5850,0.277711844291479,"398254007 - Pre-eclampsia (disorder)",NA
+"292","Hypertension","398254007","Pre-eclampsia (disorder)","2016",6770,0.287778958554729,"398254007 - Pre-eclampsia (disorder)",NA
+"293","Hypertension","398254007","Pre-eclampsia (disorder)","2017",7020,0.29020256304258,"398254007 - Pre-eclampsia (disorder)",NA
+"294","Hypertension","398254007","Pre-eclampsia (disorder)","2018",7040,0.298748143433058,"398254007 - Pre-eclampsia (disorder)",NA
+"295","Hypertension","398254007","Pre-eclampsia (disorder)","2019",7510,0.310523051478189,"398254007 - Pre-eclampsia (disorder)",NA
+"296","Hypertension","398254007","Pre-eclampsia (disorder)","2020",9150,0.320041972717733,"398254007 - Pre-eclampsia (disorder)",NA
+"297","Hypertension","398254007","Pre-eclampsia (disorder)","2021",9710,0.32189623736118,"398254007 - Pre-eclampsia (disorder)",NA
+"298","Hypertension","398254007","Pre-eclampsia (disorder)","2022",9770,0.311096959082949,"398254007 - Pre-eclampsia (disorder)",NA
+"299","Hypertension","398254007","Pre-eclampsia (disorder)","2023",10600,0.305872168518251,"398254007 - Pre-eclampsia (disorder)","398254007 - Pre-eclampsia (disorder)"
+"300","Hypertension","41114007","Mild pre-eclampsia (disorder)","2011",380,0.0224387363448479,"41114007 - Mild pre-eclampsia (disorder)",NA
+"301","Hypertension","41114007","Mild pre-eclampsia (disorder)","2012",320,0.0175824175824176,"41114007 - Mild pre-eclampsia (disorder)",NA
+"302","Hypertension","41114007","Mild pre-eclampsia (disorder)","2013",260,0.0146231721034871,"41114007 - Mild pre-eclampsia (disorder)",NA
+"303","Hypertension","41114007","Mild pre-eclampsia (disorder)","2014",240,0.012674940586216,"41114007 - Mild pre-eclampsia (disorder)",NA
+"304","Hypertension","41114007","Mild pre-eclampsia (disorder)","2015",240,0.0113933064324709,"41114007 - Mild pre-eclampsia (disorder)",NA
+"305","Hypertension","41114007","Mild pre-eclampsia (disorder)","2016",300,0.0127523910733262,"41114007 - Mild pre-eclampsia (disorder)",NA
+"306","Hypertension","41114007","Mild pre-eclampsia (disorder)","2017",330,0.0136420008267879,"41114007 - Mild pre-eclampsia (disorder)",NA
+"307","Hypertension","41114007","Mild pre-eclampsia (disorder)","2018",380,0.0161256100148525,"41114007 - Mild pre-eclampsia (disorder)",NA
+"308","Hypertension","41114007","Mild pre-eclampsia (disorder)","2019",430,0.0177796154641307,"41114007 - Mild pre-eclampsia (disorder)",NA
+"309","Hypertension","41114007","Mild pre-eclampsia (disorder)","2020",370,0.0129415879678209,"41114007 - Mild pre-eclampsia (disorder)",NA
+"310","Hypertension","41114007","Mild pre-eclampsia (disorder)","2021",440,0.0145864412398475,"41114007 - Mild pre-eclampsia (disorder)",NA
+"311","Hypertension","41114007","Mild pre-eclampsia (disorder)","2022",420,0.0133736666135966,"41114007 - Mild pre-eclampsia (disorder)",NA
+"312","Hypertension","41114007","Mild pre-eclampsia (disorder)","2023",370,0.0106766700331842,"41114007 - Mild pre-eclampsia (disorder)","41114007 - Mild pre-eclampsia (disorder)"
+"313","Hypertension","46764007","Severe pre-eclampsia (disorder)","2011",900,0.0531443755535872,"46764007 - Severe pre-eclampsia (disorder)",NA
+"314","Hypertension","46764007","Severe pre-eclampsia (disorder)","2012",820,0.0450549450549451,"46764007 - Severe pre-eclampsia (disorder)",NA
+"315","Hypertension","46764007","Severe pre-eclampsia (disorder)","2013",670,0.0376827896512936,"46764007 - Severe pre-eclampsia (disorder)",NA
+"316","Hypertension","46764007","Severe pre-eclampsia (disorder)","2014",590,0.0311592289411143,"46764007 - Severe pre-eclampsia (disorder)",NA
+"317","Hypertension","46764007","Severe pre-eclampsia (disorder)","2015",590,0.0280085449798244,"46764007 - Severe pre-eclampsia (disorder)",NA
+"318","Hypertension","46764007","Severe pre-eclampsia (disorder)","2016",590,0.0250797024442083,"46764007 - Severe pre-eclampsia (disorder)",NA
+"319","Hypertension","46764007","Severe pre-eclampsia (disorder)","2017",580,0.0239768499379909,"46764007 - Severe pre-eclampsia (disorder)",NA
+"320","Hypertension","46764007","Severe pre-eclampsia (disorder)","2018",610,0.0258858476554212,"46764007 - Severe pre-eclampsia (disorder)",NA
+"321","Hypertension","46764007","Severe pre-eclampsia (disorder)","2019",640,0.0264626834814968,"46764007 - Severe pre-eclampsia (disorder)",NA
+"322","Hypertension","46764007","Severe pre-eclampsia (disorder)","2020",670,0.0234347674011892,"46764007 - Severe pre-eclampsia (disorder)",NA
+"323","Hypertension","46764007","Severe pre-eclampsia (disorder)","2021",710,0.023537212000663,"46764007 - Severe pre-eclampsia (disorder)",NA
+"324","Hypertension","46764007","Severe pre-eclampsia (disorder)","2022",700,0.0222894443559943,"46764007 - Severe pre-eclampsia (disorder)",NA
+"325","Hypertension","46764007","Severe pre-eclampsia (disorder)","2023",690,0.0199105468186409,"46764007 - Severe pre-eclampsia (disorder)","46764007 - Severe pre-eclampsia (disorder)"
+"326","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2011",4490,0.26513138470623,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"327","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2012",4760,0.261538461538462,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"328","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2013",4580,0.257592800899888,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"329","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2014",4840,0.255611301822023,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"330","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2015",5830,0.276762402088773,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"331","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2016",6810,0.289479277364506,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"332","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2017",7360,0.304257957833816,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"333","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2018",6900,0.292807129217059,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"334","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2019",9290,0.384122389911102,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"335","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2020",13170,0.460650577124869,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"336","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2021",13950,0.462456489308802,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"337","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2022",14960,0.476357267950963,"48194001 - Pregnancy-induced hypertension (disorder)",NA
+"338","Hypertension","48194001","Pregnancy-induced hypertension (disorder)","2023",17550,0.506420429952388,"48194001 - Pregnancy-induced hypertension (disorder)","48194001 - Pregnancy-induced hypertension (disorder)"
+"339","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2011",110,0.00649542367877177,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"340","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2012",90,0.00494505494505494,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"341","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2013",150,0.00843644544431946,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"342","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2014",170,0.00897808291523633,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"343","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2015",150,0.00712081652029433,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"344","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2016",150,0.00637619553666312,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"345","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2017",190,0.00785448532451426,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"346","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2018",200,0.00848716316571186,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"347","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2019",100,0.00413479429398387,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"348","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2020",80,0.00279818118223155,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"349","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2021",110,0.00364661030996188,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"350","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2022",150,0.00477630950485591,"86041002 - Pre-existing hypertension in obstetric context (disorder)",NA
+"351","Hypertension","86041002","Pre-existing hypertension in obstetric context (disorder)","2023",130,0.00375126244409176,"86041002 - Pre-existing hypertension in obstetric context (disorder)","86041002 - Pre-existing hypertension in obstetric context (disorder)"
+"352","Multiples","169828005","Twins - both live born (finding)","2011",3610,0.0687553566327016,"169828005 - Twins - both live born (finding)",NA
+"353","Multiples","169828005","Twins - both live born (finding)","2012",3390,0.0627487274409995,"169828005 - Twins - both live born (finding)",NA
+"354","Multiples","169828005","Twins - both live born (finding)","2013",3380,0.0599875765374035,"169828005 - Twins - both live born (finding)",NA
+"355","Multiples","169828005","Twins - both live born (finding)","2014",3610,0.0580665916036674,"169828005 - Twins - both live born (finding)",NA
+"356","Multiples","169828005","Twins - both live born (finding)","2015",3820,0.0596595345931595,"169828005 - Twins - both live born (finding)",NA
+"357","Multiples","169828005","Twins - both live born (finding)","2016",4450,0.061711274441825,"169828005 - Twins - both live born (finding)",NA
+"358","Multiples","169828005","Twins - both live born (finding)","2017",4350,0.0573538136989914,"169828005 - Twins - both live born (finding)",NA
+"359","Multiples","169828005","Twins - both live born (finding)","2018",4540,0.0566650024962556,"169828005 - Twins - both live born (finding)",NA
+"360","Multiples","169828005","Twins - both live born (finding)","2019",4220,0.0537648108039241,"169828005 - Twins - both live born (finding)",NA
+"361","Multiples","169828005","Twins - both live born (finding)","2020",4130,0.05,"169828005 - Twins - both live born (finding)",NA
+"362","Multiples","169828005","Twins - both live born (finding)","2021",4110,0.0482167996245894,"169828005 - Twins - both live born (finding)",NA
+"363","Multiples","169828005","Twins - both live born (finding)","2022",4340,0.0490367775831874,"169828005 - Twins - both live born (finding)",NA
+"364","Multiples","169828005","Twins - both live born (finding)","2023",4560,0.0485080580820169,"169828005 - Twins - both live born (finding)","169828005 - Twins - both live born (finding)"
+"365","Multiples","169950007","One of triplets (finding)","2011",440,0.00838015427102181,"169950007 - One of triplets (finding)",NA
+"366","Multiples","169950007","One of triplets (finding)","2012",550,0.010180472003702,"169950007 - One of triplets (finding)",NA
+"367","Multiples","169950007","One of triplets (finding)","2013",550,0.00976129204011004,"169950007 - One of triplets (finding)",NA
+"368","Multiples","169950007","One of triplets (finding)","2014",620,0.00997265562168248,"169950007 - One of triplets (finding)",NA
+"369","Multiples","169950007","One of triplets (finding)","2015",550,0.00858972356707793,"169950007 - One of triplets (finding)",NA
+"370","Multiples","169950007","One of triplets (finding)","2016",770,0.010678130633754,"169950007 - One of triplets (finding)",NA
+"371","Multiples","169950007","One of triplets (finding)","2017",700,0.00922934933087217,"169950007 - One of triplets (finding)",NA
+"372","Multiples","169950007","One of triplets (finding)","2018",770,0.00961058412381428,"169950007 - One of triplets (finding)",NA
+"373","Multiples","169950007","One of triplets (finding)","2019",600,0.00764428589629252,"169950007 - One of triplets (finding)",NA
+"374","Multiples","169950007","One of triplets (finding)","2020",790,0.00956416464891041,"169950007 - One of triplets (finding)",NA
+"375","Multiples","169950007","One of triplets (finding)","2021",770,0.00903331769122478,"169950007 - One of triplets (finding)",NA
+"376","Multiples","169950007","One of triplets (finding)","2022",780,0.00881306140895995,"169950007 - One of triplets (finding)",NA
+"377","Multiples","169950007","One of triplets (finding)","2023",720,0.00765916706558162,"169950007 - One of triplets (finding)","169950007 - One of triplets (finding)"
+"378","Multiples","199317008","Twin pregnancy - delivered (finding)","2011",820,0.0156175602323588,"199317008 - Twin pregnancy - delivered (finding)",NA
+"379","Multiples","199317008","Twin pregnancy - delivered (finding)","2012",920,0.0170291531698288,"199317008 - Twin pregnancy - delivered (finding)",NA
+"380","Multiples","199317008","Twin pregnancy - delivered (finding)","2013",940,0.0166829354867335,"199317008 - Twin pregnancy - delivered (finding)",NA
+"381","Multiples","199317008","Twin pregnancy - delivered (finding)","2014",1030,0.0165674762747306,"199317008 - Twin pregnancy - delivered (finding)",NA
+"382","Multiples","199317008","Twin pregnancy - delivered (finding)","2015",1000,0.015617679212869,"199317008 - Twin pregnancy - delivered (finding)",NA
+"383","Multiples","199317008","Twin pregnancy - delivered (finding)","2016",1190,0.0165025655248925,"199317008 - Twin pregnancy - delivered (finding)",NA
+"384","Multiples","199317008","Twin pregnancy - delivered (finding)","2017",1270,0.0167446766431538,"199317008 - Twin pregnancy - delivered (finding)",NA
+"385","Multiples","199317008","Twin pregnancy - delivered (finding)","2018",1190,0.0148527209186221,"199317008 - Twin pregnancy - delivered (finding)",NA
+"386","Multiples","199317008","Twin pregnancy - delivered (finding)","2019",1070,0.0136323098483883,"199317008 - Twin pregnancy - delivered (finding)",NA
+"387","Multiples","199317008","Twin pregnancy - delivered (finding)","2020",1150,0.0139225181598063,"199317008 - Twin pregnancy - delivered (finding)",NA
+"388","Multiples","199317008","Twin pregnancy - delivered (finding)","2021",1080,0.012670107930549,"199317008 - Twin pregnancy - delivered (finding)",NA
+"389","Multiples","199317008","Twin pregnancy - delivered (finding)","2022",1160,0.0131066041466584,"199317008 - Twin pregnancy - delivered (finding)",NA
+"390","Multiples","199317008","Twin pregnancy - delivered (finding)","2023",710,0.00755278974522632,"199317008 - Twin pregnancy - delivered (finding)","199317008 - Twin pregnancy - delivered (finding)"
+"391","Multiples","237364002","Stillbirth (finding)","2011",3270,0.0622797828778212,"237364002 - Stillbirth (finding)",NA
+"392","Multiples","237364002","Stillbirth (finding)","2012",3090,0.0571957427117075,"237364002 - Stillbirth (finding)",NA
+"393","Multiples","237364002","Stillbirth (finding)","2013",2760,0.0489839382376431,"237364002 - Stillbirth (finding)",NA
+"394","Multiples","237364002","Stillbirth (finding)","2014",3030,0.0487373331188676,"237364002 - Stillbirth (finding)",NA
+"395","Multiples","237364002","Stillbirth (finding)","2015",3200,0.0499765734811807,"237364002 - Stillbirth (finding)",NA
+"396","Multiples","237364002","Stillbirth (finding)","2016",3630,0.0503397587019831,"237364002 - Stillbirth (finding)",NA
+"397","Multiples","237364002","Stillbirth (finding)","2017",3660,0.0482563122157031,"237364002 - Stillbirth (finding)",NA
+"398","Multiples","237364002","Stillbirth (finding)","2018",3730,0.0465551672491263,"237364002 - Stillbirth (finding)",NA
+"399","Multiples","237364002","Stillbirth (finding)","2019",3730,0.0475219773219518,"237364002 - Stillbirth (finding)",NA
+"400","Multiples","237364002","Stillbirth (finding)","2020",4400,0.0532687651331719,"237364002 - Stillbirth (finding)",NA
+"401","Multiples","237364002","Stillbirth (finding)","2021",4620,0.0541999061473487,"237364002 - Stillbirth (finding)",NA
+"402","Multiples","237364002","Stillbirth (finding)","2022",4480,0.0506186091181289,"237364002 - Stillbirth (finding)",NA
+"403","Multiples","237364002","Stillbirth (finding)","2023",4530,0.048188926120951,"237364002 - Stillbirth (finding)","237364002 - Stillbirth (finding)"
+"404","Multiples","268478005","One of twins (finding)","2011",10800,0.205694695743263,"268478005 - One of twins (finding)",NA
+"405","Multiples","268478005","One of twins (finding)","2012",10690,0.197871355853771,"268478005 - One of twins (finding)",NA
+"406","Multiples","268478005","One of twins (finding)","2013",11260,0.199840269766616,"268478005 - One of twins (finding)",NA
+"407","Multiples","268478005","One of twins (finding)","2014",12490,0.200900755991636,"268478005 - One of twins (finding)",NA
+"408","Multiples","268478005","One of twins (finding)","2015",12830,0.200374824301109,"268478005 - One of twins (finding)",NA
+"409","Multiples","268478005","One of twins (finding)","2016",14540,0.201636388850367,"268478005 - One of twins (finding)",NA
+"410","Multiples","268478005","One of twins (finding)","2017",14860,0.195925901509658,"268478005 - One of twins (finding)",NA
+"411","Multiples","268478005","One of twins (finding)","2018",15270,0.190589116325512,"268478005 - One of twins (finding)",NA
+"412","Multiples","268478005","One of twins (finding)","2019",13440,0.171232004076952,"268478005 - One of twins (finding)",NA
+"413","Multiples","268478005","One of twins (finding)","2020",13550,0.164043583535109,"268478005 - One of twins (finding)",NA
+"414","Multiples","268478005","One of twins (finding)","2021",13450,0.157789770061004,"268478005 - One of twins (finding)",NA
+"415","Multiples","268478005","One of twins (finding)","2022",13560,0.153211682955765,"268478005 - One of twins (finding)",NA
+"416","Multiples","268478005","One of twins (finding)","2023",13750,0.146268815488538,"268478005 - One of twins (finding)","268478005 - One of twins (finding)"
+"417","Multiples","268953001","On examination - multiple presentation (finding)","2011",1130,0.0215217598323969,"268953001 - On examination - multiple presentation (finding)",NA
+"418","Multiples","268953001","On examination - multiple presentation (finding)","2012",1070,0.0198056455344748,"268953001 - On examination - multiple presentation (finding)",NA
+"419","Multiples","268953001","On examination - multiple presentation (finding)","2013",1000,0.017747803709291,"268953001 - On examination - multiple presentation (finding)",NA
+"420","Multiples","268953001","On examination - multiple presentation (finding)","2014",1010,0.0162457777062892,"268953001 - On examination - multiple presentation (finding)",NA
+"421","Multiples","268953001","On examination - multiple presentation (finding)","2015",980,0.0153053256286116,"268953001 - On examination - multiple presentation (finding)",NA
+"422","Multiples","268953001","On examination - multiple presentation (finding)","2016",980,0.0135903480793233,"268953001 - On examination - multiple presentation (finding)",NA
+"423","Multiples","268953001","On examination - multiple presentation (finding)","2017",1040,0.0137121761487244,"268953001 - On examination - multiple presentation (finding)",NA
+"424","Multiples","268953001","On examination - multiple presentation (finding)","2018",960,0.0119820269595607,"268953001 - On examination - multiple presentation (finding)",NA
+"425","Multiples","268953001","On examination - multiple presentation (finding)","2019",680,0.00866352401579819,"268953001 - On examination - multiple presentation (finding)",NA
+"426","Multiples","268953001","On examination - multiple presentation (finding)","2020",750,0.00907990314769976,"268953001 - On examination - multiple presentation (finding)",NA
+"427","Multiples","268953001","On examination - multiple presentation (finding)","2021",800,0.00938526513374003,"268953001 - On examination - multiple presentation (finding)",NA
+"428","Multiples","268953001","On examination - multiple presentation (finding)","2022",800,0.00903903734252302,"268953001 - On examination - multiple presentation (finding)",NA
+"429","Multiples","268953001","On examination - multiple presentation (finding)","2023",750,0.00797829902664752,"268953001 - On examination - multiple presentation (finding)","268953001 - On examination - multiple presentation (finding)"
+"430","Multiples","28030000","Twin birth (finding)","2011",1580,0.0300923721550329,"28030000 - Twin birth (finding)",NA
+"431","Multiples","28030000","Twin birth (finding)","2012",1730,0.0320222119389172,"28030000 - Twin birth (finding)",NA
+"432","Multiples","28030000","Twin birth (finding)","2013",1720,0.0305262223799805,"28030000 - Twin birth (finding)",NA
+"433","Multiples","28030000","Twin birth (finding)","2014",1900,0.0305613640019302,"28030000 - Twin birth (finding)",NA
+"434","Multiples","28030000","Twin birth (finding)","2015",1920,0.0299859440887084,"28030000 - Twin birth (finding)",NA
+"435","Multiples","28030000","Twin birth (finding)","2016",2220,0.0307862987103037,"28030000 - Twin birth (finding)",NA
+"436","Multiples","28030000","Twin birth (finding)","2017",2220,0.0292702221636232,"28030000 - Twin birth (finding)",NA
+"437","Multiples","28030000","Twin birth (finding)","2018",2540,0.0317024463305042,"28030000 - Twin birth (finding)",NA
+"438","Multiples","28030000","Twin birth (finding)","2019",2320,0.0295579054656644,"28030000 - Twin birth (finding)",NA
+"439","Multiples","28030000","Twin birth (finding)","2020",2150,0.0260290556900726,"28030000 - Twin birth (finding)",NA
+"440","Multiples","28030000","Twin birth (finding)","2021",2360,0.0276865321445331,"28030000 - Twin birth (finding)",NA
+"441","Multiples","28030000","Twin birth (finding)","2022",2650,0.0299418111971075,"28030000 - Twin birth (finding)",NA
+"442","Multiples","28030000","Twin birth (finding)","2023",2770,0.0294665177384182,"28030000 - Twin birth (finding)","28030000 - Twin birth (finding)"
+"443","Multiples","281050002","Livebirth (finding)","2011",16790,0.319779068660128,"281050002 - Livebirth (finding)",NA
+"444","Multiples","281050002","Livebirth (finding)","2012",16660,0.308375751966682,"281050002 - Livebirth (finding)",NA
+"445","Multiples","281050002","Livebirth (finding)","2013",17670,0.313603691543172,"281050002 - Livebirth (finding)",NA
+"446","Multiples","281050002","Livebirth (finding)","2014",20850,0.335370757600129,"281050002 - Livebirth (finding)",NA
+"447","Multiples","281050002","Livebirth (finding)","2015",21400,0.334218335155396,"281050002 - Livebirth (finding)",NA
+"448","Multiples","281050002","Livebirth (finding)","2016",23680,0.328387186243239,"281050002 - Livebirth (finding)",NA
+"449","Multiples","281050002","Livebirth (finding)","2017",26330,0.347155382688378,"281050002 - Livebirth (finding)",NA
+"450","Multiples","281050002","Livebirth (finding)","2018",29790,0.371817274088867,"281050002 - Livebirth (finding)",NA
+"451","Multiples","281050002","Livebirth (finding)","2019",30770,0.392024461714868,"281050002 - Livebirth (finding)",NA
+"452","Multiples","281050002","Livebirth (finding)","2020",32020,0.387651331719128,"281050002 - Livebirth (finding)",NA
+"453","Multiples","281050002","Livebirth (finding)","2021",33620,0.394415767245425,"281050002 - Livebirth (finding)",NA
+"454","Multiples","281050002","Livebirth (finding)","2022",35310,0.39896051070561,"281050002 - Livebirth (finding)",NA
+"455","Multiples","281050002","Livebirth (finding)","2023",38960,0.41444604010425,"281050002 - Livebirth (finding)","281050002 - Livebirth (finding)"
+"456","Multiples","289256000","Mother delivered (finding)","2011",7710,0.146843157794496,"289256000 - Mother delivered (finding)",NA
+"457","Multiples","289256000","Mother delivered (finding)","2012",8990,0.166404442387783,"289256000 - Mother delivered (finding)",NA
+"458","Multiples","289256000","Mother delivered (finding)","2013",9460,0.167894223089893,"289256000 - Mother delivered (finding)",NA
+"459","Multiples","289256000","Mother delivered (finding)","2014",9700,0.156023805694065,"289256000 - Mother delivered (finding)",NA
+"460","Multiples","289256000","Mother delivered (finding)","2015",10090,0.157582383257848,"289256000 - Mother delivered (finding)",NA
+"461","Multiples","289256000","Mother delivered (finding)","2016",11480,0.159201220357787,"289256000 - Mother delivered (finding)",NA
+"462","Multiples","289256000","Mother delivered (finding)","2017",12520,0.165073505175028,"289256000 - Mother delivered (finding)",NA
+"463","Multiples","289256000","Mother delivered (finding)","2018",12490,0.155891163255117,"289256000 - Mother delivered (finding)",NA
+"464","Multiples","289256000","Mother delivered (finding)","2019",13800,0.175818575614728,"289256000 - Mother delivered (finding)",NA
+"465","Multiples","289256000","Mother delivered (finding)","2020",15730,0.19043583535109,"289256000 - Mother delivered (finding)",NA
+"466","Multiples","289256000","Mother delivered (finding)","2021",16260,0.190755513843266,"289256000 - Mother delivered (finding)",NA
+"467","Multiples","289256000","Mother delivered (finding)","2022",16830,0.190158748093328,"289256000 - Mother delivered (finding)",NA
+"468","Multiples","289256000","Mother delivered (finding)","2023",18580,0.197649061220148,"289256000 - Mother delivered (finding)","289256000 - Mother delivered (finding)"
+"469","Multiples","65147003","Twin pregnancy (disorder)","2011",4780,0.0910389486715551,"65147003 - Twin pregnancy (disorder)",NA
+"470","Multiples","65147003","Twin pregnancy (disorder)","2012",5060,0.0936603424340583,"65147003 - Twin pregnancy (disorder)",NA
+"471","Multiples","65147003","Twin pregnancy (disorder)","2013",5580,0.0990327446978436,"65147003 - Twin pregnancy (disorder)",NA
+"472","Multiples","65147003","Twin pregnancy (disorder)","2014",5880,0.0945793791217629,"65147003 - Twin pregnancy (disorder)",NA
+"473","Multiples","65147003","Twin pregnancy (disorder)","2015",6170,0.0963610807434015,"65147003 - Twin pregnancy (disorder)",NA
+"474","Multiples","65147003","Twin pregnancy (disorder)","2016",6980,0.0967965608098738,"65147003 - Twin pregnancy (disorder)",NA
+"475","Multiples","65147003","Twin pregnancy (disorder)","2017",6800,0.089656536357044,"65147003 - Twin pregnancy (disorder)",NA
+"476","Multiples","65147003","Twin pregnancy (disorder)","2018",6740,0.0841238142785821,"65147003 - Twin pregnancy (disorder)",NA
+"477","Multiples","65147003","Twin pregnancy (disorder)","2019",5900,0.0751688113135431,"65147003 - Twin pregnancy (disorder)",NA
+"478","Multiples","65147003","Twin pregnancy (disorder)","2020",5960,0.0721549636803874,"65147003 - Twin pregnancy (disorder)",NA
+"479","Multiples","65147003","Twin pregnancy (disorder)","2021",5960,0.0699202252463632,"65147003 - Twin pregnancy (disorder)",NA
+"480","Multiples","65147003","Twin pregnancy (disorder)","2022",6020,0.0680187560024857,"65147003 - Twin pregnancy (disorder)",NA
+"481","Multiples","65147003","Twin pregnancy (finding)","2023",6090,0.0647837880963779,"65147003 - Twin pregnancy (finding)","65147003 - Twin pregnancy (finding)"
+"482","Postnatal","133906008","Postpartum care (regime/therapy)","2011",44870,0.0417044255766076,"133906008 - Postpartum care (regime/therapy)",NA
+"483","Postnatal","133906008","Postpartum care (regime/therapy)","2012",50750,0.0461527268758924,"133906008 - Postpartum care (regime/therapy)",NA
+"484","Postnatal","133906008","Postpartum care (regime/therapy)","2013",72710,0.0631371459335545,"133906008 - Postpartum care (regime/therapy)",NA
+"485","Postnatal","133906008","Postpartum care (regime/therapy)","2014",93150,0.0735674486745618,"133906008 - Postpartum care (regime/therapy)",NA
+"486","Postnatal","133906008","Postpartum care (regime/therapy)","2015",104420,0.0760953925194483,"133906008 - Postpartum care (regime/therapy)",NA
+"487","Postnatal","133906008","Postpartum care (regime/therapy)","2016",124080,0.0791435050086587,"133906008 - Postpartum care (regime/therapy)",NA
+"488","Postnatal","133906008","Postpartum care (regime/therapy)","2017",134140,0.0812324760341789,"133906008 - Postpartum care (regime/therapy)",NA
+"489","Postnatal","133906008","Postpartum care (regime/therapy)","2018",147390,0.0855342189104964,"133906008 - Postpartum care (regime/therapy)",NA
+"490","Postnatal","133906008","Postpartum care (regime/therapy)","2019",123420,0.0735187683729907,"133906008 - Postpartum care (regime/therapy)",NA
+"491","Postnatal","133906008","Postpartum care (regime/therapy)","2020",125480,0.0665143571992727,"133906008 - Postpartum care (regime/therapy)",NA
+"492","Postnatal","133906008","Postpartum care (regime/therapy)","2021",139240,0.0633316428521072,"133906008 - Postpartum care (regime/therapy)",NA
+"493","Postnatal","133906008","Postpartum care (regime/therapy)","2022",154900,0.0617477113683157,"133906008 - Postpartum care (regime/therapy)",NA
+"494","Postnatal","133906008","Postpartum care (regime/therapy)","2023",127390,0.0478499631894466,"133906008 - Postpartum care (regime/therapy)","133906008 - Postpartum care (regime/therapy)"
+"495","Postnatal","169762003","Postnatal visit (regime/therapy)","2011",29030,0.0269819361374843,"169762003 - Postnatal visit (regime/therapy)",NA
+"496","Postnatal","169762003","Postnatal visit (regime/therapy)","2012",25950,0.0235992761069834,"169762003 - Postnatal visit (regime/therapy)",NA
+"497","Postnatal","169762003","Postnatal visit (regime/therapy)","2013",24960,0.0216738160156996,"169762003 - Postnatal visit (regime/therapy)",NA
+"498","Postnatal","169762003","Postnatal visit (regime/therapy)","2014",25160,0.0198707139951903,"169762003 - Postnatal visit (regime/therapy)",NA
+"499","Postnatal","169762003","Postnatal visit (regime/therapy)","2015",25230,0.0183861975987903,"169762003 - Postnatal visit (regime/therapy)",NA
+"500","Postnatal","169762003","Postnatal visit (regime/therapy)","2016",31240,0.0199262016156552,"169762003 - Postnatal visit (regime/therapy)",NA
+"501","Postnatal","169762003","Postnatal visit (regime/therapy)","2017",32160,0.0194754467665066,"169762003 - Postnatal visit (regime/therapy)",NA
+"502","Postnatal","169762003","Postnatal visit (regime/therapy)","2018",33630,0.0195163564825293,"169762003 - Postnatal visit (regime/therapy)",NA
+"503","Postnatal","169762003","Postnatal visit (regime/therapy)","2019",31710,0.0188889980968039,"169762003 - Postnatal visit (regime/therapy)",NA
+"504","Postnatal","169762003","Postnatal visit (regime/therapy)","2020",28110,0.0149005306094322,"169762003 - Postnatal visit (regime/therapy)",NA
+"505","Postnatal","169762003","Postnatal visit (regime/therapy)","2021",29930,0.0136133012824157,"169762003 - Postnatal visit (regime/therapy)",NA
+"506","Postnatal","169762003","Postnatal visit (regime/therapy)","2022",32770,0.0130630890996753,"169762003 - Postnatal visit (regime/therapy)",NA
+"507","Postnatal","169762003","Postnatal visit (regime/therapy)","2023",31670,0.0118958186216326,"169762003 - Postnatal visit (regime/therapy)","169762003 - Postnatal visit (regime/therapy)"
+"508","Postnatal","169784003","Postnatal examination normal (finding)","2011",13110,0.0121850906910926,"169784003 - Postnatal examination normal (finding)",NA
+"509","Postnatal","169784003","Postnatal examination normal (finding)","2012",13250,0.0120497267212921,"169784003 - Postnatal examination normal (finding)",NA
+"510","Postnatal","169784003","Postnatal examination normal (finding)","2013",13630,0.0118355012938296,"169784003 - Postnatal examination normal (finding)",NA
+"511","Postnatal","169784003","Postnatal examination normal (finding)","2014",14330,0.0113174615083894,"169784003 - Postnatal examination normal (finding)",NA
+"512","Postnatal","169784003","Postnatal examination normal (finding)","2015",15770,0.011492284428574,"169784003 - Postnatal examination normal (finding)",NA
+"513","Postnatal","169784003","Postnatal examination normal (finding)","2016",20870,0.0133117742547607,"169784003 - Postnatal examination normal (finding)",NA
+"514","Postnatal","169784003","Postnatal examination normal (finding)","2017",27580,0.0167018912257541,"169784003 - Postnatal examination normal (finding)",NA
+"515","Postnatal","169784003","Postnatal examination normal (finding)","2018",34450,0.0199922236343483,"169784003 - Postnatal examination normal (finding)",NA
+"516","Postnatal","169784003","Postnatal examination normal (finding)","2019",43250,0.0257631399459719,"169784003 - Postnatal examination normal (finding)",NA
+"517","Postnatal","169784003","Postnatal examination normal (finding)","2020",64450,0.0341636142930597,"169784003 - Postnatal examination normal (finding)",NA
+"518","Postnatal","169784003","Postnatal examination normal (finding)","2021",90250,0.0410491293263622,"169784003 - Postnatal examination normal (finding)",NA
+"519","Postnatal","169784003","Postnatal examination normal (finding)","2022",89380,0.0356295057591999,"169784003 - Postnatal examination normal (finding)",NA
+"520","Postnatal","169784003","Postnatal examination normal (finding)","2023",87290,0.0327876857430473,"169784003 - Postnatal examination normal (finding)","169784003 - Postnatal examination normal (finding)"
+"521","Postnatal","170114005","Child examination - 6 weeks (procedure)","2011",222760,0.207044302238581,"170114005 - Child examination - 6 weeks (procedure)",NA
+"522","Postnatal","170114005","Child examination - 6 weeks (procedure)","2012",201900,0.183610552832368,"170114005 - Child examination - 6 weeks (procedure)",NA
+"523","Postnatal","170114005","Child examination - 6 weeks (procedure)","2013",191380,0.166183289626787,"170114005 - Child examination - 6 weeks (procedure)",NA
+"524","Postnatal","170114005","Child examination - 6 weeks (procedure)","2014",208370,0.164565209665254,"170114005 - Child examination - 6 weeks (procedure)",NA
+"525","Postnatal","170114005","Child examination - 6 weeks (procedure)","2015",227470,0.165767275774745,"170114005 - Child examination - 6 weeks (procedure)",NA
+"526","Postnatal","170114005","Child examination - 6 weeks (procedure)","2016",235400,0.150148138934867,"170114005 - Child examination - 6 weeks (procedure)",NA
+"527","Postnatal","170114005","Child examination - 6 weeks (procedure)","2017",222270,0.134602224900231,"170114005 - Child examination - 6 weeks (procedure)",NA
+"528","Postnatal","170114005","Child examination - 6 weeks (procedure)","2018",221460,0.128518950538832,"170114005 - Child examination - 6 weeks (procedure)",NA
+"529","Postnatal","170114005","Child examination - 6 weeks (procedure)","2019",204470,0.121798594791974,"170114005 - Child examination - 6 weeks (procedure)",NA
+"530","Postnatal","170114005","Child examination - 6 weeks (procedure)","2020",209780,0.111200046646983,"170114005 - Child examination - 6 weeks (procedure)",NA
+"531","Postnatal","170114005","Child examination - 6 weeks (procedure)","2021",221890,0.100924003393091,"170114005 - Child examination - 6 weeks (procedure)",NA
+"532","Postnatal","170114005","Child examination - 6 weeks (procedure)","2022",226110,0.0901341188992245,"170114005 - Child examination - 6 weeks (procedure)",NA
+"533","Postnatal","170114005","Child examination - 6 weeks (procedure)","2023",233240,0.0876091169974608,"170114005 - Child examination - 6 weeks (procedure)","170114005 - Child examination - 6 weeks (procedure)"
+"534","Postnatal","170118008","Child 6 week examination normal (finding)","2011",87260,0.0811038149278979,"170118008 - Child 6 week examination normal (finding)",NA
+"535","Postnatal","170118008","Child 6 week examination normal (finding)","2012",112010,0.101863387928447,"170118008 - Child 6 week examination normal (finding)",NA
+"536","Postnatal","170118008","Child 6 week examination normal (finding)","2013",149630,0.129930011635783,"170118008 - Child 6 week examination normal (finding)",NA
+"537","Postnatal","170118008","Child 6 week examination normal (finding)","2014",175200,0.138368405880657,"170118008 - Child 6 week examination normal (finding)",NA
+"538","Postnatal","170118008","Child 6 week examination normal (finding)","2015",201850,0.147096868224963,"170118008 - Child 6 week examination normal (finding)",NA
+"539","Postnatal","170118008","Child 6 week examination normal (finding)","2016",226340,0.144369285329302,"170118008 - Child 6 week examination normal (finding)",NA
+"540","Postnatal","170118008","Child 6 week examination normal (finding)","2017",241260,0.146102185537543,"170118008 - Child 6 week examination normal (finding)",NA
+"541","Postnatal","170118008","Child 6 week examination normal (finding)","2018",250610,0.145435447460204,"170118008 - Child 6 week examination normal (finding)",NA
+"542","Postnatal","170118008","Child 6 week examination normal (finding)","2019",238280,0.141938519915056,"170118008 - Child 6 week examination normal (finding)",NA
+"543","Postnatal","170118008","Child 6 week examination normal (finding)","2020",260240,0.137947850793264,"170118008 - Child 6 week examination normal (finding)",NA
+"544","Postnatal","170118008","Child 6 week examination normal (finding)","2021",297370,0.135255175487871,"170118008 - Child 6 week examination normal (finding)",NA
+"545","Postnatal","170118008","Child 6 week examination normal (finding)","2022",312940,0.124747119403491,"170118008 - Child 6 week examination normal (finding)",NA
+"546","Postnatal","170118008","Child 6 week examination normal (finding)","2023",321260,0.120671003801253,"170118008 - Child 6 week examination normal (finding)","170118008 - Child 6 week examination normal (finding)"
+"547","Postnatal","170300004","Child 8 week examination (procedure)","2011",57970,0.0538802217667917,"170300004 - Child 8 week examination (procedure)",NA
+"548","Postnatal","170300004","Child 8 week examination (procedure)","2012",59780,0.0543647293131201,"170300004 - Child 8 week examination (procedure)",NA
+"549","Postnatal","170300004","Child 8 week examination (procedure)","2013",56070,0.0486879352564214,"170300004 - Child 8 week examination (procedure)",NA
+"550","Postnatal","170300004","Child 8 week examination (procedure)","2014",62480,0.0493450799053851,"170300004 - Child 8 week examination (procedure)",NA
+"551","Postnatal","170300004","Child 8 week examination (procedure)","2015",70130,0.0511067791360746,"170300004 - Child 8 week examination (procedure)",NA
+"552","Postnatal","170300004","Child 8 week examination (procedure)","2016",77790,0.0496177728451286,"170300004 - Child 8 week examination (procedure)",NA
+"553","Postnatal","170300004","Child 8 week examination (procedure)","2017",79090,0.0478953073620338,"170300004 - Child 8 week examination (procedure)",NA
+"554","Postnatal","170300004","Child 8 week examination (procedure)","2018",81770,0.0474532402490758,"170300004 - Child 8 week examination (procedure)",NA
+"555","Postnatal","170300004","Child 8 week examination (procedure)","2019",87410,0.0520683482699977,"170300004 - Child 8 week examination (procedure)",NA
+"556","Postnatal","170300004","Child 8 week examination (procedure)","2020",96950,0.0513911932616313,"170300004 - Child 8 week examination (procedure)",NA
+"557","Postnatal","170300004","Child 8 week examination (procedure)","2021",100460,0.0456930252867185,"170300004 - Child 8 week examination (procedure)",NA
+"558","Postnatal","170300004","Child 8 week examination (procedure)","2022",100190,0.0399386907810946,"170300004 - Child 8 week examination (procedure)",NA
+"559","Postnatal","170300004","Child 8 week examination (procedure)","2023",102690,0.0385722012710909,"170300004 - Child 8 week examination (procedure)","170300004 - Child 8 week examination (procedure)"
+"560","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2011",90,8.36505081768372e-05,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"561","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2012",400,0.000363765334982403,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"562","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2013",1290,0.00112016116427294,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"563","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2014",1050,0.000829262706476542,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"564","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2015",1680,0.00122428901965785,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"565","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2016",3260,0.00207936674990512,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"566","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2017",5180,0.00313690342818732,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"567","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2018",6670,0.00387077305199139,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"568","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2019",6630,0.00394935532582181,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"569","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2020",7860,0.00416642371362993,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"570","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2021",83510,0.0379835212193297,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"571","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2022",189410,0.0755044158184163,"302241000000109 - Newborn blood spot screening status (finding)",NA
+"572","Postnatal","302241000000109","Newborn blood spot screening status (finding)","2023",212990,0.0800028546959749,"302241000000109 - Newborn blood spot screening status (finding)","302241000000109 - Newborn blood spot screening status (finding)"
+"573","Postnatal","384634009","Postnatal maternal examination (procedure)","2011",81760,0.0759918394282023,"384634009 - Postnatal maternal examination (procedure)",NA
+"574","Postnatal","384634009","Postnatal maternal examination (procedure)","2012",77400,0.070388592319095,"384634009 - Postnatal maternal examination (procedure)",NA
+"575","Postnatal","384634009","Postnatal maternal examination (procedure)","2013",67650,0.0587433354752436,"384634009 - Postnatal maternal examination (procedure)",NA
+"576","Postnatal","384634009","Postnatal maternal examination (procedure)","2014",67780,0.0535308821380762,"384634009 - Postnatal maternal examination (procedure)",NA
+"577","Postnatal","384634009","Postnatal maternal examination (procedure)","2015",66490,0.0484541529268159,"384634009 - Postnatal maternal examination (procedure)",NA
+"578","Postnatal","384634009","Postnatal maternal examination (procedure)","2016",74540,0.0475447845208367,"384634009 - Postnatal maternal examination (procedure)",NA
+"579","Postnatal","384634009","Postnatal maternal examination (procedure)","2017",82760,0.0501177852735101,"384634009 - Postnatal maternal examination (procedure)",NA
+"580","Postnatal","384634009","Postnatal maternal examination (procedure)","2018",89650,0.0520262075128977,"384634009 - Postnatal maternal examination (procedure)",NA
+"581","Postnatal","384634009","Postnatal maternal examination (procedure)","2019",105020,0.0625582649046466,"384634009 - Postnatal maternal examination (procedure)",NA
+"582","Postnatal","384634009","Postnatal maternal examination (procedure)","2020",119440,0.0633126779078828,"384634009 - Postnatal maternal examination (procedure)",NA
+"583","Postnatal","384634009","Postnatal maternal examination (procedure)","2021",55840,0.0253981538125658,"384634009 - Postnatal maternal examination (procedure)",NA
+"584","Postnatal","384634009","Postnatal maternal examination (procedure)","2022",56650,0.0225823618399941,"384634009 - Postnatal maternal examination (procedure)",NA
+"585","Postnatal","384634009","Postnatal maternal examination (procedure)","2023",55890,0.0209932839521012,"384634009 - Postnatal maternal examination (procedure)","384634009 - Postnatal maternal examination (procedure)"
+"586","Postnatal","384635005","Full postnatal examination (procedure)","2011",29710,0.0276139621992648,"384635005 - Full postnatal examination (procedure)",NA
+"587","Postnatal","384635005","Full postnatal examination (procedure)","2012",46960,0.0427060503269341,"384635005 - Full postnatal examination (procedure)",NA
+"588","Postnatal","384635005","Full postnatal examination (procedure)","2013",54830,0.0476111911915389,"384635005 - Full postnatal examination (procedure)",NA
+"589","Postnatal","384635005","Full postnatal examination (procedure)","2014",52300,0.0413051805225935,"384635005 - Full postnatal examination (procedure)",NA
+"590","Postnatal","384635005","Full postnatal examination (procedure)","2015",54410,0.0396509318807047,"384635005 - Full postnatal examination (procedure)",NA
+"591","Postnatal","384635005","Full postnatal examination (procedure)","2016",56850,0.0362613496110755,"384635005 - Full postnatal examination (procedure)",NA
+"592","Postnatal","384635005","Full postnatal examination (procedure)","2017",56790,0.0343908775457061,"384635005 - Full postnatal examination (procedure)",NA
+"593","Postnatal","384635005","Full postnatal examination (procedure)","2018",53850,0.0312505440554327,"384635005 - Full postnatal examination (procedure)",NA
+"594","Postnatal","384635005","Full postnatal examination (procedure)","2019",42690,0.025429559405631,"384635005 - Full postnatal examination (procedure)",NA
+"595","Postnatal","384635005","Full postnatal examination (procedure)","2020",41610,0.0220566018733004,"384635005 - Full postnatal examination (procedure)",NA
+"596","Postnatal","384635005","Full postnatal examination (procedure)","2021",44260,0.0201311297948453,"384635005 - Full postnatal examination (procedure)",NA
+"597","Postnatal","384635005","Full postnatal examination (procedure)","2022",43480,0.0173324111703962,"384635005 - Full postnatal examination (procedure)",NA
+"598","Postnatal","384635005","Full postnatal examination (procedure)","2023",40960,0.0153853088330303,"384635005 - Full postnatal examination (procedure)","384635005 - Full postnatal examination (procedure)"
+"599","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2011",160040,0.148749192540234,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"600","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2012",136470,0.124107638162621,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"601","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2013",121670,0.105651169656658,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"602","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2014",121710,0.0961233942907237,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"603","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2015",126090,0.0918872633861065,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"604","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2016",139290,0.0888450903663449,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"605","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2017",134610,0.0815170985460029,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"606","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2018",128880,0.0747923884468741,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"607","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2019",142560,0.0849200746982139,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"608","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2020",201330,0.106720876115154,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"609","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2021",300990,0.136901689040906,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"610","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2022",395720,0.157745670385216,"384636006 - Maternal postnatal 6 week examination (procedure)",NA
+"611","Postnatal","384636006","Maternal postnatal 6 week examination (procedure)","2023",490540,0.184255600462761,"384636006 - Maternal postnatal 6 week examination (procedure)","384636006 - Maternal postnatal 6 week examination (procedure)"
+"612","Postnatal","428447008","Newborn blood spot screening (procedure)","2011",3800,0.00353191034524424,"428447008 - Newborn blood spot screening (procedure)",NA
+"613","Postnatal","428447008","Newborn blood spot screening (procedure)","2012",7000,0.00636589336219205,"428447008 - Newborn blood spot screening (procedure)",NA
+"614","Postnatal","428447008","Newborn blood spot screening (procedure)","2013",9100,0.00790191208905715,"428447008 - Newborn blood spot screening (procedure)",NA
+"615","Postnatal","428447008","Newborn blood spot screening (procedure)","2014",12750,0.0100696185786437,"428447008 - Newborn blood spot screening (procedure)",NA
+"616","Postnatal","428447008","Newborn blood spot screening (procedure)","2015",15660,0.011412122647525,"428447008 - Newborn blood spot screening (procedure)",NA
+"617","Postnatal","428447008","Newborn blood spot screening (procedure)","2016",17270,0.0110155410340066,"428447008 - Newborn blood spot screening (procedure)",NA
+"618","Postnatal","428447008","Newborn blood spot screening (procedure)","2017",18850,0.0114151794635774,"428447008 - Newborn blood spot screening (procedure)",NA
+"619","Postnatal","428447008","Newborn blood spot screening (procedure)","2018",21140,0.0122680873042126,"428447008 - Newborn blood spot screening (procedure)",NA
+"620","Postnatal","428447008","Newborn blood spot screening (procedure)","2019",22290,0.0132776968646408,"428447008 - Newborn blood spot screening (procedure)",NA
+"621","Postnatal","428447008","Newborn blood spot screening (procedure)","2020",24230,0.0128438227202612,"428447008 - Newborn blood spot screening (procedure)",NA
+"622","Postnatal","428447008","Newborn blood spot screening (procedure)","2021",53830,0.024483929436433,"428447008 - Newborn blood spot screening (procedure)",NA
+"623","Postnatal","428447008","Newborn blood spot screening (procedure)","2022",65960,0.0262936025942809,"428447008 - Newborn blood spot screening (procedure)",NA
+"624","Postnatal","428447008","Newborn blood spot screening (procedure)","2023",77600,0.029147948375077,"428447008 - Newborn blood spot screening (procedure)","428447008 - Newborn blood spot screening (procedure)"
+"625","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2011",23110,0.0214795915996301,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"626","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2012",38360,0.0348850956248124,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"627","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2013",54250,0.04710755283861,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"628","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2014",73750,0.0582458329549,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"629","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2015",92280,0.0672484468654922,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"630","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2016",127540,0.081350440270828,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"631","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2017",160190,0.0970078301469742,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"632","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2018",176870,0.102642223344185,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"633","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2019",184220,0.109736084181432,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"634","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2020",219170,0.116177491770518,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"635","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2021",252760,0.114964852393699,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"636","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2022",268980,0.10722336606746,"442162000 - Child 6 to 8 week examination (procedure)",NA
+"637","Postnatal","442162000","Child 6 to 8 week examination (procedure)","2023",278290,0.104530703006446,"442162000 - Child 6 to 8 week examination (procedure)","442162000 - Child 6 to 8 week examination (procedure)"
+"638","Postnatal","444136005","Maternal postnatal examination done (situation)","2011",29550,0.0274652501847282,"444136005 - Maternal postnatal examination done (situation)",NA
+"639","Postnatal","444136005","Maternal postnatal examination done (situation)","2012",28500,0.0259182801174962,"444136005 - Maternal postnatal examination done (situation)",NA
+"640","Postnatal","444136005","Maternal postnatal examination done (situation)","2013",26110,0.0226724093016794,"444136005 - Maternal postnatal examination done (situation)",NA
+"641","Postnatal","444136005","Maternal postnatal examination done (situation)","2014",26410,0.0208579315029004,"444136005 - Maternal postnatal examination done (situation)",NA
+"642","Postnatal","444136005","Maternal postnatal examination done (situation)","2015",27510,0.0200477326968974,"444136005 - Maternal postnatal examination done (situation)",NA
+"643","Postnatal","444136005","Maternal postnatal examination done (situation)","2016",33550,0.0213996179323058,"444136005 - Maternal postnatal examination done (situation)",NA
+"644","Postnatal","444136005","Maternal postnatal examination done (situation)","2017",31660,0.0191726568603109,"444136005 - Maternal postnatal examination done (situation)",NA
+"645","Postnatal","444136005","Maternal postnatal examination done (situation)","2018",34750,0.0201663213728187,"444136005 - Maternal postnatal examination done (situation)",NA
+"646","Postnatal","444136005","Maternal postnatal examination done (situation)","2019",37890,0.0225702976312803,"444136005 - Maternal postnatal examination done (situation)",NA
+"647","Postnatal","444136005","Maternal postnatal examination done (situation)","2020",43910,0.0232757843849224,"444136005 - Maternal postnatal examination done (situation)",NA
+"648","Postnatal","444136005","Maternal postnatal examination done (situation)","2021",45540,0.0207133224323826,"444136005 - Maternal postnatal examination done (situation)",NA
+"649","Postnatal","444136005","Maternal postnatal examination done (situation)","2022",46110,0.0183808067862688,"444136005 - Maternal postnatal examination done (situation)",NA
+"650","Postnatal","444136005","Maternal postnatal examination done (situation)","2023",46950,0.0176352600027044,"444136005 - Maternal postnatal examination done (situation)","444136005 - Maternal postnatal examination done (situation)"
+"651","Postnatal","58703003","Postpartum depression (disorder)","2011",68600,0.063760276232567,"58703003 - Postpartum depression (disorder)",NA
+"652","Postnatal","58703003","Postpartum depression (disorder)","2012",63410,0.0576658997280854,"58703003 - Postpartum depression (disorder)",NA
+"653","Postnatal","58703003","Postpartum depression (disorder)","2013",56810,0.0493305083273997,"58703003 - Postpartum depression (disorder)",NA
+"654","Postnatal","58703003","Postpartum depression (disorder)","2014",59210,0.0467625189052153,"58703003 - Postpartum depression (disorder)",NA
+"655","Postnatal","58703003","Postpartum depression (disorder)","2015",61220,0.0446136748711035,"58703003 - Postpartum depression (disorder)",NA
+"656","Postnatal","58703003","Postpartum depression (disorder)","2016",65870,0.0420146895141872,"58703003 - Postpartum depression (disorder)",NA
+"657","Postnatal","58703003","Postpartum depression (disorder)","2017",64270,0.0389206145423936,"58703003 - Postpartum depression (disorder)",NA
+"658","Postnatal","58703003","Postpartum depression (disorder)","2018",62370,0.0361949198279914,"58703003 - Postpartum depression (disorder)",NA
+"659","Postnatal","58703003","Postpartum depression (disorder)","2019",55410,0.0330066031076601,"58703003 - Postpartum depression (disorder)",NA
+"660","Postnatal","58703003","Postpartum depression (disorder)","2020",51730,0.0274210049244372,"58703003 - Postpartum depression (disorder)",NA
+"661","Postnatal","58703003","Postpartum depression (disorder)","2021",53130,0.0241655428377798,"58703003 - Postpartum depression (disorder)",NA
+"662","Postnatal","58703003","Postpartum depression (disorder)","2022",51920,0.0206968442494703,"58703003 - Postpartum depression (disorder)",NA
+"663","Postnatal","58703003","Postpartum depression (disorder)","2023",50130,0.0188297248974563,"58703003 - Postpartum depression (disorder)","58703003 - Postpartum depression (disorder)"
+"664","Preeclampsia","15938005","Eclampsia (disorder)","2011",250,0.0299580587177951,"15938005 - Eclampsia (disorder)",NA
+"665","Preeclampsia","15938005","Eclampsia (disorder)","2012",170,0.0188157166574433,"15938005 - Eclampsia (disorder)",NA
+"666","Preeclampsia","15938005","Eclampsia (disorder)","2013",210,0.0224358974358974,"15938005 - Eclampsia (disorder)",NA
+"667","Preeclampsia","15938005","Eclampsia (disorder)","2014",190,0.0191919191919192,"15938005 - Eclampsia (disorder)",NA
+"668","Preeclampsia","15938005","Eclampsia (disorder)","2015",250,0.023551577955723,"15938005 - Eclampsia (disorder)",NA
+"669","Preeclampsia","15938005","Eclampsia (disorder)","2016",270,0.0227177114009255,"15938005 - Eclampsia (disorder)",NA
+"670","Preeclampsia","15938005","Eclampsia (disorder)","2017",280,0.0230927835051546,"15938005 - Eclampsia (disorder)",NA
+"671","Preeclampsia","15938005","Eclampsia (disorder)","2018",290,0.0238781391519144,"15938005 - Eclampsia (disorder)",NA
+"672","Preeclampsia","15938005","Eclampsia (disorder)","2019",280,0.0235888795282224,"15938005 - Eclampsia (disorder)",NA
+"673","Preeclampsia","15938005","Eclampsia (disorder)","2020",280,0.0211400528501321,"15938005 - Eclampsia (disorder)",NA
+"674","Preeclampsia","15938005","Eclampsia (disorder)","2021",300,0.0215905001799208,"15938005 - Eclampsia (disorder)",NA
+"675","Preeclampsia","15938005","Eclampsia (disorder)","2022",330,0.0232558139534884,"15938005 - Eclampsia (disorder)",NA
+"676","Preeclampsia","15938005","Eclampsia (disorder)","2023",290,0.019634394041977,"15938005 - Eclampsia (disorder)","15938005 - Eclampsia (disorder)"
+"677","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2011",150,0.0179748352306771,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"678","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2012",120,0.0132816823464305,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"679","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2013",100,0.0106837606837607,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"680","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2014",120,0.0121212121212121,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"681","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2015",130,0.012246820536976,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"682","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2016",120,0.0100967606226336,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"683","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2017",120,0.00989690721649484,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"684","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2018",160,0.0131741457389872,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"685","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2019",100,0.008424599831508,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"686","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2020",90,0.00679501698754247,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"687","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2021",60,0.00431810003598417,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"688","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2022",50,0.00352360817477097,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)",NA
+"689","Preeclampsia","198974007","Mild or unspecified pre-eclampsia - delivered (disorder)","2023",60,0.004062288422478,"198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)","198974007 - Mild or unspecified pre-eclampsia - delivered (disorder)"
+"690","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2011",240,0.0287597363690833,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"691","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2012",230,0.0254565578306586,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"692","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2013",180,0.0192307692307692,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"693","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2014",150,0.0151515151515152,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"694","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2015",180,0.0169571361281206,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"695","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2016",240,0.0201935212452671,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"696","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2017",200,0.0164948453608247,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"697","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2018",190,0.0156442980650473,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"698","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2019",160,0.0134793597304128,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"699","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2020",180,0.0135900339750849,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"700","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2021",160,0.0115149334292911,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"701","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2022",170,0.0119802677942213,"198983002 - Severe pre-eclampsia - delivered (disorder)",NA
+"702","Preeclampsia","198983002","Severe pre-eclampsia - delivered (disorder)","2023",120,0.00812457684495599,"198983002 - Severe pre-eclampsia - delivered (disorder)","198983002 - Severe pre-eclampsia - delivered (disorder)"
+"703","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2011",940,0.11264230077891,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"704","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2012",890,0.0985058107360266,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"705","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2013",1110,0.118589743589744,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"706","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2014",1450,0.146464646464646,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"707","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2015",1540,0.145077720207254,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"708","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2016",1600,0.134623474968448,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"709","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2017",1720,0.141855670103093,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"710","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2018",1600,0.131741457389872,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"711","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2019",1290,0.108677337826453,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"712","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2020",1190,0.0898452246130615,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"713","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2021",1190,0.0856423173803526,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"714","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2022",1320,0.0930232558139535,"198992004 - Eclampsia in pregnancy (disorder)",NA
+"715","Preeclampsia","198992004","Eclampsia in pregnancy (disorder)","2023",1330,0.0900473933649289,"198992004 - Eclampsia in pregnancy (disorder)","198992004 - Eclampsia in pregnancy (disorder)"
+"716","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2011",260,0.0311563810665069,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"717","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2012",260,0.0287769784172662,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"718","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2013",290,0.030982905982906,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"719","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2014",300,0.0303030303030303,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"720","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2015",340,0.0320301460197833,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"721","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2016",420,0.0353386621792175,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"722","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2017",370,0.0305154639175258,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"723","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2018",360,0.0296418279127213,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"724","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2019",270,0.0227464195450716,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"725","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2020",260,0.0196300490751227,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"726","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2021",270,0.0194314501619288,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"727","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2022",280,0.0197322057787174,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)",NA
+"728","Preeclampsia","198997005","Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","2023",190,0.012863913337847,"198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)","198997005 - Pre-eclampsia or eclampsia with pre-existing hypertension (disorder)"
+"729","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2011",250,0.0299580587177951,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"730","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2012",320,0.0354178195904815,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"731","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2013",380,0.0405982905982906,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"732","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2014",560,0.0565656565656566,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"733","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2015",550,0.0518134715025907,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"734","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2016",580,0.0488010096760623,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"735","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2017",630,0.0519587628865979,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"736","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2018",670,0.0551667352820091,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"737","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2019",440,0.0370682392586352,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"738","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2020",380,0.0286900717251793,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"739","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2021",360,0.025908600215905,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"740","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2022",410,0.0288935870331219,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)",NA
+"741","Preeclampsia","198999008","Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","2023",370,0.025050778605281,"198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)","198999008 - Pre-eclampsia or eclampsia with pre-existing hypertension - delivered (disorder)"
+"742","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2011",240,0.0287597363690833,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"743","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2012",220,0.024349750968456,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"744","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2013",130,0.0138888888888889,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"745","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2014",120,0.0121212121212121,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"746","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2015",130,0.012246820536976,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"747","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2016",150,0.012620950778292,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"748","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2017",120,0.00989690721649484,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"749","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2018",110,0.00905722519555373,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"750","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2019",110,0.0092670598146588,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"751","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2020",100,0.00755001887504719,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"752","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2021",110,0.00791651673263764,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"753","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2022",120,0.00845665961945032,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)",NA
+"754","Preeclampsia","237281009","Moderate proteinuric hypertension of pregnancy (disorder)","2023",90,0.00609343263371699,"237281009 - Moderate proteinuric hypertension of pregnancy (disorder)","237281009 - Moderate proteinuric hypertension of pregnancy (disorder)"
+"755","Preeclampsia","398254007","Pre-eclampsia (disorder)","2011",4150,0.497303774715398,"398254007 - Pre-eclampsia (disorder)",NA
+"756","Preeclampsia","398254007","Pre-eclampsia (disorder)","2012",5070,0.561151079136691,"398254007 - Pre-eclampsia (disorder)",NA
+"757","Preeclampsia","398254007","Pre-eclampsia (disorder)","2013",5420,0.579059829059829,"398254007 - Pre-eclampsia (disorder)",NA
+"758","Preeclampsia","398254007","Pre-eclampsia (disorder)","2014",5510,0.556565656565657,"398254007 - Pre-eclampsia (disorder)",NA
+"759","Preeclampsia","398254007","Pre-eclampsia (disorder)","2015",5850,0.551106924163919,"398254007 - Pre-eclampsia (disorder)",NA
+"760","Preeclampsia","398254007","Pre-eclampsia (disorder)","2016",6770,0.569625578460244,"398254007 - Pre-eclampsia (disorder)",NA
+"761","Preeclampsia","398254007","Pre-eclampsia (disorder)","2017",7020,0.578969072164948,"398254007 - Pre-eclampsia (disorder)",NA
+"762","Preeclampsia","398254007","Pre-eclampsia (disorder)","2018",7040,0.579662412515438,"398254007 - Pre-eclampsia (disorder)",NA
+"763","Preeclampsia","398254007","Pre-eclampsia (disorder)","2019",7510,0.632687447346251,"398254007 - Pre-eclampsia (disorder)",NA
+"764","Preeclampsia","398254007","Pre-eclampsia (disorder)","2020",9150,0.690826727066818,"398254007 - Pre-eclampsia (disorder)",NA
+"765","Preeclampsia","398254007","Pre-eclampsia (disorder)","2021",9710,0.698812522490104,"398254007 - Pre-eclampsia (disorder)",NA
+"766","Preeclampsia","398254007","Pre-eclampsia (disorder)","2022",9770,0.688513037350247,"398254007 - Pre-eclampsia (disorder)",NA
+"767","Preeclampsia","398254007","Pre-eclampsia (disorder)","2023",10600,0.717670954637779,"398254007 - Pre-eclampsia (disorder)","398254007 - Pre-eclampsia (disorder)"
+"768","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2011",380,0.0455362492510485,"41114007 - Mild pre-eclampsia (disorder)",NA
+"769","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2012",320,0.0354178195904815,"41114007 - Mild pre-eclampsia (disorder)",NA
+"770","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2013",260,0.0277777777777778,"41114007 - Mild pre-eclampsia (disorder)",NA
+"771","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2014",240,0.0242424242424242,"41114007 - Mild pre-eclampsia (disorder)",NA
+"772","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2015",240,0.0226095148374941,"41114007 - Mild pre-eclampsia (disorder)",NA
+"773","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2016",300,0.0252419015565839,"41114007 - Mild pre-eclampsia (disorder)",NA
+"774","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2017",330,0.0272164948453608,"41114007 - Mild pre-eclampsia (disorder)",NA
+"775","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2018",380,0.0312885961300947,"41114007 - Mild pre-eclampsia (disorder)",NA
+"776","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2019",430,0.0362257792754844,"41114007 - Mild pre-eclampsia (disorder)",NA
+"777","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2020",370,0.0279350698376746,"41114007 - Mild pre-eclampsia (disorder)",NA
+"778","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2021",440,0.0316660669305506,"41114007 - Mild pre-eclampsia (disorder)",NA
+"779","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2022",420,0.0295983086680761,"41114007 - Mild pre-eclampsia (disorder)",NA
+"780","Preeclampsia","41114007","Mild pre-eclampsia (disorder)","2023",370,0.025050778605281,"41114007 - Mild pre-eclampsia (disorder)","41114007 - Mild pre-eclampsia (disorder)"
+"781","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2011",900,0.107849011384062,"46764007 - Severe pre-eclampsia (disorder)",NA
+"782","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2012",820,0.0907581627006087,"46764007 - Severe pre-eclampsia (disorder)",NA
+"783","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2013",670,0.0715811965811966,"46764007 - Severe pre-eclampsia (disorder)",NA
+"784","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2014",590,0.0595959595959596,"46764007 - Severe pre-eclampsia (disorder)",NA
+"785","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2015",590,0.0555817239755064,"46764007 - Severe pre-eclampsia (disorder)",NA
+"786","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2016",590,0.0496424063946151,"46764007 - Severe pre-eclampsia (disorder)",NA
+"787","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2017",580,0.0478350515463918,"46764007 - Severe pre-eclampsia (disorder)",NA
+"788","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2018",610,0.0502264306298888,"46764007 - Severe pre-eclampsia (disorder)",NA
+"789","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2019",640,0.0539174389216512,"46764007 - Severe pre-eclampsia (disorder)",NA
+"790","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2020",670,0.0505851264628162,"46764007 - Severe pre-eclampsia (disorder)",NA
+"791","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2021",710,0.0510975170924793,"46764007 - Severe pre-eclampsia (disorder)",NA
+"792","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2022",700,0.0493305144467935,"46764007 - Severe pre-eclampsia (disorder)",NA
+"793","Preeclampsia","46764007","Severe pre-eclampsia (disorder)","2023",690,0.046716316858497,"46764007 - Severe pre-eclampsia (disorder)","46764007 - Severe pre-eclampsia (disorder)"
+"794","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2011",380,0.0455362492510485,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"795","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2012",390,0.0431654676258993,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"796","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2013",350,0.0373931623931624,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"797","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2014",360,0.0363636363636364,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"798","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2015",470,0.0442769665567593,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"799","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2016",490,0.0412284392090871,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"800","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2017",420,0.034639175257732,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"801","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2018",400,0.0329353643474681,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"802","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2019",410,0.0345408593091828,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"803","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2020",350,0.0264250660626652,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"804","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2021",350,0.0251889168765743,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"805","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2022",360,0.025369978858351,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)",NA
+"806","Preeclampsia","95605009","Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","2023",350,0.023696682464455,"95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)","95605009 - Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)"
+"807","Stillbirth","169827000","Single stillbirth (finding)","2011",2540,0.383975812547241,"169827000 - Single stillbirth (finding)",NA
+"808","Stillbirth","169827000","Single stillbirth (finding)","2012",2860,0.423703703703704,"169827000 - Single stillbirth (finding)",NA
+"809","Stillbirth","169827000","Single stillbirth (finding)","2013",3130,0.471030850263356,"169827000 - Single stillbirth (finding)",NA
+"810","Stillbirth","169827000","Single stillbirth (finding)","2014",3490,0.480055020632737,"169827000 - Single stillbirth (finding)",NA
+"811","Stillbirth","169827000","Single stillbirth (finding)","2015",3460,0.45646437994723,"169827000 - Single stillbirth (finding)",NA
+"812","Stillbirth","169827000","Single stillbirth (finding)","2016",3950,0.459837019790454,"169827000 - Single stillbirth (finding)",NA
+"813","Stillbirth","169827000","Single stillbirth (finding)","2017",3910,0.459459459459459,"169827000 - Single stillbirth (finding)",NA
+"814","Stillbirth","169827000","Single stillbirth (finding)","2018",4000,0.458715596330275,"169827000 - Single stillbirth (finding)",NA
+"815","Stillbirth","169827000","Single stillbirth (finding)","2019",3080,0.381424148606811,"169827000 - Single stillbirth (finding)",NA
+"816","Stillbirth","169827000","Single stillbirth (finding)","2020",2660,0.311111111111111,"169827000 - Single stillbirth (finding)",NA
+"817","Stillbirth","169827000","Single stillbirth (finding)","2021",2730,0.304857621440536,"169827000 - Single stillbirth (finding)",NA
+"818","Stillbirth","169827000","Single stillbirth (finding)","2022",2760,0.315428571428571,"169827000 - Single stillbirth (finding)",NA
+"819","Stillbirth","169827000","Single stillbirth (finding)","2023",2600,0.313253012048193,"169827000 - Single stillbirth (finding)","169827000 - Single stillbirth (finding)"
+"820","Stillbirth","169829002","Twins - one still and one live born (finding)","2011",130,0.0196523053665911,"169829002 - Twins - one still and one live born (finding)",NA
+"821","Stillbirth","169829002","Twins - one still and one live born (finding)","2012",160,0.0237037037037037,"169829002 - Twins - one still and one live born (finding)",NA
+"822","Stillbirth","169829002","Twins - one still and one live born (finding)","2013",140,0.0210684725357412,"169829002 - Twins - one still and one live born (finding)",NA
+"823","Stillbirth","169829002","Twins - one still and one live born (finding)","2014",130,0.0178817056396149,"169829002 - Twins - one still and one live born (finding)",NA
+"824","Stillbirth","169829002","Twins - one still and one live born (finding)","2015",160,0.0211081794195251,"169829002 - Twins - one still and one live born (finding)",NA
+"825","Stillbirth","169829002","Twins - one still and one live born (finding)","2016",170,0.019790454016298,"169829002 - Twins - one still and one live born (finding)",NA
+"826","Stillbirth","169829002","Twins - one still and one live born (finding)","2017",130,0.0152761457109283,"169829002 - Twins - one still and one live born (finding)",NA
+"827","Stillbirth","169829002","Twins - one still and one live born (finding)","2018",200,0.0229357798165138,"169829002 - Twins - one still and one live born (finding)",NA
+"828","Stillbirth","169829002","Twins - one still and one live born (finding)","2019",160,0.0198142414860681,"169829002 - Twins - one still and one live born (finding)",NA
+"829","Stillbirth","169829002","Twins - one still and one live born (finding)","2020",150,0.0175438596491228,"169829002 - Twins - one still and one live born (finding)",NA
+"830","Stillbirth","169829002","Twins - one still and one live born (finding)","2021",170,0.0189838079285315,"169829002 - Twins - one still and one live born (finding)",NA
+"831","Stillbirth","169829002","Twins - one still and one live born (finding)","2022",190,0.0217142857142857,"169829002 - Twins - one still and one live born (finding)",NA
+"832","Stillbirth","169829002","Twins - one still and one live born (finding)","2023",180,0.0216867469879518,"169829002 - Twins - one still and one live born (finding)","169829002 - Twins - one still and one live born (finding)"
+"833","Stillbirth","169830007","Twins - both stillborn (finding)","2011",80,0.0120937263794407,"169830007 - Twins - both stillborn (finding)",NA
+"834","Stillbirth","169830007","Twins - both stillborn (finding)","2012",70,0.0103703703703704,"169830007 - Twins - both stillborn (finding)",NA
+"835","Stillbirth","169830007","Twins - both stillborn (finding)","2013",80,0.0120391271632807,"169830007 - Twins - both stillborn (finding)",NA
+"836","Stillbirth","169830007","Twins - both stillborn (finding)","2014",80,0.0110041265474553,"169830007 - Twins - both stillborn (finding)",NA
+"837","Stillbirth","169830007","Twins - both stillborn (finding)","2015",120,0.0158311345646438,"169830007 - Twins - both stillborn (finding)",NA
+"838","Stillbirth","169830007","Twins - both stillborn (finding)","2016",100,0.0116414435389988,"169830007 - Twins - both stillborn (finding)",NA
+"839","Stillbirth","169830007","Twins - both stillborn (finding)","2017",80,0.00940070505287897,"169830007 - Twins - both stillborn (finding)",NA
+"840","Stillbirth","169830007","Twins - both stillborn (finding)","2018",100,0.0114678899082569,"169830007 - Twins - both stillborn (finding)",NA
+"841","Stillbirth","169830007","Twins - both stillborn (finding)","2019",80,0.00990712074303406,"169830007 - Twins - both stillborn (finding)",NA
+"842","Stillbirth","169830007","Twins - both stillborn (finding)","2020",80,0.00935672514619883,"169830007 - Twins - both stillborn (finding)",NA
+"843","Stillbirth","169830007","Twins - both stillborn (finding)","2021",90,0.0100502512562814,"169830007 - Twins - both stillborn (finding)",NA
+"844","Stillbirth","169830007","Twins - both stillborn (finding)","2022",70,0.008,"169830007 - Twins - both stillborn (finding)",NA
+"845","Stillbirth","169830007","Twins - both stillborn (finding)","2023",80,0.00963855421686747,"169830007 - Twins - both stillborn (finding)","169830007 - Twins - both stillborn (finding)"
+"846","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2011",5,0.000755857898715042,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"847","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2012",5,0.000740740740740741,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"848","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2013",5,0.000752445447705041,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"849","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2014",10,0.00137551581843191,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"850","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2015",5,0.000659630606860158,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"851","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2016",5,0.000582072176949942,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"852","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2017",10,0.00117508813160987,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"853","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2018",10,0.00114678899082569,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"854","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2019",10,0.00123839009287926,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"855","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2020",10,0.00116959064327485,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"856","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2021",5,0.000558347292015634,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"857","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2022",10,0.00114285714285714,"169832004 - Triplets - two live and one stillborn (finding)",NA
+"858","Stillbirth","169832004","Triplets - two live and one stillborn (finding)","2023",10,0.00120481927710843,"169832004 - Triplets - two live and one stillborn (finding)","169832004 - Triplets - two live and one stillborn (finding)"
+"859","Stillbirth","169834003","Triplets - three stillborn (finding)","2011",5,0.000755857898715042,"169834003 - Triplets - three stillborn (finding)",NA
+"860","Stillbirth","169834003","Triplets - three stillborn (finding)","2012",10,0.00148148148148148,"169834003 - Triplets - three stillborn (finding)",NA
+"861","Stillbirth","169834003","Triplets - three stillborn (finding)","2014",5,0.000687757909215956,"169834003 - Triplets - three stillborn (finding)",NA
+"862","Stillbirth","169834003","Triplets - three stillborn (finding)","2015",5,0.000659630606860158,"169834003 - Triplets - three stillborn (finding)",NA
+"863","Stillbirth","169834003","Triplets - three stillborn (finding)","2017",5,0.000587544065804935,"169834003 - Triplets - three stillborn (finding)",NA
+"864","Stillbirth","169834003","Triplets - three stillborn (finding)","2018",5,0.000573394495412844,"169834003 - Triplets - three stillborn (finding)",NA
+"865","Stillbirth","169834003","Triplets - three stillborn (finding)","2020",5,0.000584795321637427,"169834003 - Triplets - three stillborn (finding)",NA
+"866","Stillbirth","169834003","Triplets - three stillborn (finding)","2021",5,0.000558347292015634,"169834003 - Triplets - three stillborn (finding)",NA
+"867","Stillbirth","169834003","Triplets - three stillborn (finding)","2022",5,0.000571428571428571,"169834003 - Triplets - three stillborn (finding)",NA
+"868","Stillbirth","169834003","Triplets - three stillborn (finding)","2023",5,0.000602409638554217,"169834003 - Triplets - three stillborn (finding)","169834003 - Triplets - three stillborn (finding)"
+"869","Stillbirth","199607009","Intrauterine death - delivered (event)","2011",360,0.054421768707483,"199607009 - Intrauterine death - delivered (event)",NA
+"870","Stillbirth","199607009","Intrauterine death - delivered (event)","2012",360,0.0533333333333333,"199607009 - Intrauterine death - delivered (event)",NA
+"871","Stillbirth","199607009","Intrauterine death - delivered (event)","2013",350,0.0526711813393529,"199607009 - Intrauterine death - delivered (event)",NA
+"872","Stillbirth","199607009","Intrauterine death - delivered (event)","2014",330,0.0453920220082531,"199607009 - Intrauterine death - delivered (event)",NA
+"873","Stillbirth","199607009","Intrauterine death - delivered (event)","2015",350,0.0461741424802111,"199607009 - Intrauterine death - delivered (event)",NA
+"874","Stillbirth","199607009","Intrauterine death - delivered (event)","2016",410,0.0477299185098952,"199607009 - Intrauterine death - delivered (event)",NA
+"875","Stillbirth","199607009","Intrauterine death - delivered (event)","2017",400,0.0470035252643948,"199607009 - Intrauterine death - delivered (event)",NA
+"876","Stillbirth","199607009","Intrauterine death - delivered (event)","2018",390,0.0447247706422018,"199607009 - Intrauterine death - delivered (event)",NA
+"877","Stillbirth","199607009","Intrauterine death - delivered (event)","2019",640,0.0792569659442725,"199607009 - Intrauterine death - delivered (event)",NA
+"878","Stillbirth","199607009","Intrauterine death - delivered (event)","2020",810,0.0947368421052632,"199607009 - Intrauterine death - delivered (event)",NA
+"879","Stillbirth","199607009","Intrauterine death - delivered (event)","2021",810,0.0904522613065327,"199607009 - Intrauterine death - delivered (event)",NA
+"880","Stillbirth","199607009","Intrauterine death - delivered (event)","2022",770,0.088,"199607009 - Intrauterine death - delivered (event)",NA
+"881","Stillbirth","199607009","Intrauterine death - delivered (event)","2023",320,0.0385542168674699,"199607009 - Intrauterine death - delivered (event)","199607009 - Intrauterine death - delivered (event)"
+"882","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2011",5,0.000755857898715042,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"883","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2014",5,0.000687757909215956,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"884","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2015",5,0.000659630606860158,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"885","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2016",10,0.00116414435389988,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"886","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2017",5,0.000587544065804935,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"887","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2018",10,0.00114678899082569,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"888","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2019",5,0.000619195046439629,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"889","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2020",5,0.000584795321637427,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"890","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2021",5,0.000558347292015634,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"891","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2022",5,0.000571428571428571,"206258000 - Fetal death due to prelabor anoxia (event)",NA
+"892","Stillbirth","206258000","Fetal death due to prelabor anoxia (event)","2023",10,0.00120481927710843,"206258000 - Fetal death due to prelabor anoxia (event)","206258000 - Fetal death due to prelabor anoxia (event)"
+"893","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2011",5,0.000755857898715042,"206259008 - Fetal death due to labor anoxia (event)",NA
+"894","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2013",5,0.000752445447705041,"206259008 - Fetal death due to labor anoxia (event)",NA
+"895","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2014",5,0.000687757909215956,"206259008 - Fetal death due to labor anoxia (event)",NA
+"896","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2015",5,0.000659630606860158,"206259008 - Fetal death due to labor anoxia (event)",NA
+"897","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2016",5,0.000582072176949942,"206259008 - Fetal death due to labor anoxia (event)",NA
+"898","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2017",5,0.000587544065804935,"206259008 - Fetal death due to labor anoxia (event)",NA
+"899","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2019",5,0.000619195046439629,"206259008 - Fetal death due to labor anoxia (event)",NA
+"900","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2020",5,0.000584795321637427,"206259008 - Fetal death due to labor anoxia (event)",NA
+"901","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2021",10,0.00111669458403127,"206259008 - Fetal death due to labor anoxia (event)",NA
+"902","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2022",5,0.000571428571428571,"206259008 - Fetal death due to labor anoxia (event)",NA
+"903","Stillbirth","206259008","Fetal death due to labor anoxia (event)","2023",5,0.000602409638554217,"206259008 - Fetal death due to labor anoxia (event)","206259008 - Fetal death due to labor anoxia (event)"
+"904","Stillbirth","237364002","Stillbirth (finding)","2011",3270,0.494331065759637,"237364002 - Stillbirth (finding)",NA
+"905","Stillbirth","237364002","Stillbirth (finding)","2012",3090,0.457777777777778,"237364002 - Stillbirth (finding)",NA
+"906","Stillbirth","237364002","Stillbirth (finding)","2013",2760,0.415349887133183,"237364002 - Stillbirth (finding)",NA
+"907","Stillbirth","237364002","Stillbirth (finding)","2014",3030,0.416781292984869,"237364002 - Stillbirth (finding)",NA
+"908","Stillbirth","237364002","Stillbirth (finding)","2015",3200,0.422163588390501,"237364002 - Stillbirth (finding)",NA
+"909","Stillbirth","237364002","Stillbirth (finding)","2016",3630,0.422584400465658,"237364002 - Stillbirth (finding)",NA
+"910","Stillbirth","237364002","Stillbirth (finding)","2017",3660,0.430082256169213,"237364002 - Stillbirth (finding)",NA
+"911","Stillbirth","237364002","Stillbirth (finding)","2018",3730,0.427752293577982,"237364002 - Stillbirth (finding)",NA
+"912","Stillbirth","237364002","Stillbirth (finding)","2019",3730,0.461919504643963,"237364002 - Stillbirth (finding)",NA
+"913","Stillbirth","237364002","Stillbirth (finding)","2020",4400,0.514619883040936,"237364002 - Stillbirth (finding)",NA
+"914","Stillbirth","237364002","Stillbirth (finding)","2021",4620,0.515912897822446,"237364002 - Stillbirth (finding)",NA
+"915","Stillbirth","237364002","Stillbirth (finding)","2022",4480,0.512,"237364002 - Stillbirth (finding)",NA
+"916","Stillbirth","237364002","Stillbirth (finding)","2023",4530,0.54578313253012,"237364002 - Stillbirth (finding)","237364002 - Stillbirth (finding)"
+"917","Stillbirth","237365001","Fresh stillbirth (finding)","2011",30,0.00453514739229025,"237365001 - Fresh stillbirth (finding)",NA
+"918","Stillbirth","237365001","Fresh stillbirth (finding)","2012",30,0.00444444444444444,"237365001 - Fresh stillbirth (finding)",NA
+"919","Stillbirth","237365001","Fresh stillbirth (finding)","2013",30,0.00451467268623025,"237365001 - Fresh stillbirth (finding)",NA
+"920","Stillbirth","237365001","Fresh stillbirth (finding)","2014",10,0.00137551581843191,"237365001 - Fresh stillbirth (finding)",NA
+"921","Stillbirth","237365001","Fresh stillbirth (finding)","2015",30,0.00395778364116095,"237365001 - Fresh stillbirth (finding)",NA
+"922","Stillbirth","237365001","Fresh stillbirth (finding)","2016",20,0.00232828870779977,"237365001 - Fresh stillbirth (finding)",NA
+"923","Stillbirth","237365001","Fresh stillbirth (finding)","2017",40,0.00470035252643948,"237365001 - Fresh stillbirth (finding)",NA
+"924","Stillbirth","237365001","Fresh stillbirth (finding)","2018",20,0.00229357798165138,"237365001 - Fresh stillbirth (finding)",NA
+"925","Stillbirth","237365001","Fresh stillbirth (finding)","2019",30,0.00371517027863777,"237365001 - Fresh stillbirth (finding)",NA
+"926","Stillbirth","237365001","Fresh stillbirth (finding)","2020",40,0.00467836257309942,"237365001 - Fresh stillbirth (finding)",NA
+"927","Stillbirth","237365001","Fresh stillbirth (finding)","2021",20,0.00223338916806253,"237365001 - Fresh stillbirth (finding)",NA
+"928","Stillbirth","237365001","Fresh stillbirth (finding)","2022",20,0.00228571428571429,"237365001 - Fresh stillbirth (finding)",NA
+"929","Stillbirth","237365001","Fresh stillbirth (finding)","2023",20,0.00240963855421687,"237365001 - Fresh stillbirth (finding)","237365001 - Fresh stillbirth (finding)"
+"930","Stillbirth","237366000","Macerated stillbirth (finding)","2011",70,0.0105820105820106,"237366000 - Macerated stillbirth (finding)",NA
+"931","Stillbirth","237366000","Macerated stillbirth (finding)","2012",70,0.0103703703703704,"237366000 - Macerated stillbirth (finding)",NA
+"932","Stillbirth","237366000","Macerated stillbirth (finding)","2013",60,0.0090293453724605,"237366000 - Macerated stillbirth (finding)",NA
+"933","Stillbirth","237366000","Macerated stillbirth (finding)","2014",40,0.00550206327372765,"237366000 - Macerated stillbirth (finding)",NA
+"934","Stillbirth","237366000","Macerated stillbirth (finding)","2015",60,0.0079155672823219,"237366000 - Macerated stillbirth (finding)",NA
+"935","Stillbirth","237366000","Macerated stillbirth (finding)","2016",70,0.00814901047729918,"237366000 - Macerated stillbirth (finding)",NA
+"936","Stillbirth","237366000","Macerated stillbirth (finding)","2017",70,0.0082256169212691,"237366000 - Macerated stillbirth (finding)",NA
+"937","Stillbirth","237366000","Macerated stillbirth (finding)","2018",60,0.00688073394495413,"237366000 - Macerated stillbirth (finding)",NA
+"938","Stillbirth","237366000","Macerated stillbirth (finding)","2019",60,0.00743034055727554,"237366000 - Macerated stillbirth (finding)",NA
+"939","Stillbirth","237366000","Macerated stillbirth (finding)","2020",80,0.00935672514619883,"237366000 - Macerated stillbirth (finding)",NA
+"940","Stillbirth","237366000","Macerated stillbirth (finding)","2021",60,0.0067001675041876,"237366000 - Macerated stillbirth (finding)",NA
+"941","Stillbirth","237366000","Macerated stillbirth (finding)","2022",60,0.00685714285714286,"237366000 - Macerated stillbirth (finding)",NA
+"942","Stillbirth","237366000","Macerated stillbirth (finding)","2023",60,0.0072289156626506,"237366000 - Macerated stillbirth (finding)","237366000 - Macerated stillbirth (finding)"
+"943","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2011",80,0.0120937263794407,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"944","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2012",80,0.0118518518518519,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"945","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2013",60,0.0090293453724605,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"946","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2014",60,0.00825309491059147,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"947","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2015",40,0.00527704485488127,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"948","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2016",30,0.00349243306169965,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"949","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2017",20,0.00235017626321974,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"950","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2018",20,0.00229357798165138,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"951","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2019",20,0.00247678018575851,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"952","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2020",30,0.00350877192982456,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"953","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2021",30,0.0033500837520938,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"954","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2022",30,0.00342857142857143,"270101008 - Medical certificate of still-birth (record artifact)",NA
+"955","Stillbirth","270101008","Medical certificate of still-birth (record artifact)","2023",30,0.0036144578313253,"270101008 - Medical certificate of still-birth (record artifact)","270101008 - Medical certificate of still-birth (record artifact)"
+"956","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2011",20,0.00302343159486017,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"957","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2012",10,0.00148148148148148,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"958","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2013",20,0.00300978179082017,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"959","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2014",20,0.00275103163686382,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"960","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2015",20,0.00263852242744063,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"961","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2016",30,0.00349243306169965,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"962","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2017",20,0.00235017626321974,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"963","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2018",5,0.000573394495412844,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"964","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2019",20,0.00247678018575851,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"965","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2020",10,0.00116959064327485,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"966","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2021",5,0.000558347292015634,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"967","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2022",20,0.00228571428571429,"452451000000109 - [V]Twin, mate stillborn (situation)",NA
+"968","Stillbirth","452451000000109","[V]Twin, mate stillborn (situation)","2023",20,0.00240963855421687,"452451000000109 - [V]Twin, mate stillborn (situation)","452451000000109 - [V]Twin, mate stillborn (situation)"
+"969","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2011",10,0.00151171579743008,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"970","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2012",5,0.000740740740740741,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"971","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2013",5,0.000752445447705041,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"972","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2014",5,0.000687757909215956,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"973","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2015",10,0.00131926121372032,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"974","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2016",10,0.00116414435389988,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"975","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2017",5,0.000587544065804935,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"976","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2020",5,0.000584795321637427,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"977","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2021",5,0.000558347292015634,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"978","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2022",5,0.000571428571428571,"452531000000101 - [V]Twin, mate stillborn NOS (situation)",NA
+"979","Stillbirth","452531000000101","[V]Twin, mate stillborn NOS (situation)","2023",5,0.000602409638554217,"452531000000101 - [V]Twin, mate stillborn NOS (situation)","452531000000101 - [V]Twin, mate stillborn NOS (situation)"
+"980","Stillbirth","713202001","Antepartum stillbirth (finding)","2014",50,0.00687757909215956,"713202001 - Antepartum stillbirth (finding)",NA
+"981","Stillbirth","713202001","Antepartum stillbirth (finding)","2015",110,0.0145118733509235,"713202001 - Antepartum stillbirth (finding)",NA
+"982","Stillbirth","713202001","Antepartum stillbirth (finding)","2016",150,0.0174621653084983,"713202001 - Antepartum stillbirth (finding)",NA
+"983","Stillbirth","713202001","Antepartum stillbirth (finding)","2017",150,0.0176263219741481,"713202001 - Antepartum stillbirth (finding)",NA
+"984","Stillbirth","713202001","Antepartum stillbirth (finding)","2018",170,0.0194954128440367,"713202001 - Antepartum stillbirth (finding)",NA
+"985","Stillbirth","713202001","Antepartum stillbirth (finding)","2019",230,0.0284829721362229,"713202001 - Antepartum stillbirth (finding)",NA
+"986","Stillbirth","713202001","Antepartum stillbirth (finding)","2020",260,0.0304093567251462,"713202001 - Antepartum stillbirth (finding)",NA
+"987","Stillbirth","713202001","Antepartum stillbirth (finding)","2021",390,0.0435510887772194,"713202001 - Antepartum stillbirth (finding)",NA
+"988","Stillbirth","713202001","Antepartum stillbirth (finding)","2022",320,0.0365714285714286,"713202001 - Antepartum stillbirth (finding)",NA
+"989","Stillbirth","713202001","Antepartum stillbirth (finding)","2023",420,0.0506024096385542,"713202001 - Antepartum stillbirth (finding)","713202001 - Antepartum stillbirth (finding)"
