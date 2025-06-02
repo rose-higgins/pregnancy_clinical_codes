@@ -1,0 +1,381 @@
+---
+title: SNOMED Stillbirth Codelist
+output:
+  html_document:
+  theme: journal
+github_document:
+  keep_html: TRUE
+# output:
+#   pdf_document
+---
+
+```{css, echo=FALSE}
+pre {
+  max-height: 300px;
+  overflow-y: auto;
+}
+pre[class] {
+  max-height: 200px;
+}
+```
+
+<style>
+  body {
+    text-align: justify;
+     font-size: 11pt}
+</style>
+
+<!-- # ###################################################################################################################
+# Script creating plots of key outputs for analysing SNOMED stillbirth codelist trends over time and codelist changes over time
+#
+# 1. Total SNOMED code prevalence over time 
+# 2. Codelist specific total code prevalence over time 
+# 3. Latest year top 10 most frequently used codes in the codelist
+# 4. Coding trends of most prevalent codes over the whole period (top 10 codes every year)
+# ###################################################################################################################
+ -->
+
+```{r setup, include=FALSE}
+# Document settings 
+knitr::opts_chunk$set(echo = TRUE)
+
+# Import libraries
+if(!require(tidyverse)) install.packages("tidyverse", repos = "https://cran.ma.imperial.ac.uk/")
+if(!require(dplyr)) install.packages("dplyr", repos = "https://cran.ma.imperial.ac.uk/")
+if(!require(ggplot2)) install.packages("ggplot2", repos = "https://cran.ma.imperial.ac.uk/")
+if(!require(gridExtra)) install.packages("gridExtra", repos = "https://cran.ma.imperial.ac.uk/")
+if(!require(grid)) install.packages("grid", repos = "https://cran.ma.imperial.ac.uk/")
+
+#remotes::install_github("ebmdatalab/codeusage")
+
+# ("C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools")
+
+library(codeusage)
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+library(grid)
+library(here)
+library(knitr)
+library(kableExtra)
+library(webshot2)
+library(magick)
+library(ggtext)
+library(ggrepel)
+
+# Input directory ----
+input_dir_os <- here("snomed_outputs")
+
+# Output directory ----
+output_dir_rmd <- here("snomed_outputs")
+#fs::dir_create(output_dir_rmd)
+
+# Import SNOMED data
+snomed <- codeusage::snomed_usage
+
+# Add year column
+snomed$year <- format(as.Date(snomed$start_date), "%Y")
+```
+
+<!-- ```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national SNOMED stillbirth codes frequency by financial year", fig.topcaption=TRUE}
+
+#############################
+# Whole codelist outputs
+
+# Summarise usage by year
+snomed_summary <- snomed %>%
+    group_by(year) %>%
+    summarise(total_usage = sum(usage, na.rm = TRUE))
+
+## 1. Total SNOMED code prevalence over time 
+snomed_summary_plot <- ggplot(data = snomed_summary, aes(x = year, y = total_usage)) +
+    geom_line(aes(group=1)) +
+    geom_point() +
+    labs(x = "Year",
+                y = "Total Usage") +
+    theme(text = element_text(size = 15)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::label_number(accuracy = 1))
+
+ggsave(here::here(output_dir_rmd,"figures","snomed_summary_plot.png"), snomed_summary_plot)
+
+include_graphics(fs::path(output_dir_rmd,"figures","snomed_summary_plot.png")) -->
+<!-- ``` -->
+
+```{r, codelist summary trend, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 2 Total national SNOMED code frequency for the stillbirth SNOMED codelist by financial year", fig.topcaption=TRUE}
+########################################
+# Codelist specific outputs
+
+# Import the codelist
+# Create a list to store codelists with associated names
+codelists <- list()
+
+# Define a vector of names and corresponding inputs for the codelists
+codelist_inputs <- list(
+  Delivery = "user/VickiPalin/deliver_codes_20_12_2024/19a8bc08/",
+  Postnatal  = "user/VickiPalin/pregnancy_postnatal_8wk_snomed_reviewed/021cbb8d/",
+  # Outcomes
+  Stillbirth = "user/VickiPalin/pregnancy_stillbrith_snomed_reviewed/15ecde31/",
+  Multiples = "user/VickiPalin/pregnancy_multiple_snomed/3b37f1fe/",
+  Preeclampsia = "user/VickiPalin/preeclampsia/63cdf7c6/",
+  Hypertension = "user/djlhayes/high-risk-pregnancy/70b410f6",
+  Hypertension = "opensafely/hypertension-snomed/024ab1b0"
+)
+
+# Loop through the inputs and populate the codelists
+for (name in names(codelist_inputs)) {
+  codelists[[name]] <- get_codelist(codelist_inputs[[name]])
+}
+
+# Create objects for each codelist
+Delivery <- codelists[["Delivery"]]
+Postnatal <- codelists[["Postnatal"]]
+Stillbirth <- codelists[["Stillbirth"]]
+Multiples <- codelists[["Multiples"]]
+Preeclampsia <- codelists[["Preeclampsia"]]
+Hypertension <- codelists[["Hypertension"]]
+
+# Filter to codes contained in the codelist
+# Loop through each codelist and filter the snomed data
+sb_codelist_data <- list()
+
+for (name in names(codelists)) {
+  sb_codelist_data[[name]] <- snomed |>
+    filter(snomed_concept_id %in% codelists[[name]]$code)
+}
+
+# test create individual variables
+# delivery_data <- sb_codelist_data[["delivery"]]
+
+# Optionally, combine all filtered data into a single data frame if needed
+sb_codelist_data <- bind_rows(sb_codelist_data, .id = "codelist_name")
+
+# Summarise usage by year
+sb_codelist_data_summary <- sb_codelist_data %>%
+    group_by(codelist_name, year) %>%
+    summarise(total_usage = sum(usage, na.rm = TRUE))
+
+## 2. Codelist specific total code prevalence over time 
+# Create a list to store plots for each codelist
+sb_codelist_data_summary_plots <- list()
+
+# Loop through each codelist and create a plot with auto-scaled axes
+for (codelist in unique(sb_codelist_data_summary$codelist_name)) {
+  data_subset <- sb_codelist_data_summary %>% filter(codelist_name == codelist)
+  # Increase y-axis scaling by adding a small margin above the max value
+  y_max <- max(data_subset$total_usage, na.rm = TRUE)
+  y_min <- min(data_subset$total_usage, na.rm = TRUE)
+  y_lim <- c(y_min * 0.75, y_max * 1.10) # max is 15% higher than max value
+
+  p <- ggplot(data = data_subset, aes(x = year, y = total_usage)) +
+    geom_line(aes(group=1)) +
+    geom_point() +
+    labs(
+      title = paste(codelist),
+      x = "Year",
+      y = "Total Usage"
+    ) +
+    theme(plot.title = element_text(hjust = 0.5)) +
+    theme(text = element_text(size = 13)) +
+    scale_y_continuous(
+      breaks = scales::pretty_breaks(n = 10),
+      labels = scales::label_number(accuracy = 1),
+      limits = y_lim
+    )
+  sb_codelist_data_summary_plots[[codelist]] <- p
+  # Save each plot
+  ggsave(
+    here::here(output_dir_rmd, "figures", paste0("snomed_", codelist, "_codelist_summary_plot.png")),
+    p,
+    width = 10, height = 6, dpi = 120
+  )
+  # Include each plot in the document
+  include_graphics(fs::path(output_dir_rmd, "figures", paste0("snomed_", codelist, "_codelist_summary_plot.png")))
+}
+
+```
+```{r, codelist top 10 table, echo=FALSE, message=FALSE, warning=FALSE, include = FALSE, out.width = '100%'}
+## 3. Latest year top 10 most frequently used codes in the codelist
+# Filter codelist to latest year only
+sb_codelist_data_latest_year <- sb_codelist_data |>
+  filter(year == "2023") #|>
+
+# Calculate proportional usage for each code for latest year, grouped by codelist_name
+sb_codelist_data_latest_year <- sb_codelist_data_latest_year |>
+  group_by(codelist_name, snomed_concept_id, description, year) |>
+  summarise(usage = sum(usage), .groups = "drop") |>
+  group_by(codelist_name) |>
+  mutate(prop_usage = usage / sum(usage)) |>
+  ungroup()
+
+# Select top 10 most frequently used codes by proportional usage
+sb_top_10_codes <- sb_codelist_data_latest_year |>
+  group_by(codelist_name) |>
+  slice_max(prop_usage, n = 10) |>
+  ungroup()
+
+# Create a table showing the SNOMED codes, description, usage, and prop_usage
+# Create a list to store tables for each codelist
+sb_top_10_codes_tables <- list()
+
+# Loop through each codelist and create a table
+for (codelist in unique(sb_top_10_codes$codelist_name)) {
+  sb_top_10_codes_tables[[codelist]] <- sb_top_10_codes %>%
+    filter(codelist_name == codelist) %>%
+    select(snomed_concept_id, description, usage, prop_usage) %>%
+    mutate(
+      prop_usage = scales::percent(prop_usage, accuracy = 0.1),
+      usage = scales::comma(usage)
+    )
+}
+
+# Update the column names of all tibbles in sb_top_10_codes_tables
+for (codelist in names(sb_top_10_codes_tables)) {
+  colnames(sb_top_10_codes_tables[[codelist]]) <- c("SNOMED code", "SNOMED code description", "Frequency", "Proportion")
+}
+
+
+# Loop through each codelist table and export as HTML and PNG
+for (codelist in names(sb_top_10_codes_tables)) {
+  table_html_path <- file.path("snomed_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.html"))
+  table_png_path <- file.path("snomed_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.png"))
+
+  # Render HTML table
+  sb_top_10_codes_tables[[codelist]] %>%
+    kable(row.names = FALSE,
+          align = c("l", "l", "c", "c"),
+          booktabs = TRUE,
+          caption = paste(codelist),
+          table.attr = "style='width:40%;'",
+          title = codelist
+    ) %>%
+    column_spec(1, width = "10em") %>%
+    column_spec(2, width = "30em") %>%
+    kable_styling(position = "center", full_width = TRUE, bootstrap_options = "striped", font_size = 20) %>%
+    kableExtra::footnote(" Values for financial year 2023-24", general_title = "") %>%
+    save_kable(file = table_html_path, zoom = 1.5)
+
+  # Dynamically set height based on number of rows
+  n_rows <- nrow(sb_top_10_codes_tables[[codelist]]) + 3.25 # add for header/caption/footnote
+  height_px <- max(300, n_rows * 60) # 60px per row, min 300px
+
+  # Use webshot2 to capture the table with adjusted height
+  webshot2::webshot(
+    url = table_html_path,
+    file = table_png_path,
+    vwidth = 1200,
+    vheight = height_px,
+    zoom = 2.5
+  )
+}
+
+```
+
+```{r, codelist top 10 trend over time, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.height=8, out.height='100%', fig.width=10, out.width = '100%', fig.cap = "Figure 3 SNOMED code usage trends for the top 10 most frequent SNOMED codes recorded annually for the SNOMED stillbirth codelist", fig.topcaption=TRUE}
+## 4. Top 10 most frequently used codes in the codelist for each year, combined and plotted across all years
+
+# Calculate proportional usage for each code for latest year
+sb_codelist_data_percent <- sb_codelist_data |>
+  group_by(codelist_name,snomed_concept_id, description, year) |>
+  summarise(usage = sum(usage), .groups = "drop") |>
+  group_by(codelist_name,year) %>%
+  mutate(prop_usage = usage/ sum(usage)) %>%
+  ungroup()
+
+# Create a list to store the top 10 SNOMED codes by percent for each year and codelist
+sb_top_10_allyear_codes_list <- list()
+
+for (codelist in unique(sb_codelist_data_percent$codelist_name)) {
+  sb_top_10_allyear_codes_list[[codelist]] <- sb_codelist_data_percent %>%
+    filter(codelist_name == codelist) %>%
+    group_by(year) %>%
+    slice_max(prop_usage, n = 10) %>%
+    pull(snomed_concept_id) %>%
+    unique()
+}
+
+# Optionally, combine into a data frame for easier downstream use
+sb_top_10_allyear_codes <- tibble(
+  codelist_name = rep(names(sb_top_10_allyear_codes_list), 
+                      times = sapply(sb_top_10_allyear_codes_list, length)),
+  snomed_concept_id = unlist(sb_top_10_allyear_codes_list)
+)
+
+# Filter data to only those snomed codes which were in the top 10 in any year 
+sb_top_codes_data <- sb_codelist_data_percent %>%
+  semi_join(sb_top_10_allyear_codes, by = c("codelist_name", "snomed_concept_id"))
+
+# Add a field to be used as a label, and complete for those label rows. 
+sb_top_10_codes_each_year <- sb_top_codes_data %>% 
+  mutate(snomed_code_description = paste(snomed_concept_id, description, sep = " - ")) %>%
+  mutate(name_lab = if_else((year == "2023"), snomed_code_description, NA_character_))
+
+# write results to a table
+write.csv(sb_top_10_codes_each_year, file ="snomed_outputs/tables/top_10_snomed_sb_codes_each_year.csv")    
+
+# add string wrapping for labelling to snomed_code_description field values
+sb_top_10_codes_each_year$snomed_code_description <- stringr::str_wrap(sb_top_10_codes_each_year$snomed_code_description, 35)
+
+## Top 10 codes for each year plotted over whole time period, faceted by codelist_name
+
+# Create a list to store plots for each codelist
+sb_top_10_codes_all_years_plots <- list()
+
+for (codelist in unique(sb_top_10_codes_each_year$codelist_name)) {
+  data_subset <- sb_top_10_codes_each_year %>% filter(codelist_name == codelist)
+  y_max <- max(data_subset$usage, na.rm = TRUE)
+  y_lim <- c(0, y_max * 1.15) # 15% higher than max
+
+  p <- ggplot(data = data_subset, aes(x = year, y = usage)) +
+    geom_line(aes(color = snomed_code_description, group = snomed_code_description)) +
+    geom_point(aes(color = snomed_code_description)) +
+    ggrepel::geom_text_repel(
+      aes(
+        x = year,
+        y = usage,
+        color = name_lab,
+        label = stringr::str_wrap(name_lab, 25),
+        fontface = 'bold'
+      ),
+      lineheight = 0.7,
+      hjust = 1,
+      data = data_subset %>% filter(year == max(year)),
+      segment.color = 'dark grey',
+      min.segment.length = 0,
+      segment.linetype = 2,
+      seed = 42,
+      max.overlaps = 15,
+      direction = "y",
+      nudge_x = 2,
+      size = 2.8,
+      box.padding = .2,
+      force = .8
+    ) +
+    labs(
+      title = paste(codelist),
+      x = "Year",
+      y = "Usage",
+      color = "SNOMED Code"
+    ) +
+    theme(plot.title = element_text(hjust = 0.5)) +
+    theme(text = element_text(size = 15)) +
+    scale_y_continuous(
+      breaks = scales::pretty_breaks(n = 10),
+      labels = scales::label_number(accuracy = 1),
+      limits = y_lim
+    ) +
+    coord_cartesian(clip = "off") +
+    theme(legend.position = "none")
+
+  sb_top_10_codes_all_years_plots[[codelist]] <- p
+
+  # Save each plot
+  ggsave(
+    here::here(output_dir_rmd, "figures", paste0("top_10_snomed_", codelist, "_codes_all_years_plot.png")),
+    p,
+    width = 30, units = "cm"
+  )
+
+  # Include each plot in the document
+  include_graphics(fs::path(output_dir_rmd, "figures", paste0("top_10_snomed_", codelist, "_codes_all_years_plot.png")))
+}
+```
