@@ -77,7 +77,7 @@ snomed <- codeusage::snomed_usage
 snomed$year <- format(as.Date(snomed$start_date), "%Y")
 ```
 
-<!-- ```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national SNOMED stillbirth codes frequency by financial year", fig.topcaption=TRUE}
+```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national SNOMED stillbirth codes frequency by financial year", fig.topcaption=TRUE}
 
 #############################
 # Whole codelist outputs
@@ -98,10 +98,9 @@ snomed_summary_plot <- ggplot(data = snomed_summary, aes(x = year, y = total_usa
 
 ggsave(here::here(output_dir_rmd,"figures","snomed_summary_plot.png"), snomed_summary_plot)
 
-include_graphics(fs::path(output_dir_rmd,"figures","snomed_summary_plot.png")) -->
-<!-- ``` -->
-
-```{r, codelist summary trend, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 2 Total national SNOMED code frequency for the stillbirth SNOMED codelist by financial year", fig.topcaption=TRUE}
+include_graphics(fs::path(output_dir_rmd,"figures","snomed_summary_plot.png"))
+```
+```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE
 ########################################
 # Codelist specific outputs
 
@@ -111,14 +110,14 @@ codelists <- list()
 
 # Define a vector of names and corresponding inputs for the codelists
 codelist_inputs <- list(
-  Delivery = "user/VickiPalin/deliver_codes_20_12_2024/19a8bc08/",
-  Postnatal  = "user/VickiPalin/pregnancy_postnatal_8wk_snomed_reviewed/021cbb8d/",
+  pregnancy = "opensafely/pregnancy_rh/700aaf2c/",
+  multiple_gestation = "opensafely/multiple-gestation_rh/42a6d016/",
   # Outcomes
-  Stillbirth = "user/VickiPalin/pregnancy_stillbrith_snomed_reviewed/15ecde31/",
-  Multiples = "user/VickiPalin/pregnancy_multiple_snomed/3b37f1fe/",
-  Preeclampsia = "user/VickiPalin/preeclampsia/63cdf7c6/",
-  Hypertension = "user/djlhayes/high-risk-pregnancy/70b410f6",
-  Hypertension = "opensafely/hypertension-snomed/024ab1b0"
+  gestational_diabetes = "opensafely/gestational-diabetes_rh/3ff41020/",
+  gestational_hypertension = "opensafely/gestational-hypertension_rh/26e49ceb/",
+  hypertension_pregnancy = "opensafely/hypertension-pregnancy_rh/5bb6434b/",
+  preeclampsia = "opensafely/preeclampsia_rh/29975ce1/",
+  stillbirth = "opensafely/stillbirth_rh/5e690341/"
 )
 
 # Loop through the inputs and populate the codelists
@@ -153,6 +152,12 @@ sb_codelist_data <- bind_rows(sb_codelist_data, .id = "codelist_name")
 sb_codelist_data_summary <- sb_codelist_data %>%
     group_by(codelist_name, year) %>%
     summarise(total_usage = sum(usage, na.rm = TRUE))
+
+    # Write the codelist summary table to CSV
+    write.csv(sb_codelist_data_summary, file = "snomed_outputs/tables/all_codelist_data_summary.csv", row.names = FALSE)
+```
+
+```{r, codelist summary trend, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 2 Total national SNOMED code frequency for the stillbirth SNOMED codelist by financial year", fig.topcaption=TRUE}
 
 ## 2. Codelist specific total code prevalence over time 
 # Create a list to store plots for each codelist
