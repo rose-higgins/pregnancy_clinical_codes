@@ -46,11 +46,11 @@ if(!require(ggplot2)) install.packages("ggplot2", repos = "https://cran.ma.imper
 if(!require(gridExtra)) install.packages("gridExtra", repos = "https://cran.ma.imperial.ac.uk/")
 if(!require(grid)) install.packages("grid", repos = "https://cran.ma.imperial.ac.uk/")
 
-#remotes::install_github("ebmdatalab/codeusage")
+remotes::install_github("bennettoxford/opencodecounts")
 
 # ("C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools")
 
-library(codeusage)
+library(opencodecounts)
 library(dplyr)
 library(ggplot2)
 library(gridExtra)
@@ -135,10 +135,10 @@ Hypertension <- codelists[["Hypertension"]]
 
 # Filter to codes contained in the codelist
 # Loop through each codelist and filter the snomed data
-sb_codelist_data <- list()
+codelist_data <- list()
 
 for (name in names(codelists)) {
-  sb_codelist_data[[name]] <- snomed |>
+  codelist_data[[name]] <- snomed |>
     filter(snomed_concept_id %in% codelists[[name]]$code)
 }
 
@@ -146,15 +146,15 @@ for (name in names(codelists)) {
 # delivery_data <- sb_codelist_data[["delivery"]]
 
 # Optionally, combine all filtered data into a single data frame if needed
-sb_codelist_data <- bind_rows(sb_codelist_data, .id = "codelist_name")
+codelist_data <- bind_rows(codelist_data, .id = "codelist_name")
 
 # Summarise usage by year
-sb_codelist_data_summary <- sb_codelist_data %>%
+codelist_data_summary <- codelist_data %>%
     group_by(codelist_name, year) %>%
     summarise(total_usage = sum(usage, na.rm = TRUE))
 
     # Write the codelist summary table to CSV
-    write.csv(sb_codelist_data_summary, file = "snomed_outputs/tables/all_codelist_data_summary.csv", row.names = FALSE)
+write.csv(codelist_data_summary, file = "snomed_outputs/tables/all_codelist_data_summary.csv", row.names = FALSE)
 ```
 
 ```{r, codelist summary trend, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 2 Total national SNOMED code frequency for the stillbirth SNOMED codelist by financial year", fig.topcaption=TRUE}
@@ -205,7 +205,7 @@ codelist_data_latest_year <- codelist_data |>
   filter(year == "2024") #|>
 
 # Calculate proportional usage for each code for latest year, grouped by codelist_name
-sb_codelist_data_latest_year <- sb_codelist_data_latest_year |>
+codelist_data_latest_year <- codelist_data_latest_year |>
   group_by(codelist_name, snomed_concept_id, description, year) |>
   summarise(usage = sum(usage), .groups = "drop") |>
   group_by(codelist_name) |>
@@ -240,7 +240,7 @@ for (codelist in names(top_10_codes_tables)) {
 
 
 # Loop through each codelist table and export as HTML and PNG
-for (codelist in names(sb_top_10_codes_tables)) {
+for (codelist in names(top_10_codes_tables)) {
   table_html_path <- file.path("snomed_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.html"))
   table_png_path <- file.path("snomed_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.png"))
 
