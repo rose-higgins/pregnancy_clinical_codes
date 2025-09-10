@@ -74,7 +74,7 @@ output_dir_rmd <- here("snomed_outputs")
 snomed <- codeusage::snomed_usage
 
 # Add year column
-snomed$year <- format(as.Date(snomed$start_date), "%Y")
+snomed$year <- format(as.Date(snomed$end_date), "%Y")
 ```
 
 ```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national SNOMED stillbirth codes frequency by financial year", fig.topcaption=TRUE}
@@ -161,11 +161,11 @@ sb_codelist_data_summary <- sb_codelist_data %>%
 
 ## 2. Codelist specific total code prevalence over time 
 # Create a list to store plots for each codelist
-sb_codelist_data_summary_plots <- list()
+codelist_data_summary_plots <- list()
 
 # Loop through each codelist and create a plot with auto-scaled axes
-for (codelist in unique(sb_codelist_data_summary$codelist_name)) {
-  data_subset <- sb_codelist_data_summary %>% filter(codelist_name == codelist)
+for (codelist in unique(codelist_data_summary$codelist_name)) {
+  data_subset <- codelist_data_summary %>% filter(codelist_name == codelist)
   # Increase y-axis scaling by adding a small margin above the max value
   y_max <- max(data_subset$total_usage, na.rm = TRUE)
   y_min <- min(data_subset$total_usage, na.rm = TRUE)
@@ -186,7 +186,7 @@ for (codelist in unique(sb_codelist_data_summary$codelist_name)) {
       labels = scales::label_number(accuracy = 1),
       limits = y_lim
     )
-  sb_codelist_data_summary_plots[[codelist]] <- p
+  codelist_data_summary_plots[[codelist]] <- p
   # Save each plot
   ggsave(
     here::here(output_dir_rmd, "figures", paste0("snomed_", codelist, "_codelist_summary_plot.png")),
@@ -201,8 +201,8 @@ for (codelist in unique(sb_codelist_data_summary$codelist_name)) {
 ```{r, codelist top 10 table, echo=FALSE, message=FALSE, warning=FALSE, include = FALSE, out.width = '100%'}
 ## 3. Latest year top 10 most frequently used codes in the codelist
 # Filter codelist to latest year only
-sb_codelist_data_latest_year <- sb_codelist_data |>
-  filter(year == "2023") #|>
+codelist_data_latest_year <- codelist_data |>
+  filter(year == "2024") #|>
 
 # Calculate proportional usage for each code for latest year, grouped by codelist_name
 sb_codelist_data_latest_year <- sb_codelist_data_latest_year |>
@@ -213,18 +213,18 @@ sb_codelist_data_latest_year <- sb_codelist_data_latest_year |>
   ungroup()
 
 # Select top 10 most frequently used codes by proportional usage
-sb_top_10_codes <- sb_codelist_data_latest_year |>
+top_10_codes <- codelist_data_latest_year |>
   group_by(codelist_name) |>
   slice_max(prop_usage, n = 10) |>
   ungroup()
 
 # Create a table showing the SNOMED codes, description, usage, and prop_usage
 # Create a list to store tables for each codelist
-sb_top_10_codes_tables <- list()
+top_10_codes_tables <- list()
 
 # Loop through each codelist and create a table
-for (codelist in unique(sb_top_10_codes$codelist_name)) {
-  sb_top_10_codes_tables[[codelist]] <- sb_top_10_codes %>%
+for (codelist in unique(top_10_codes$codelist_name)) {
+  top_10_codes_tables[[codelist]] <- top_10_codes %>%
     filter(codelist_name == codelist) %>%
     select(snomed_concept_id, description, usage, prop_usage) %>%
     mutate(
@@ -233,9 +233,9 @@ for (codelist in unique(sb_top_10_codes$codelist_name)) {
     )
 }
 
-# Update the column names of all tibbles in sb_top_10_codes_tables
-for (codelist in names(sb_top_10_codes_tables)) {
-  colnames(sb_top_10_codes_tables[[codelist]]) <- c("SNOMED code", "SNOMED code description", "Frequency", "Proportion")
+# Update the column names of all tibbles in top_10_codes_tables
+for (codelist in names(top_10_codes_tables)) {
+  colnames(top_10_codes_tables[[codelist]]) <- c("SNOMED code", "SNOMED code description", "Frequency", "Proportion")
 }
 
 
@@ -245,7 +245,7 @@ for (codelist in names(sb_top_10_codes_tables)) {
   table_png_path <- file.path("snomed_outputs/tables", paste0("top_10_snomed_", codelist, "_codes_table.png"))
 
   # Render HTML table
-  sb_top_10_codes_tables[[codelist]] %>%
+  top_10_codes_tables[[codelist]] %>%
     kable(row.names = FALSE,
           align = c("l", "l", "c", "c"),
           booktabs = TRUE,
@@ -260,7 +260,7 @@ for (codelist in names(sb_top_10_codes_tables)) {
     save_kable(file = table_html_path, zoom = 1.5)
 
   # Dynamically set height based on number of rows
-  n_rows <- nrow(sb_top_10_codes_tables[[codelist]]) + 3.25 # add for header/caption/footnote
+  n_rows <- nrow(top_10_codes_tables[[codelist]]) + 3.25 # add for header/caption/footnote
   height_px <- max(300, n_rows * 60) # 60px per row, min 300px
 
   # Use webshot2 to capture the table with adjusted height
@@ -279,7 +279,7 @@ for (codelist in names(sb_top_10_codes_tables)) {
 ## 4. Top 10 most frequently used codes in the codelist for each year, combined and plotted across all years
 
 # Calculate proportional usage for each code for latest year
-sb_codelist_data_percent <- sb_codelist_data |>
+codelist_data_percent <- codelist_data |>
   group_by(codelist_name,snomed_concept_id, description, year) |>
   summarise(usage = sum(usage), .groups = "drop") |>
   group_by(codelist_name,year) %>%
@@ -287,10 +287,10 @@ sb_codelist_data_percent <- sb_codelist_data |>
   ungroup()
 
 # Create a list to store the top 10 SNOMED codes by percent for each year and codelist
-sb_top_10_allyear_codes_list <- list()
+top_10_allyear_codes_list <- list()
 
-for (codelist in unique(sb_codelist_data_percent$codelist_name)) {
-  sb_top_10_allyear_codes_list[[codelist]] <- sb_codelist_data_percent %>%
+for (codelist in unique(codelist_data_percent$codelist_name)) {
+  top_10_allyear_codes_list[[codelist]] <- codelist_data_percent %>%
     filter(codelist_name == codelist) %>%
     group_by(year) %>%
     slice_max(prop_usage, n = 10) %>%
@@ -299,36 +299,50 @@ for (codelist in unique(sb_codelist_data_percent$codelist_name)) {
 }
 
 # Optionally, combine into a data frame for easier downstream use
-sb_top_10_allyear_codes <- tibble(
-  codelist_name = rep(names(sb_top_10_allyear_codes_list), 
-                      times = sapply(sb_top_10_allyear_codes_list, length)),
-  snomed_concept_id = unlist(sb_top_10_allyear_codes_list)
+top_10_allyear_codes <- tibble(
+  codelist_name = rep(names(top_10_allyear_codes_list), 
+                      times = sapply(top_10_allyear_codes_list, length)),
+  snomed_concept_id = unlist(top_10_allyear_codes_list)
 )
 
 # Filter data to only those snomed codes which were in the top 10 in any year 
-sb_top_codes_data <- sb_codelist_data_percent %>%
-  semi_join(sb_top_10_allyear_codes, by = c("codelist_name", "snomed_concept_id"))
+top_codes_data <- codelist_data_percent %>%
+  semi_join(top_10_allyear_codes, by = c("codelist_name", "snomed_concept_id"))
 
 # Add a field to be used as a label, and complete for those label rows. 
-sb_top_10_codes_each_year <- sb_top_codes_data %>% 
+top_10_codes_each_year <- top_codes_data %>% 
   mutate(snomed_code_description = paste(snomed_concept_id, description, sep = " - ")) %>%
-  mutate(name_lab = if_else((year == "2023"), snomed_code_description, NA_character_))
+  mutate(name_lab = if_else((year == "2024")|((year == "2023")&(description == "Twin pregnancy (disorder)")) | (year == "2021" & description == "Pregnant (finding)"), snomed_code_description, NA_character_)) 
 
 # write results to a table
-write.csv(sb_top_10_codes_each_year, file ="snomed_outputs/tables/top_10_snomed_sb_codes_each_year.csv")    
+write.csv(top_10_codes_each_year, file ="snomed_outputs/tables/top_10_snomed_codes_each_year.csv")    
 
 # add string wrapping for labelling to snomed_code_description field values
-sb_top_10_codes_each_year$snomed_code_description <- stringr::str_wrap(sb_top_10_codes_each_year$snomed_code_description, 35)
+top_10_codes_each_year$snomed_code_description <- stringr::str_wrap(top_10_codes_each_year$snomed_code_description, 35)
 
 ## Top 10 codes for each year plotted over whole time period, faceted by codelist_name
 
 # Create a list to store plots for each codelist
-sb_top_10_codes_all_years_plots <- list()
+top_10_codes_all_years_plots <- list()
 
-for (codelist in unique(sb_top_10_codes_each_year$codelist_name)) {
-  data_subset <- sb_top_10_codes_each_year %>% filter(codelist_name == codelist)
+for (codelist in unique(top_10_codes_each_year$codelist_name)) {
+  data_subset <- top_10_codes_each_year %>% filter(codelist_name == codelist)
   y_max <- max(data_subset$usage, na.rm = TRUE)
   y_lim <- c(0, y_max * 1.15) # 15% higher than max
+
+  # name_lab already contains the correct label for the special case, so no need to mutate again
+
+  # Identify the special 2023 Twin pregnancy (disorder) row for nudge
+  label_data <- data_subset %>% filter(!is.na(name_lab))
+  label_data <- label_data %>%
+    mutate(
+      nudge_y = if_else(
+        (year == "2023" & description == "Twin pregnancy (disorder)") | 
+        (year == "2021" & description == "Pregnant (finding)"),
+        -0.07 * y_max, # nudge down by 7% of y_max
+        0
+      )
+    )
 
   p <- ggplot(data = data_subset, aes(x = year, y = usage)) +
     geom_line(aes(color = snomed_code_description, group = snomed_code_description)) +
@@ -343,7 +357,7 @@ for (codelist in unique(sb_top_10_codes_each_year$codelist_name)) {
       ),
       lineheight = 0.7,
       hjust = 1,
-      data = data_subset %>% filter(year == max(year)),
+      data = label_data,
       segment.color = 'dark grey',
       min.segment.length = 0,
       segment.linetype = 2,
@@ -351,6 +365,7 @@ for (codelist in unique(sb_top_10_codes_each_year$codelist_name)) {
       max.overlaps = 15,
       direction = "y",
       nudge_x = 2,
+      nudge_y = label_data$nudge_y,
       size = 2.8,
       box.padding = .2,
       force = .8
@@ -371,7 +386,7 @@ for (codelist in unique(sb_top_10_codes_each_year$codelist_name)) {
     coord_cartesian(clip = "off") +
     theme(legend.position = "none")
 
-  sb_top_10_codes_all_years_plots[[codelist]] <- p
+  top_10_codes_all_years_plots[[codelist]] <- p
 
   # Save each plot
   ggsave(
