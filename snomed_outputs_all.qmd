@@ -40,17 +40,17 @@ pre[class] {
 knitr::opts_chunk$set(echo = TRUE)
 
 # Import libraries
-if(!require(tidyverse)) install.packages("tidyverse", repos = "https://cran.ma.imperial.ac.uk/")
-if(!require(dplyr)) install.packages("dplyr", repos = "https://cran.ma.imperial.ac.uk/")
-if(!require(ggplot2)) install.packages("ggplot2", repos = "https://cran.ma.imperial.ac.uk/")
-if(!require(gridExtra)) install.packages("gridExtra", repos = "https://cran.ma.imperial.ac.uk/")
-if(!require(grid)) install.packages("grid", repos = "https://cran.ma.imperial.ac.uk/")
+# if(!require(tidyverse)) install.packages("tidyverse", repos = "https://cran.ma.imperial.ac.uk/")
+# if(!require(dplyr)) install.packages("dplyr", repos = "https://cran.ma.imperial.ac.uk/")
+# if(!require(ggplot2)) install.packages("ggplot2", repos = "https://cran.ma.imperial.ac.uk/")
+# if(!require(gridExtra)) install.packages("gridExtra", repos = "https://cran.ma.imperial.ac.uk/")
+# if(!require(grid)) install.packages("grid", repos = "https://cran.ma.imperial.ac.uk/")
 
-#remotes::install_github("ebmdatalab/codeusage")
+#remotes::install_github("bennettoxford/opencodecounts")
 
 # ("C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools")
 
-library(codeusage)
+library(opencodecounts)
 library(dplyr)
 library(ggplot2)
 library(gridExtra)
@@ -71,13 +71,13 @@ output_dir_rmd <- here("snomed_outputs")
 #fs::dir_create(output_dir_rmd)
 
 # Import SNOMED data
-snomed <- codeusage::snomed_usage
+snomed <- opencodecounts::snomed_usage
 
 # Add year column
 snomed$year <- format(as.Date(snomed$start_date), "%Y")
 ```
 
-```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national SNOMED stillbirth codes frequency by financial year", fig.topcaption=TRUE}
+<!-- ```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 1 Total national SNOMED stillbirth codes frequency by financial year", fig.topcaption=TRUE}
 
 #############################
 # Whole codelist outputs
@@ -98,9 +98,10 @@ snomed_summary_plot <- ggplot(data = snomed_summary, aes(x = year, y = total_usa
 
 ggsave(here::here(output_dir_rmd,"figures","snomed_summary_plot.png"), snomed_summary_plot)
 
-include_graphics(fs::path(output_dir_rmd,"figures","snomed_summary_plot.png"))
-```
-```{r, coverage plot, echo=FALSE, message=FALSE, warning=FALSE
+include_graphics(fs::path(output_dir_rmd,"figures","snomed_summary_plot.png")) -->
+<!-- ``` -->
+
+```{r, codelist summary trend, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 2 Total national SNOMED code frequency for the stillbirth SNOMED codelist by financial year", fig.topcaption=TRUE}
 ########################################
 # Codelist specific outputs
 
@@ -110,14 +111,14 @@ codelists <- list()
 
 # Define a vector of names and corresponding inputs for the codelists
 codelist_inputs <- list(
-  pregnancy = "opensafely/pregnancy_rh/700aaf2c/",
-  multiple_gestation = "opensafely/multiple-gestation_rh/42a6d016/",
+  Delivery = "user/VickiPalin/deliver_codes_20_12_2024/19a8bc08/",
+  Postnatal  = "user/VickiPalin/pregnancy_postnatal_8wk_snomed_reviewed/021cbb8d/",
   # Outcomes
-  gestational_diabetes = "opensafely/gestational-diabetes_rh/3ff41020/",
-  gestational_hypertension = "opensafely/gestational-hypertension_rh/26e49ceb/",
-  hypertension_pregnancy = "opensafely/hypertension-pregnancy_rh/5bb6434b/",
-  preeclampsia = "opensafely/preeclampsia_rh/29975ce1/",
-  stillbirth = "opensafely/stillbirth_rh/5e690341/"
+  Stillbirth = "user/VickiPalin/pregnancy_stillbrith_snomed_reviewed/15ecde31/",
+  Multiples = "user/VickiPalin/pregnancy_multiple_snomed/3b37f1fe/",
+  Preeclampsia = "user/VickiPalin/preeclampsia/63cdf7c6/",
+  Hypertension = "user/djlhayes/high-risk-pregnancy/70b410f6",
+  Hypertension = "opensafely/hypertension-snomed/024ab1b0"
 )
 
 # Loop through the inputs and populate the codelists
@@ -139,7 +140,7 @@ sb_codelist_data <- list()
 
 for (name in names(codelists)) {
   sb_codelist_data[[name]] <- snomed |>
-    filter(snomed_concept_id %in% codelists[[name]]$code)
+    filter(snomed_code %in% codelists[[name]]$code)
 }
 
 # test create individual variables
@@ -152,12 +153,6 @@ sb_codelist_data <- bind_rows(sb_codelist_data, .id = "codelist_name")
 sb_codelist_data_summary <- sb_codelist_data %>%
     group_by(codelist_name, year) %>%
     summarise(total_usage = sum(usage, na.rm = TRUE))
-
-    # Write the codelist summary table to CSV
-    write.csv(sb_codelist_data_summary, file = "snomed_outputs/tables/all_codelist_data_summary.csv", row.names = FALSE)
-```
-
-```{r, codelist summary trend, echo=FALSE, message=FALSE, warning=FALSE, results='asis', fig.width=10, out.width = '100%', fig.cap = "Figure 2 Total national SNOMED code frequency for the stillbirth SNOMED codelist by financial year", fig.topcaption=TRUE}
 
 ## 2. Codelist specific total code prevalence over time 
 # Create a list to store plots for each codelist
@@ -198,6 +193,7 @@ for (codelist in unique(sb_codelist_data_summary$codelist_name)) {
 }
 
 ```
+
 ```{r, codelist top 10 table, echo=FALSE, message=FALSE, warning=FALSE, include = FALSE, out.width = '100%'}
 ## 3. Latest year top 10 most frequently used codes in the codelist
 # Filter codelist to latest year only
@@ -206,7 +202,7 @@ sb_codelist_data_latest_year <- sb_codelist_data |>
 
 # Calculate proportional usage for each code for latest year, grouped by codelist_name
 sb_codelist_data_latest_year <- sb_codelist_data_latest_year |>
-  group_by(codelist_name, snomed_concept_id, description, year) |>
+  group_by(codelist_name, snomed_code, description, year) |>
   summarise(usage = sum(usage), .groups = "drop") |>
   group_by(codelist_name) |>
   mutate(prop_usage = usage / sum(usage)) |>
@@ -226,7 +222,7 @@ sb_top_10_codes_tables <- list()
 for (codelist in unique(sb_top_10_codes$codelist_name)) {
   sb_top_10_codes_tables[[codelist]] <- sb_top_10_codes %>%
     filter(codelist_name == codelist) %>%
-    select(snomed_concept_id, description, usage, prop_usage) %>%
+    select(snomed_code, description, usage, prop_usage) %>%
     mutate(
       prop_usage = scales::percent(prop_usage, accuracy = 0.1),
       usage = scales::comma(usage)
@@ -280,7 +276,7 @@ for (codelist in names(sb_top_10_codes_tables)) {
 
 # Calculate proportional usage for each code for latest year
 sb_codelist_data_percent <- sb_codelist_data |>
-  group_by(codelist_name,snomed_concept_id, description, year) |>
+  group_by(codelist_name,snomed_code, description, year) |>
   summarise(usage = sum(usage), .groups = "drop") |>
   group_by(codelist_name,year) %>%
   mutate(prop_usage = usage/ sum(usage)) %>%
@@ -294,7 +290,7 @@ for (codelist in unique(sb_codelist_data_percent$codelist_name)) {
     filter(codelist_name == codelist) %>%
     group_by(year) %>%
     slice_max(prop_usage, n = 10) %>%
-    pull(snomed_concept_id) %>%
+    pull(snomed_code) %>%
     unique()
 }
 
@@ -302,16 +298,16 @@ for (codelist in unique(sb_codelist_data_percent$codelist_name)) {
 sb_top_10_allyear_codes <- tibble(
   codelist_name = rep(names(sb_top_10_allyear_codes_list), 
                       times = sapply(sb_top_10_allyear_codes_list, length)),
-  snomed_concept_id = unlist(sb_top_10_allyear_codes_list)
+  snomed_code = unlist(sb_top_10_allyear_codes_list)
 )
 
 # Filter data to only those snomed codes which were in the top 10 in any year 
 sb_top_codes_data <- sb_codelist_data_percent %>%
-  semi_join(sb_top_10_allyear_codes, by = c("codelist_name", "snomed_concept_id"))
+  semi_join(sb_top_10_allyear_codes, by = c("codelist_name", "snomed_code"))
 
 # Add a field to be used as a label, and complete for those label rows. 
 sb_top_10_codes_each_year <- sb_top_codes_data %>% 
-  mutate(snomed_code_description = paste(snomed_concept_id, description, sep = " - ")) %>%
+  mutate(snomed_code_description = paste(snomed_code, description, sep = " - ")) %>%
   mutate(name_lab = if_else((year == "2023"), snomed_code_description, NA_character_))
 
 # write results to a table
